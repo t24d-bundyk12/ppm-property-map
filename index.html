@@ -46,7 +46,7 @@
         </div>
         <div class="legend-item">
             <div class="legend-color" style="background: #808080;"></div>
-            Complete
+            N/A
         </div>
     </div>
     
@@ -69,19 +69,20 @@
 
         // Function to determine color based on property status
         function getPropertyColor(record) {
-            // Based on your table fields - adjust field names as needed
-            const lockboxNeeded = record.f3 === 'Yes' || record.f3 === true; // Lockbox field
-            const photosNeeded = record.f4 === 'Yes' || record.f4 === true;  // Photos field
-            const eyesOnNeeded = record.f5 === 'Yes' || record.f5 === true;  // Eyes-on field
-            const bannerNeeded = record.f6 === 'Yes' || record.f6 === true;  // Banner field
+            // Using correct field IDs - only show status when 'needed'
+            const lockboxNeeded = record.f3 === 'needed';     // Field 3: Lockbox Removal Status
+            const photosNeeded = record.f7 === 'needed';      // Field 7: Exterior Photos Status
+            const eyesOnNeeded = record.f8 === 'needed';      // Field 8: Eyes-On-Property Status
+            const bannerNeeded = record.f5 === 'needed';      // Field 5: Banner/Yard Sign Removal Status
             
             // Priority order: Red > Yellow > Blue > Green > Gray
-            if (lockboxNeeded) return { color: '#ff0000', status: 'Lockbox Needed' };
-            if (photosNeeded) return { color: '#ffff00', status: 'Photos Needed' };
-            if (eyesOnNeeded) return { color: '#0000ff', status: 'Eyes-On Needed' };
-            if (bannerNeeded) return { color: '#00ff00', status: 'Banner/Sign Needed' };
+            if (lockboxNeeded) return { color: '#ff0000', status: 'Lockbox Removal Needed' };
+            if (photosNeeded) return { color: '#ffff00', status: 'Exterior Photos Needed' };
+            if (eyesOnNeeded) return { color: '#0000ff', status: 'Eyes-On Property Needed' };
+            if (bannerNeeded) return { color: '#00ff00', status: 'Banner/Sign Removal Needed' };
             
-            return { color: '#808080', status: 'Complete' };
+            // Everything else shows as N/A (completed, scheduled, na, etc.)
+            return { color: '#808080', status: 'N/A' };
         }
 
         // Function to fetch data from Zapier Tables
@@ -114,9 +115,9 @@
                 
                 // Fallback to test data if API fails
                 return [
-                    { f1: 'Test Property 1', f7: 39.7391, f8: -104.9847, f3: 'Yes', f4: 'No', f5: 'No', f6: 'No' },
-                    { f1: 'Test Property 2', f7: 39.7531, f8: -104.9803, f3: 'No', f4: 'Yes', f5: 'No', f6: 'No' },
-                    { f1: 'Test Property 3', f7: 39.7392, f8: -104.9903, f3: 'No', f4: 'No', f5: 'Yes', f6: 'No' }
+                    { f1: 'Test Property 1', f11: 39.7391, f12: -104.9847, f3: 'needed', f7: 'completed', f8: 'na', f5: 'na' },
+                    { f1: 'Test Property 2', f11: 39.7531, f12: -104.9803, f3: 'completed', f7: 'needed', f8: 'na', f5: 'na' },
+                    { f1: 'Test Property 3', f11: 39.7392, f12: -104.9903, f3: 'na', f7: 'completed', f8: 'needed', f5: 'na' }
                 ];
             }
         }
@@ -131,10 +132,10 @@
                 let validRecords = 0;
                 
                 records.forEach((record, index) => {
-                    // Extract coordinates - adjust field numbers as needed
-                    const lat = parseFloat(record.f7); // Latitude field
-                    const lng = parseFloat(record.f8); // Longitude field
-                    const name = record.f1 || `Property ${index + 1}`; // Property name/address
+                    // Extract coordinates - correct field numbers
+                    const lat = parseFloat(record.f11); // Field 11: Latitude
+                    const lng = parseFloat(record.f12); // Field 12: Longitude
+                    const name = record.f1 || `Property ${index + 1}`; // Field 1: Property Address
                     
                     // Skip records without valid coordinates
                     if (!lat || !lng || isNaN(lat) || isNaN(lng)) {
@@ -164,10 +165,10 @@
                                     <h3 style="margin: 0 0 8px 0; font-size: 14px;">${name}</h3>
                                     <p style="margin: 0;"><strong>Status:</strong> ${status}</p>
                                     <div style="margin: 8px 0; font-size: 11px;">
-                                        <div>Lockbox: ${record.f3 === 'Yes' ? '🔴 Needed' : '✅ Complete'}</div>
-                                        <div>Photos: ${record.f4 === 'Yes' ? '🟡 Needed' : '✅ Complete'}</div>
-                                        <div>Eyes-On: ${record.f5 === 'Yes' ? '🔵 Needed' : '✅ Complete'}</div>
-                                        <div>Banner: ${record.f6 === 'Yes' ? '🟢 Needed' : '✅ Complete'}</div>
+                                        <div>Lockbox: ${record.f3 === 'needed' ? '🔴 Needed' : 'N/A'}</div>
+                                        <div>Photos: ${record.f7 === 'needed' ? '🟡 Needed' : 'N/A'}</div>
+                                        <div>Eyes-On: ${record.f8 === 'needed' ? '🔵 Needed' : 'N/A'}</div>
+                                        <div>Banner: ${record.f5 === 'needed' ? '🟢 Needed' : 'N/A'}</div>
                                     </div>
                                     <p style="margin: 4px 0 0 0; font-size: 10px; color: #666;">
                                         ${lat.toFixed(4)}, ${lng.toFixed(4)}
