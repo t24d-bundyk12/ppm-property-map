@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>PPM Property Map</title>
+    <meta name="viewport" content="initial-scale=1,maximum-scale=1,user-scalable=no">
+    <link href="https://api.mapbox.com/mapbox-gl-js/v2.15.0/mapbox-gl.css" rel="stylesheet">
+    <script src="https://api.mapbox.com/mapbox-gl-js/v2.15.0/mapbox-gl.js"></script>
+    <style>
+        body { margin: 0; padding: 0; }
+        #map { position: absolute; top: 0; bottom: 0; width: 100%; }
+        .mapboxgl-popup-content { font-size: 14px; }
+    </style>
+</head>
+<body>
+    <div id="map"></div>
+    <script>
+        mapboxgl.accessToken = 'YOUR_MAPBOX_TOKEN_HERE';
+        
+        const map = new mapboxgl.Map({
+            container: 'map',
+            style: 'mapbox://styles/mapbox/streets-v12',
+            center: [-104.9903, 39.7392], // Denver coordinates
+            zoom: 10
+        });
+
+        // Color coding function
+        function getMarkerColor(lockbox, banner, photos, eyes) {
+            if (lockbox === 'needed') return '#ff0000'; // Red
+            if (photos === 'needed') return '#ffff00'; // Yellow
+            if (eyes === 'needed') return '#0000ff'; // Blue
+            if (banner === 'needed') return '#00ff00'; // Green
+            return '#ffffff'; // White - no actions needed
+        }
+
+        // Load property data (you'll replace this URL)
+        async function loadProperties() {
+            // This will be replaced with your Zapier Tables API endpoint
+            const response = await fetch('YOUR_TABLE_API_ENDPOINT');
+            const data = await response.json();
+            
+            data.forEach(property => {
+                const color = getMarkerColor(
+                    property.f3, // Lockbox status
+                    property.f5, // Banner status  
+                    property.f7, // Photos status
+                    property.f8  // Eyes-on status
+                );
+
+                // Create marker
+                const marker = new mapboxgl.Marker({ color: color })
+                    .setLngLat([property.f12, property.f11]) // [longitude, latitude]
+                    .addTo(map);
+
+                // Add popup with property details
+                const popup = new mapboxgl.Popup({ offset: 25 })
+                    .setHTML(`
+                        <h3>${property.f1}</h3>
+                        <p><strong>Unit:</strong> ${property.f2 || 'N/A'}</p>
+                        <p><strong>Lockbox:</strong> ${property.f3 || 'N/A'}</p>
+                        <p><strong>Banner/Sign:</strong> ${property.f5 || 'N/A'}</p>
+                        <p><strong>Photos:</strong> ${property.f7 || 'N/A'}</p>
+                        <p><strong>Eyes-on:</strong> ${property.f8 || 'N/A'}</p>
+                        <p><strong>Priority:</strong> ${property.f9 || 'N/A'}</p>
+                    `);
+
+                marker.setPopup(popup);
+            });
+        }
+
+        map.on('load', loadProperties);
+    </script>
+</body>
+</html>
