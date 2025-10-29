@@ -9,12 +9,16 @@
     <style>
         body { margin: 0; padding: 0; }
         #map { position: absolute; top: 0; bottom: 0; width: 100%; }
-        .mapboxgl-popup-content { font-size: 14px; }
+        .mapboxgl-popup-content { font-size: 14px; max-width: 300px; }
+        .loading { position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); 
+                  background: white; padding: 20px; border-radius: 8px; box-shadow: 0 2px 10px rgba(0,0,0,0.1); }
     </style>
 </head>
 <body>
+    <div id="loading" class="loading">Loading property data...</div>
     <div id="map"></div>
     <script>
+        // Replace with your actual Mapbox token
         mapboxgl.accessToken = 'pk.eyJ1IjoiYnVuZHlrMTIiLCJhIjoiY21oY2NuZWMwMjEycDJucTMyM3B6dXJxZyJ9.eaWSaIsHytWE8odV_Lnhmg';
         
         const map = new mapboxgl.Map({
@@ -24,51 +28,167 @@
             zoom: 10
         });
 
-        // Color coding function
+        // Color coding function based on your status system
         function getMarkerColor(lockbox, banner, photos, eyes) {
-            if (lockbox === 'needed') return '#ff0000'; // Red
-            if (photos === 'needed') return '#ffff00'; // Yellow
-            if (eyes === 'needed') return '#0000ff'; // Blue
-            if (banner === 'needed') return '#00ff00'; // Green
-            return '#ffffff'; // White - no actions needed
+            // Priority order: Red > Yellow > Blue > Green
+            if (lockbox === 'needed') return '#ff0000'; // Red - Lockbox pickup needed
+            if (photos === 'needed') return '#ffff00';  // Yellow - Exterior photos needed
+            if (eyes === 'needed') return '#0000ff';    // Blue - Eyes on property needed
+            if (banner === 'needed') return '#00ff00';  // Green - Banner/Yard Sign removal needed
+            return '#808080'; // Gray - No actions needed
         }
 
-        // Load property data (you'll replace this URL)
-        async function loadProperties() {
-            // This will be replaced with your Zapier Tables API endpoint
-            const response = await fetch('YOUR_TABLE_API_ENDPOINT');
-            const data = await response.json();
-            
-            data.forEach(property => {
-                const color = getMarkerColor(
-                    property.f3, // Lockbox status
-                    property.f5, // Banner status  
-                    property.f7, // Photos status
-                    property.f8  // Eyes-on status
-                );
+        // Function to get status display text
+        function getStatusText(value) {
+            const statusMap = {
+                'needed': 'Needs Action',
+                'scheduled': 'Scheduled',
+                'completed': 'Completed',
+                'na': 'N/A'
+            };
+            return statusMap[value] || value || 'Unknown';
+        }
 
-                // Create marker
-                const marker = new mapboxgl.Marker({ color: color })
-                    .setLngLat([property.f12, property.f11]) // [longitude, latitude]
+        // Load properties from your Zapier Table
+        async function loadProperties() {
+            try {
+                // For now, we'll use a simple approach with sample data
+                // You can replace this with actual API calls later
+                const sampleProperties = [
+                    {
+                        id: '1',
+                        f1: '1234 E 17th Ave, Denver, CO 80218',  // Property Address
+                        f2: 'Unit A',                             // Unit Number
+                        f3: 'needed',                            // Lockbox Status
+                        f4: '2025-10-30',                        // Lockbox Date
+                        f5: 'completed',                         // Banner Status
+                        f7: 'needed',                            // Photos Status
+                        f8: 'completed',                         // Eyes-on Status
+                        f9: 'high',                              // Priority
+                        f10: 'Property needs lockbox removal and exterior photos',
+                        f11: 39.7391536,                         // Latitude
+                        f12: -104.9847034,                       // Longitude
+                        f13: '2025-10-29T19:00:00Z'              // Last Updated
+                    },
+                    {
+                        id: '2',
+                        f1: '2550 Washington St, Denver, CO 80205',
+                        f2: '',
+                        f3: 'completed',
+                        f4: '2025-10-28',
+                        f5: 'needed',
+                        f7: 'completed',
+                        f8: 'needed',
+                        f9: 'medium',
+                        f10: 'Banner removal and drive-by needed',
+                        f11: 39.7530556,
+                        f12: -104.9802778,
+                        f13: '2025-10-29T18:30:00Z'
+                    }
+                ];
+
+                document.getElementById('loading').style.display = 'none';
+                
+                // Add markers for each property
+                sampleProperties.forEach(property => {
+                    // Skip properties without coordinates
+                    if (!property.f11 || !property.f12) return;
+                    
+                    const color = getMarkerColor(
+                        property.f3, // Lockbox status
+                        property.f5, // Banner status  
+                        property.f7, // Photos status
+                        property.f8  // Eyes-on status
+                    );
+
+                    // Create marker
+                    const marker = new mapboxgl.Marker({ 
+                        color: color,
+                        scale: 1.2 
+                    })
+                    .setLngLat([property.f12, property.f11])
                     .addTo(map);
 
-                // Add popup with property details
-                const popup = new mapboxgl.Popup({ offset: 25 })
+                    // Create detailed popup
+                    const popup = new mapboxgl.Popup({ 
+                        offset: 25,
+                        maxWidth: '300px'
+                    })
                     .setHTML(`
-                        <h3>${property.f1}</h3>
-                        <p><strong>Unit:</strong> ${property.f2 || 'N/A'}</p>
-                        <p><strong>Lockbox:</strong> ${property.f3 || 'N/A'}</p>
-                        <p><strong>Banner/Sign:</strong> ${property.f5 || 'N/A'}</p>
-                        <p><strong>Photos:</strong> ${property.f7 || 'N/A'}</p>
-                        <p><strong>Eyes-on:</strong> ${property.f8 || 'N/A'}</p>
-                        <p><strong>Priority:</strong> ${property.f9 || 'N/A'}</p>
+                        <div style="padding: 5px;">
+                            <h3 style="margin: 0 0 10px 0; font-size: 16px; color: #333;">
+                                ${property.f1}
+                            </h3>
+                            ${property.f2 ? `<p style="margin: 0 0 8px 0;"><strong>Unit:</strong> ${property.f2}</p>` : ''}
+                            
+                            <div style="margin: 10px 0;">
+                                <p style="margin: 2px 0;"><strong>🔒 Lockbox:</strong> 
+                                   <span style="color: ${property.f3 === 'needed' ? '#ff0000' : '#008000'};">
+                                       ${getStatusText(property.f3)}
+                                   </span>
+                                </p>
+                                <p style="margin: 2px 0;"><strong>🏷️ Banner/Sign:</strong> 
+                                   <span style="color: ${property.f5 === 'needed' ? '#00aa00' : '#008000'};">
+                                       ${getStatusText(property.f5)}
+                                   </span>
+                                </p>
+                                <p style="margin: 2px 0;"><strong>📸 Photos:</strong> 
+                                   <span style="color: ${property.f7 === 'needed' ? '#ffaa00' : '#008000'};">
+                                       ${getStatusText(property.f7)}
+                                   </span>
+                                </p>
+                                <p style="margin: 2px 0;"><strong>👀 Eyes-on:</strong> 
+                                   <span style="color: ${property.f8 === 'needed' ? '#0000ff' : '#008000'};">
+                                       ${getStatusText(property.f8)}
+                                   </span>
+                                </p>
+                            </div>
+                            
+                            <p style="margin: 8px 0 2px 0;"><strong>Priority:</strong> 
+                               <span style="text-transform: uppercase; font-weight: bold; color: ${
+                                   property.f9 === 'urgent' ? '#ff0000' : 
+                                   property.f9 === 'high' ? '#ff6600' : 
+                                   property.f9 === 'medium' ? '#ffaa00' : '#008000'
+                               };">${property.f9 || 'N/A'}</span>
+                            </p>
+                            
+                            ${property.f10 ? `<p style="margin: 8px 0 0 0; font-size: 12px; color: #666; font-style: italic;">${property.f10}</p>` : ''}
+                            
+                            <p style="margin: 8px 0 0 0; font-size: 11px; color: #999;">
+                                Last updated: ${new Date(property.f13).toLocaleDateString()}
+                            </p>
+                        </div>
                     `);
 
-                marker.setPopup(popup);
-            });
+                    marker.setPopup(popup);
+                });
+
+                // Fit map to show all markers
+                if (sampleProperties.length > 0) {
+                    const coordinates = sampleProperties
+                        .filter(p => p.f11 && p.f12)
+                        .map(p => [p.f12, p.f11]);
+                    
+                    if (coordinates.length > 1) {
+                        const bounds = coordinates.reduce((bounds, coord) => {
+                            return bounds.extend(coord);
+                        }, new mapboxgl.LngLatBounds(coordinates[0], coordinates[0]));
+                        
+                        map.fitBounds(bounds, { padding: 50 });
+                    }
+                }
+
+            } catch (error) {
+                console.error('Error loading properties:', error);
+                document.getElementById('loading').innerHTML = 'Error loading property data. Please refresh the page.';
+            }
         }
 
+        // Initialize map when loaded
         map.on('load', loadProperties);
+
+        // Auto-refresh every 5 minutes
+        setInterval(loadProperties, 5 * 60 * 1000);
     </script>
 </body>
 </html>
