@@ -264,8 +264,8 @@
             updateStatus('Map loaded, fetching property data...');
             fetchPropertyData();
             
-            // Auto-refresh every 5 minutes
-            setInterval(fetchPropertyData, 5 * 60 * 1000);
+            // Auto-refresh every 12 hours
+            setInterval(fetchPropertyData, 12 * 60 * 60 * 1000);
         });
 
         // Handle map errors
