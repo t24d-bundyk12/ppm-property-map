@@ -1,0 +1,30 @@
+name: Update Property Data
+
+on:
+  repository_dispatch:
+    types: [update-property-data]
+
+jobs:
+  update-data:
+    runs-on: ubuntu-latest
+    
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v4
+      with:
+        token: ${{ secrets.GITHUB_TOKEN }}
+    
+    - name: Update property data
+      run: |
+        # Create the updated JSON file
+        cat > property-data.json << 'EOF'
+        ${{ github.event.client_payload.data }}
+        EOF
+        
+    - name: Commit and push changes
+      run: |
+        git config --local user.email "action@github.com"
+        git config --local user.name "GitHub Action"
+        git add property-data.json
+        git diff --staged --quiet || git commit -m "Update property data - $(date)"
+        git push
