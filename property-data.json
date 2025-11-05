@@ -1,5 +1,47 @@
 {
-    "records": [],
-    "lastUpdated": "2025-11-04T22:58:15.216Z",
-    "source": "zapier-tables"
+  "records": [
+    {
+      "f1": "PROP001",
+      "f2": "1425 15th Street Denver CO 80202",
+      "f3": "Yes",
+      "f4": "No",
+      "f5": "No",
+      "f6": "No"
+    },
+    {
+      "f1": "PROP002", 
+      "f2": "2020 Lawrence Street Denver CO 80205",
+      "f3": "No",
+      "f4": "No",
+      "f5": "Yes",
+      "f6": "No"
+    },
+    {
+      "f1": "PROP003",
+      "f2": "1800 Glenarm Place Denver CO 80202",
+      "f3": "No",
+      "f4": "No",
+      "f5": "No",
+      "f6": "Yes"
+    },
+    {
+      "f1": "PROP004",
+      "f2": "1600 17th Street Denver CO 80202", 
+      "f3": "No",
+      "f4": "Yes",
+      "f5": "No",
+      "f6": "No"
+    },
+    {
+      "f1": "PROP005",
+      "f2": "1400 Curtis Street Denver CO 80202",
+      "f3": "No",
+      "f4": "No", 
+      "f5": "No",
+      "f6": "No"
+    }
+  ],
+  "lastUpdated": "2025-11-05T03:04:54.376Z",
+  "source": "zapier-tables",
+  "totalRecords": 5
 }
