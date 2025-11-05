@@ -1,41 +1,41 @@
 {
   "records": [
     {
-      "f1": "PROP001",
-      "f2": "1425 15th Street Denver CO 80202",
+      "f1": "104",
+      "f2": "6550 W. 14th Ave. #11 Lakewood, CO 80214",
       "f3": "Yes",
       "f4": "No",
       "f5": "No",
       "f6": "No"
     },
     {
-      "f1": "PROP002", 
-      "f2": "2020 Lawrence Street Denver CO 80205",
-      "f3": "No",
+      "f1": "698", 
+      "f2": "14359 E Grand Drive Unit #156 Aurora, CO 80015",
+      "f3": "Yes",
       "f4": "No",
-      "f5": "Yes",
+      "f5": "No",
       "f6": "No"
     },
     {
-      "f1": "PROP003",
-      "f2": "1800 Glenarm Place Denver CO 80202",
-      "f3": "No",
-      "f4": "No",
-      "f5": "No",
-      "f6": "Yes"
-    },
-    {
-      "f1": "PROP004",
-      "f2": "1600 17th Street Denver CO 80202", 
+      "f1": "990",
+      "f2": "3724 Tejon St. Denver, CO 80211",
       "f3": "No",
       "f4": "Yes",
       "f5": "No",
       "f6": "No"
     },
     {
-      "f1": "PROP005",
-      "f2": "1400 Curtis Street Denver CO 80202",
-      "f3": "No",
+      "f1": "879",
+      "f2": "1480 S Clermont St. Denver, CO 80222", 
+      "f3": "Yes",
+      "f4": "Yes",
+      "f5": "No",
+      "f6": "No"
+    },
+    {
+      "f1": "1086",
+      "f2": "13325 Shoshone St. Westminster, CO 80234",
+      "f3": "Yes",
       "f4": "No", 
       "f5": "No",
       "f6": "No"
