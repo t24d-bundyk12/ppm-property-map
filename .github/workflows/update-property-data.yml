@@ -6,21 +6,20 @@ on:
     types: [update-property-data]
 
 permissions:
-  contents: write  # This is needed to commit files
-
+  contents: write  # This tells GitHub to allow the workflow to write files
+  
 jobs:
   update-map:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout code
         uses: actions/checkout@v3
+        # Don't specify a token here - let it use the default GITHUB_TOKEN
       
       - name: Process Property Data
         run: |
-          echo "Processing property data from Zapier..."
           echo "Property ID: ${{ github.event.client_payload.prop_id }}"
           echo "Address: ${{ github.event.client_payload.address }}"
-          echo "Lockbox Status: ${{ github.event.client_payload.lockbox_status }}"
           
       - name: Update Property JSON File
         run: |
@@ -30,16 +29,11 @@ jobs:
               {
                 "id": "${{ github.event.client_payload.prop_id }}",
                 "address": "${{ github.event.client_payload.address }}",
-                "coordinates": {
-                  "lat": 0,
-                  "lng": 0
-                },
                 "maintenance": {
                   "lockbox_pickup": "${{ github.event.client_payload.lockbox_status }}",
                   "banner_pickup": "${{ github.event.client_payload.banner_status }}",
                   "exterior_photos": "${{ github.event.client_payload.photos_status }}",
-                  "eyes_on_property": "${{ github.event.client_payload.eyes_on_prop }}",
-                  "earliest_pickup_date": "${{ github.event.client_payload.pickup_date }}"
+                  "eyes_on_property": "${{ github.event.client_payload.eyes_on_prop }}"
                 },
                 "status": "pending"
               }
@@ -56,6 +50,6 @@ jobs:
           if git diff --staged --quiet; then
             echo "No changes to commit"
           else
-            git commit -m "Update property data from Zapier: Property ${{ github.event.client_payload.prop_id }}"
+            git commit -m "Update property data: Property ${{ github.event.client_payload.prop_id }}"
             git push
           fi
