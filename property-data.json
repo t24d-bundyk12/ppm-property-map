@@ -67,7 +67,24 @@
       },
       "status": "updated",
       "last_updated": "2025-11-10T15:57:12.442Z"
+    },
+    {
+      "id": "990",
+      "address": "3724 Tejon St. Denver, CO 80211 ",
+      "coordinates": {
+        "lat": 0,
+        "lng": 0
+      },
+      "maintenance": {
+        "lockbox_pickup": "No",
+        "banner_pickup": "Yes",
+        "exterior_photos": "No",
+        "eyes_on_property": "No",
+        "earliest_pickup_date": ""
+      },
+      "status": "updated",
+      "last_updated": "2025-11-10T15:58:26.099Z"
     }
   ],
-  "last_updated": "2025-11-10T15:57:12.446Z"
+  "last_updated": "2025-11-10T15:58:26.103Z"
 }
