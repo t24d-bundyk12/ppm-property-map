@@ -2,7 +2,7 @@
   "properties": [
     {
       "id": "1086",
-      "address": "13325 Shoshone St Westminster, CO 80234",
+      "address": "13325 Shoshone St Westminster, CO 80234,",
       "coordinates": {
         "lat": 0,
         "lng": 0
@@ -14,8 +14,9 @@
         "eyes_on_property": "No",
         "earliest_pickup_date": "2025-11-05T07:00:00Z"
       },
-      "status": "updated"
+      "status": "updated",
+      "last_updated": "2025-11-10T15:46:54.958Z"
     }
   ],
-  "last_updated": "2025-11-10T15:40:18.761Z"
+  "last_updated": "2025-11-10T15:46:54.962Z"
 }
