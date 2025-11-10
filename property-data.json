@@ -1,47 +1,16 @@
 {
-  "records": [
+  "properties": [
     {
-      "f1": "104",
-      "f2": "6550 W. 14th Ave. #11 Lakewood, CO 80214",
-      "f3": "Yes",
-      "f4": "No",
-      "f5": "No",
-      "f6": "No"
-    },
-    {
-      "f1": "698", 
-      "f2": "14359 E Grand Drive Unit #156 Aurora, CO 80015",
-      "f3": "Yes",
-      "f4": "No",
-      "f5": "No",
-      "f6": "No"
-    },
-    {
-      "f1": "990",
-      "f2": "3724 Tejon St. Denver, CO 80211",
-      "f3": "No",
-      "f4": "Yes",
-      "f5": "No",
-      "f6": "No"
-    },
-    {
-      "f1": "879",
-      "f2": "1480 S Clermont St. Denver, CO 80222", 
-      "f3": "Yes",
-      "f4": "Yes",
-      "f5": "No",
-      "f6": "No"
-    },
-    {
-      "f1": "1086",
-      "f2": "13325 Shoshone St. Westminster, CO 80234",
-      "f3": "Yes",
-      "f4": "No", 
-      "f5": "No",
-      "f6": "No"
+      "id": "1086",
+      "address": "13325 Shoshone St Westminster, CO 80234,",
+      "maintenance": {
+        "lockbox_pickup": "Yes",
+        "banner_pickup": "No",
+        "exterior_photos": "No",
+        "eyes_on_property": "No"
+      },
+      "status": "pending"
     }
   ],
-  "lastUpdated": "2025-11-05T03:07:59.501Z",
-  "source": "zapier-tables",
-  "totalRecords": 5
+  "last_updated": "2025-11-10T15:28:59Z"
 }
