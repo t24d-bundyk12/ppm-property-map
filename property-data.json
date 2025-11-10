@@ -50,7 +50,24 @@
       },
       "status": "updated",
       "last_updated": "2025-11-10T15:55:47.406Z"
+    },
+    {
+      "id": "879",
+      "address": "1480 S. Clermont St. Denver, CO 80222",
+      "coordinates": {
+        "lat": 0,
+        "lng": 0
+      },
+      "maintenance": {
+        "lockbox_pickup": "Yes",
+        "banner_pickup": "Yes",
+        "exterior_photos": "No",
+        "eyes_on_property": "No",
+        "earliest_pickup_date": "2025-11-03T07:00:00Z"
+      },
+      "status": "updated",
+      "last_updated": "2025-11-10T15:57:12.442Z"
     }
   ],
-  "last_updated": "2025-11-10T15:55:47.410Z"
+  "last_updated": "2025-11-10T15:57:12.446Z"
 }
