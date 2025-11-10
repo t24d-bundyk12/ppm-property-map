@@ -1,9 +1,12 @@
 name: Update Property Data
 
 on:
-  workflow_dispatch:  # Allows manual trigger
-  repository_dispatch:  # Allows webhook trigger from Zapier
+  workflow_dispatch:
+  repository_dispatch:
     types: [update-property-data]
+
+permissions:
+  contents: write  # This is needed to commit files
 
 jobs:
   update-map:
@@ -15,24 +18,13 @@ jobs:
       - name: Process Property Data
         run: |
           echo "Processing property data from Zapier..."
-          
-          # Extract property data from webhook payload
-          PROP_ID="${{ github.event.client_payload.prop_id }}"
-          ADDRESS="${{ github.event.client_payload.address }}"
-          LOCKBOX_STATUS="${{ github.event.client_payload.lockbox_status }}"
-          BANNER_STATUS="${{ github.event.client_payload.banner_status }}"
-          PHOTOS_STATUS="${{ github.event.client_payload.photos_status }}"
-          EYES_ON_PROP="${{ github.event.client_payload.eyes_on_prop }}"
-          PICKUP_DATE="${{ github.event.client_payload.pickup_date }}"
-          
-          echo "Property ID: $PROP_ID"
-          echo "Address: $ADDRESS"
-          echo "Maintenance Status - Lockbox: $LOCKBOX_STATUS, Banner: $BANNER_STATUS"
+          echo "Property ID: ${{ github.event.client_payload.prop_id }}"
+          echo "Address: ${{ github.event.client_payload.address }}"
+          echo "Lockbox Status: ${{ github.event.client_payload.lockbox_status }}"
           
       - name: Update Property JSON File
         run: |
-          # Create or update the property data JSON file
-          cat > property-data.json << 'EOF'
+          cat > property-data.json << EOF
           {
             "properties": [
               {
@@ -56,15 +48,14 @@ jobs:
           }
           EOF
           
-      - name: Geocode Address (Optional)
-        run: |
-          # You can add geocoding here to convert addresses to coordinates
-          echo "Geocoding step - you can add Google Maps API or similar here"
-          
       - name: Commit Updated Data
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
           git add property-data.json
-          git commit -m "Update property data from Zapier: ${{ github.event.client_payload.prop_id }}" || exit 0
-          git push
+          if git diff --staged --quiet; then
+            echo "No changes to commit"
+          else
+            git commit -m "Update property data from Zapier: Property ${{ github.event.client_payload.prop_id }}"
+            git push
+          fi
