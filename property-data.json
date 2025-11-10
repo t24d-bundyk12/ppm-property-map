@@ -19,7 +19,7 @@
     },
     {
       "id": "104",
-      "address": "6550 W. 14th Ave. #11 Lakewood, CO 80214",
+      "address": "6550 W. 14th Ave. #11 Lakewood, CO 80214,",
       "coordinates": {
         "lat": 0,
         "lng": 0
@@ -32,7 +32,7 @@
         "earliest_pickup_date": "2025-11-04T07:00:00Z"
       },
       "status": "updated",
-      "last_updated": "2025-11-10T15:55:05.308Z"
+      "last_updated": "2025-11-10T18:47:38.090Z"
     },
     {
       "id": "698",
@@ -103,5 +103,5 @@
       "last_updated": "2025-11-10T17:21:36.689Z"
     }
   ],
-  "last_updated": "2025-11-10T17:21:36.693Z"
+  "last_updated": "2025-11-10T18:47:38.093Z"
 }
