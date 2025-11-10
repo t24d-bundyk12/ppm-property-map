@@ -176,6 +176,7 @@
                 const pickup_date = new Date(property.maintenance?.earliest_pickup_date);
                 const options = { year: 'numeric', month: 'long', day: 'numeric' };
                 const formatted_pickup_date = pickup_date.toLocaleDateString('en-US', options);
+                console.log(formatted_pickup_date);
             };
             
             let taskList = '<ul style="margin: 5px 0; padding-left: 20px; font-size: 12px;">';
