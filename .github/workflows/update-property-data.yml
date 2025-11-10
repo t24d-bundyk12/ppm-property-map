@@ -17,8 +17,10 @@ jobs:
       
       - name: Process Property Data
         run: |
-          echo "Property ID: ${{ github.event.client_payload.prop_id }}"
-          echo "Address: ${{ github.event.client_payload.address }}"
+          echo "=== RECEIVED DATA ==="
+          echo "Property ID: '${{ github.event.client_payload.prop_id }}'"
+          echo "Address: '${{ github.event.client_payload.address }}'"
+          echo "Record ID: '${{ github.event.client_payload.record_id }}'"
           
       - name: Setup Node.js
         uses: actions/setup-node@v3
@@ -27,15 +29,15 @@ jobs:
           
       - name: Update Property JSON File
         run: |
-          # Create Node.js script to update the JSON file
           cat > update_properties.js << 'EOF'
           const fs = require('fs');
           
           // Get the updated property data from GitHub payload
+          const propId = process.env.PROP_ID;
           const updatedProperty = {
-            id: process.env.PROP_ID,
+            id: propId,
             address: process.env.ADDRESS,
-            coordinates: { lat: 0, lng: 0 }, // You can add geocoding later
+            coordinates: { lat: 0, lng: 0 },
             maintenance: {
               lockbox_pickup: process.env.LOCKBOX_STATUS,
               banner_pickup: process.env.BANNER_STATUS,
@@ -43,8 +45,11 @@ jobs:
               eyes_on_property: process.env.EYES_ON_PROP,
               earliest_pickup_date: process.env.PICKUP_DATE
             },
-            status: "updated"
+            status: "updated",
+            last_updated: new Date().toISOString()
           };
+          
+          console.log(`Processing property with ID: "${propId}" (type: ${typeof propId})`);
           
           let data;
           
@@ -52,22 +57,27 @@ jobs:
           try {
             const fileContent = fs.readFileSync('property-data.json', 'utf8');
             data = JSON.parse(fileContent);
+            console.log(`Existing file has ${data.properties.length} properties`);
+            console.log(`Existing property IDs: ${data.properties.map(p => `"${p.id}"`).join(', ')}`);
           } catch (error) {
             console.log('Creating new property data file');
             data = { properties: [], last_updated: "" };
           }
           
-          // Find and update existing property or add new one
-          const existingIndex = data.properties.findIndex(p => p.id === updatedProperty.id);
+          // Find existing property with better matching
+          const existingIndex = data.properties.findIndex(p => {
+            console.log(`Comparing "${p.id}" (${typeof p.id}) with "${propId}" (${typeof propId})`);
+            return String(p.id) === String(propId);
+          });
           
           if (existingIndex !== -1) {
             // Update existing property
             data.properties[existingIndex] = updatedProperty;
-            console.log(`Updated existing property: ${updatedProperty.id}`);
+            console.log(`✅ UPDATED existing property at index ${existingIndex}: ${propId}`);
           } else {
             // Add new property
             data.properties.push(updatedProperty);
-            console.log(`Added new property: ${updatedProperty.id}`);
+            console.log(`✅ ADDED new property: ${propId}`);
           }
           
           // Update timestamp
@@ -76,7 +86,9 @@ jobs:
           // Write updated file
           fs.writeFileSync('property-data.json', JSON.stringify(data, null, 2));
           
+          console.log(`=== FINAL RESULT ===`);
           console.log(`Total properties in file: ${data.properties.length}`);
+          console.log(`Property IDs now in file: ${data.properties.map(p => `"${p.id}"`).join(', ')}`);
           EOF
           
           # Run the update script with environment variables
