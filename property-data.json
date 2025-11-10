@@ -84,7 +84,24 @@
       },
       "status": "updated",
       "last_updated": "2025-11-10T15:58:26.099Z"
+    },
+    {
+      "id": "1014",
+      "address": "1327 Steele St. #102 Denver, CO 80206",
+      "coordinates": {
+        "lat": 0,
+        "lng": 0
+      },
+      "maintenance": {
+        "lockbox_pickup": "Yes",
+        "banner_pickup": "No",
+        "exterior_photos": "No",
+        "eyes_on_property": "No",
+        "earliest_pickup_date": "2025-11-05T07:00:00Z"
+      },
+      "status": "updated",
+      "last_updated": "2025-11-10T17:21:36.689Z"
     }
   ],
-  "last_updated": "2025-11-10T15:58:26.103Z"
+  "last_updated": "2025-11-10T17:21:36.693Z"
 }
