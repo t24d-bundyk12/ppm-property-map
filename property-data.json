@@ -33,7 +33,24 @@
       },
       "status": "updated",
       "last_updated": "2025-11-10T15:55:05.308Z"
+    },
+    {
+      "id": "698",
+      "address": "14359 E Grand Drive Unit #156 Aurora, CO 80015 ",
+      "coordinates": {
+        "lat": 0,
+        "lng": 0
+      },
+      "maintenance": {
+        "lockbox_pickup": "Yes",
+        "banner_pickup": "No",
+        "exterior_photos": "No",
+        "eyes_on_property": "No",
+        "earliest_pickup_date": "2025-11-17T07:00:00Z"
+      },
+      "status": "updated",
+      "last_updated": "2025-11-10T15:55:47.406Z"
     }
   ],
-  "last_updated": "2025-11-10T15:55:05.315Z"
+  "last_updated": "2025-11-10T15:55:47.410Z"
 }
