@@ -174,7 +174,7 @@
             
             let taskList = '<ul style="margin: 5px 0; padding-left: 20px; font-size: 12px;">';
             if (property.maintenance?.lockbox_pickup === 'Yes') taskList += '<li>🔴 Lockbox Pickup</li>';
-            if (property.maintenance?.earliest_pickup_date !== '') taskList += '<li>Earliest Pickup Date: ' + new Date(property.maintenance?.earliest_pickup_date).toLocaleDateString('en-US', month: 'long', day: 'numeric', year: 'numeric') + '</li>';
+            if (property.maintenance?.earliest_pickup_date !== '') taskList += '<li>Earliest Pickup Date: ' + new Date(property.maintenance?.earliest_pickup_date).toLocaleDateString('en-US', (month: 'long', day: 'numeric', year: 'numeric')) + '</li>';
             if (property.maintenance?.exterior_photos === 'Yes') taskList += '<li>🟡 Exterior Photos</li>';
             if (property.maintenance?.eyes_on_property === 'Yes') taskList += '<li>🔵 Eyes-On Property</li>';
             if (property.maintenance?.banner_pickup === 'Yes') taskList += '<li>🟢 Banner/Sign Removal</li>';
