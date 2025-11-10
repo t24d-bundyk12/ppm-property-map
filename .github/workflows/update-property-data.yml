@@ -6,7 +6,7 @@ on:
     types: [update-property-data]
 
 permissions:
-  contents: write  # This tells GitHub to allow the workflow to write files
+  contents: write
   
 jobs:
   update-map:
@@ -14,33 +14,80 @@ jobs:
     steps:
       - name: Checkout code
         uses: actions/checkout@v3
-        # Don't specify a token here - let it use the default GITHUB_TOKEN
       
       - name: Process Property Data
         run: |
           echo "Property ID: ${{ github.event.client_payload.prop_id }}"
           echo "Address: ${{ github.event.client_payload.address }}"
           
+      - name: Setup Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: '18'
+          
       - name: Update Property JSON File
         run: |
-          cat > property-data.json << EOF
-          {
-            "properties": [
-              {
-                "id": "${{ github.event.client_payload.prop_id }}",
-                "address": "${{ github.event.client_payload.address }}",
-                "maintenance": {
-                  "lockbox_pickup": "${{ github.event.client_payload.lockbox_status }}",
-                  "banner_pickup": "${{ github.event.client_payload.banner_status }}",
-                  "exterior_photos": "${{ github.event.client_payload.photos_status }}",
-                  "eyes_on_property": "${{ github.event.client_payload.eyes_on_prop }}"
-                },
-                "status": "pending"
-              }
-            ],
-            "last_updated": "$(date -u +%Y-%m-%dT%H:%M:%SZ)"
+          # Create Node.js script to update the JSON file
+          cat > update_properties.js << 'EOF'
+          const fs = require('fs');
+          
+          // Get the updated property data from GitHub payload
+          const updatedProperty = {
+            id: process.env.PROP_ID,
+            address: process.env.ADDRESS,
+            coordinates: { lat: 0, lng: 0 }, // You can add geocoding later
+            maintenance: {
+              lockbox_pickup: process.env.LOCKBOX_STATUS,
+              banner_pickup: process.env.BANNER_STATUS,
+              exterior_photos: process.env.PHOTOS_STATUS,
+              eyes_on_property: process.env.EYES_ON_PROP,
+              earliest_pickup_date: process.env.PICKUP_DATE
+            },
+            status: "updated"
+          };
+          
+          let data;
+          
+          // Read existing file or create new structure
+          try {
+            const fileContent = fs.readFileSync('property-data.json', 'utf8');
+            data = JSON.parse(fileContent);
+          } catch (error) {
+            console.log('Creating new property data file');
+            data = { properties: [], last_updated: "" };
           }
+          
+          // Find and update existing property or add new one
+          const existingIndex = data.properties.findIndex(p => p.id === updatedProperty.id);
+          
+          if (existingIndex !== -1) {
+            // Update existing property
+            data.properties[existingIndex] = updatedProperty;
+            console.log(`Updated existing property: ${updatedProperty.id}`);
+          } else {
+            // Add new property
+            data.properties.push(updatedProperty);
+            console.log(`Added new property: ${updatedProperty.id}`);
+          }
+          
+          // Update timestamp
+          data.last_updated = new Date().toISOString();
+          
+          // Write updated file
+          fs.writeFileSync('property-data.json', JSON.stringify(data, null, 2));
+          
+          console.log(`Total properties in file: ${data.properties.length}`);
           EOF
+          
+          # Run the update script with environment variables
+          PROP_ID="${{ github.event.client_payload.prop_id }}" \
+          ADDRESS="${{ github.event.client_payload.address }}" \
+          LOCKBOX_STATUS="${{ github.event.client_payload.lockbox_status }}" \
+          BANNER_STATUS="${{ github.event.client_payload.banner_status }}" \
+          PHOTOS_STATUS="${{ github.event.client_payload.photos_status }}" \
+          EYES_ON_PROP="${{ github.event.client_payload.eyes_on_prop }}" \
+          PICKUP_DATE="${{ github.event.client_payload.pickup_date }}" \
+          node update_properties.js
           
       - name: Commit Updated Data
         run: |
