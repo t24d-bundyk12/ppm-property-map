@@ -101,7 +101,24 @@
       },
       "status": "updated",
       "last_updated": "2025-11-10T17:21:36.689Z"
+    },
+    {
+      "id": "",
+      "address": "",
+      "coordinates": {
+        "lat": 0,
+        "lng": 0
+      },
+      "maintenance": {
+        "lockbox_pickup": "",
+        "banner_pickup": "",
+        "exterior_photos": "",
+        "eyes_on_property": "",
+        "earliest_pickup_date": ""
+      },
+      "status": "updated",
+      "last_updated": "2025-11-11T02:17:46.900Z"
     }
   ],
-  "last_updated": "2025-11-11T02:16:35.878Z"
+  "last_updated": "2025-11-11T02:17:46.903Z"
 }
