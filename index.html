@@ -216,64 +216,82 @@
             }
         }
         
-        // Add markers to map with geocoding
-        async function addMarkersToMap(properties) {
-            clearMarkers();
-            updateStatus('Geocoding properties...');
-            
-            let processedCount = 0;
-            let successCount = 0;
-            let errorCount = 0;
-            
-            for (const property of properties) {
-                const address = property.address || property.id;
-                
-                if (!address || address.trim() === '') {
-                    errorCount++;
-                    continue;
-                }
-                
-                processedCount++;
-                updateStatus(`Geocoding property ${processedCount} of ${properties.length}...`);
-                
-                // Geocode the property
-                const geocoded = await geocodeProperty(address);
-                
-                if (geocoded.success) {
-                    const { color } = getPropertyColor(property);
-                    
-                    const marker = new mapboxgl.Marker({ 
-                        color: color,
-                        scale: 0.8
-                    })
-                        .setLngLat([geocoded.lng, geocoded.lat])
-                        .setPopup(new mapboxgl.Popup({ 
-                            offset: 25,
-                            closeButton: true,
-                            closeOnClick: false
-                        }).setHTML(createPopupContent(property)))
-                        .addTo(map);
-                    
-                    currentMarkers.push(marker);
-                    successCount++;
-                } else {
-                    console.warn(`Failed to geocode: ${address}`, geocoded.error);
-                    errorCount++;
-                }
-                
-                // Small delay to avoid hitting rate limits
-                await new Promise(resolve => setTimeout(resolve, 200));
-            }
-            
-            updateStatus(`Loaded ${successCount} properties${errorCount > 0 ? ` (${errorCount} failed)` : ''}`, 'success');
-            
-            // Auto-hide status after 3 seconds
-            setTimeout(() => {
-                if (statusDiv.classList.contains('status-success')) {
-                    statusDiv.style.display = 'none';
-                }
-            }, 3000);
+// Add markers to map with geocoding and auto-zoom
+async function addMarkersToMap(properties) {
+    clearMarkers();
+    updateStatus('Geocoding properties...');
+    
+    let processedCount = 0;
+    let successCount = 0;
+    let errorCount = 0;
+    const bounds = new mapboxgl.LngLatBounds(); // Create bounds object
+    
+    for (const property of properties) {
+        const address = property.address || property.id;
+        
+        if (!address || address.trim() === '') {
+            errorCount++;
+            continue;
         }
+        
+        processedCount++;
+        updateStatus(`Geocoding property ${processedCount} of ${properties.length}...`);
+        
+        // Geocode the property
+        const geocoded = await geocodeProperty(address);
+        
+        if (geocoded.success) {
+            const { color } = getPropertyColor(property);
+            
+            const marker = new mapboxgl.Marker({ 
+                color: color,
+                scale: 0.8
+            })
+                .setLngLat([geocoded.lng, geocoded.lat])
+                .setPopup(new mapboxgl.Popup({ 
+                    offset: 25,
+                    closeButton: true,
+                    closeOnClick: false
+                }).setHTML(createPopupContent(property)))
+                .addTo(map);
+            
+            currentMarkers.push(marker);
+            
+            // Add coordinate to bounds
+            bounds.extend([geocoded.lng, geocoded.lat]);
+            
+            successCount++;
+        } else {
+            console.warn(`Failed to geocode: ${address}`, geocoded.error);
+            errorCount++;
+        }
+        
+        // Small delay to avoid hitting rate limits
+        await new Promise(resolve => setTimeout(resolve, 200));
+    }
+    
+    // Auto-fit map to show all markers
+    if (successCount > 0) {
+        map.fitBounds(bounds, {
+            padding: {
+                top: 50,
+                bottom: 50,
+                left: 50,
+                right: 250 // Extra space for legend
+            },
+            maxZoom: 15 // Prevent zooming in too close if properties are clustered
+        });
+    }
+    
+    updateStatus(`Loaded ${successCount} properties${errorCount > 0 ? ` (${errorCount} failed)` : ''}`, 'success');
+    
+    // Auto-hide status after 3 seconds
+    setTimeout(() => {
+        if (statusDiv.classList.contains('status-success')) {
+            statusDiv.style.display = 'none';
+        }
+    }, 3000);
+}
         
         // Fetch property data from JSON file
         async function fetchPropertyData() {
