@@ -250,8 +250,8 @@ async function addMarkersToMap(properties) {
                 .setLngLat([geocoded.lng, geocoded.lat])
                 .setPopup(new mapboxgl.Popup({ 
                     offset: 25,
-                    closeButton: true,
-                    closeOnClick: false
+                    closeButton: true
+                    // closeOnClick defaults to true, so popups will close automatically
                 }).setHTML(createPopupContent(property)))
                 .addTo(map);
             
