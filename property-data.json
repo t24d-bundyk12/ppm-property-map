@@ -103,40 +103,6 @@
       "last_updated": "2025-11-10T17:21:36.689Z"
     },
     {
-      "id": "",
-      "address": "",
-      "coordinates": {
-        "lat": 0,
-        "lng": 0
-      },
-      "maintenance": {
-        "lockbox_pickup": "",
-        "banner_pickup": "",
-        "exterior_photos": "",
-        "eyes_on_property": "",
-        "earliest_pickup_date": ""
-      },
-      "status": "updated",
-      "last_updated": "2025-11-11T02:17:46.900Z"
-    },
-    {
-      "id": "104,630,698,879,990,1014,1086",
-      "address": "6550 W. 14th Ave. #11 Lakewood, CO 80214,,10049 E. Caley Ave Englewood, CO 80111,,14359 E Grand Drive Unit #156 Aurora, CO 80015,,1480 S. Clermont St. Denver, CO 80222,,3724 Tejon St. Denver, CO 80211,,1327 Steele St. #102 Denver, CO 80206,,13325 Shoshone",
-      "coordinates": {
-        "lat": 0,
-        "lng": 0
-      },
-      "maintenance": {
-        "lockbox_pickup": "Yes,No,Yes,Yes,No,Yes,Yes",
-        "banner_pickup": "No,No,No,Yes,Yes,No,No",
-        "exterior_photos": "No,No,No,No,No,No,No",
-        "eyes_on_property": "No,Yes,No,No,No,No,No",
-        "earliest_pickup_date": "2025-11-05T02:30:13Z"
-      },
-      "status": "updated",
-      "last_updated": "2025-11-11T02:30:28.627Z"
-    },
-    {
       "id": "630",
       "address": "10049 E. Caley Ave Englewood, CO 80111,",
       "coordinates": {
