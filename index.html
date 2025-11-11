@@ -270,16 +270,24 @@ async function addMarkersToMap(properties) {
         await new Promise(resolve => setTimeout(resolve, 200));
     }
     
-    // Auto-fit map to show all markers
+    // Auto-fit map to show all markers with responsive padding
     if (successCount > 0) {
+        // Detect mobile vs desktop
+        const isMobile = window.innerWidth <= 768;
+        
         map.fitBounds(bounds, {
-            padding: {
+            padding: isMobile ? {
+                top: 20,
+                bottom: 20,
+                left: 20,
+                right: 20  // Much smaller padding on mobile
+            } : {
                 top: 50,
                 bottom: 50,
                 left: 50,
-                right: 250 // Extra space for legend
+                right: 250 // Legend space only on desktop
             },
-            maxZoom: 15 // Prevent zooming in too close if properties are clustered
+            maxZoom: 15
         });
     }
     
