@@ -135,7 +135,24 @@
       },
       "status": "updated",
       "last_updated": "2025-11-11T02:30:28.627Z"
+    },
+    {
+      "id": "630",
+      "address": "10049 E. Caley Ave Englewood, CO 80111,",
+      "coordinates": {
+        "lat": 0,
+        "lng": 0
+      },
+      "maintenance": {
+        "lockbox_pickup": "No",
+        "banner_pickup": "No",
+        "exterior_photos": "No",
+        "eyes_on_property": "Yes",
+        "earliest_pickup_date": ""
+      },
+      "status": "updated",
+      "last_updated": "2025-11-11T02:45:26.460Z"
     }
   ],
-  "last_updated": "2025-11-11T02:35:35.560Z"
+  "last_updated": "2025-11-11T02:45:26.464Z"
 }
