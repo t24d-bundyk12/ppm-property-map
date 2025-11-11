@@ -118,7 +118,24 @@
       },
       "status": "updated",
       "last_updated": "2025-11-11T02:45:26.460Z"
+    },
+    {
+      "id": "410",
+      "address": "4441 E. Colorado Ave Denver, CO 80222,",
+      "coordinates": {
+        "lat": 0,
+        "lng": 0
+      },
+      "maintenance": {
+        "lockbox_pickup": "Yes",
+        "banner_pickup": "No",
+        "exterior_photos": "No",
+        "eyes_on_property": "No",
+        "earliest_pickup_date": "2025-11-11T07:00:00Z"
+      },
+      "status": "updated",
+      "last_updated": "2025-11-11T03:00:36.183Z"
     }
   ],
-  "last_updated": "2025-11-11T02:45:26.464Z"
+  "last_updated": "2025-11-11T03:00:36.188Z"
 }
