@@ -1,8 +1,8 @@
 {
   "properties": [
     {
-      "id": "1086",
-      "address": "13325 Shoshone St Westminster, CO 80234",
+      "id": "1124",
+      "address": "8745 Yukon St Arvada, CO 80005,",
       "coordinates": {
         "lat": 0,
         "lng": 0
@@ -12,14 +12,15 @@
         "banner_pickup": "No",
         "exterior_photos": "No",
         "eyes_on_property": "No",
-        "earliest_pickup_date": "2025-11-05T07:00:00Z"
+        "earliest_pickup_date": "2025-11-11T07:00:00Z"
       },
-      "status": "updated",
-      "last_updated": "2025-11-11T02:16:35.875Z"
+      "zapier_record_id": "01K9RDPYBMQMH8QBN5NMTDSMN1",
+      "status": "current",
+      "last_updated": "2025-11-11T04:26:43.252Z"
     },
     {
-      "id": "104",
-      "address": "6550 W. 14th Ave. #11 Lakewood, CO 80214,",
+      "id": "183",
+      "address": "1450 N Clarkson St. Denver, CO 80218,",
       "coordinates": {
         "lat": 0,
         "lng": 0
@@ -29,95 +30,11 @@
         "banner_pickup": "No",
         "exterior_photos": "No",
         "eyes_on_property": "No",
-        "earliest_pickup_date": "2025-11-04T07:00:00Z"
+        "earliest_pickup_date": "2025-11-11T07:00:00Z"
       },
-      "status": "updated",
-      "last_updated": "2025-11-11T02:35:35.556Z"
-    },
-    {
-      "id": "698",
-      "address": "14359 E Grand Drive Unit #156 Aurora, CO 80015 ",
-      "coordinates": {
-        "lat": 0,
-        "lng": 0
-      },
-      "maintenance": {
-        "lockbox_pickup": "Yes",
-        "banner_pickup": "No",
-        "exterior_photos": "No",
-        "eyes_on_property": "No",
-        "earliest_pickup_date": "2025-11-17T07:00:00Z"
-      },
-      "status": "updated",
-      "last_updated": "2025-11-10T15:55:47.406Z"
-    },
-    {
-      "id": "879",
-      "address": "1480 S. Clermont St. Denver, CO 80222",
-      "coordinates": {
-        "lat": 0,
-        "lng": 0
-      },
-      "maintenance": {
-        "lockbox_pickup": "Yes",
-        "banner_pickup": "Yes",
-        "exterior_photos": "No",
-        "eyes_on_property": "No",
-        "earliest_pickup_date": "2025-11-03T07:00:00Z"
-      },
-      "status": "updated",
-      "last_updated": "2025-11-10T15:57:12.442Z"
-    },
-    {
-      "id": "990",
-      "address": "3724 Tejon St. Denver, CO 80211,",
-      "coordinates": {
-        "lat": 0,
-        "lng": 0
-      },
-      "maintenance": {
-        "lockbox_pickup": "No",
-        "banner_pickup": "Yes",
-        "exterior_photos": "No",
-        "eyes_on_property": "No",
-        "earliest_pickup_date": ""
-      },
-      "status": "updated",
-      "last_updated": "2025-11-11T03:36:43.996Z"
-    },
-    {
-      "id": "1014",
-      "address": "1327 Steele St. #102 Denver, CO 80206",
-      "coordinates": {
-        "lat": 0,
-        "lng": 0
-      },
-      "maintenance": {
-        "lockbox_pickup": "Yes",
-        "banner_pickup": "No",
-        "exterior_photos": "No",
-        "eyes_on_property": "No",
-        "earliest_pickup_date": "2025-11-05T07:00:00Z"
-      },
-      "status": "updated",
-      "last_updated": "2025-11-10T17:21:36.689Z"
-    },
-    {
-      "id": "630",
-      "address": "10049 E. Caley Ave Englewood, CO 80111,",
-      "coordinates": {
-        "lat": 0,
-        "lng": 0
-      },
-      "maintenance": {
-        "lockbox_pickup": "No",
-        "banner_pickup": "No",
-        "exterior_photos": "No",
-        "eyes_on_property": "Yes",
-        "earliest_pickup_date": ""
-      },
-      "status": "updated",
-      "last_updated": "2025-11-11T02:45:26.460Z"
+      "zapier_record_id": "01K9RDPY800WJDEN173HTK52K3",
+      "status": "current",
+      "last_updated": "2025-11-11T04:26:43.252Z"
     },
     {
       "id": "410",
@@ -133,26 +50,124 @@
         "eyes_on_property": "No",
         "earliest_pickup_date": "2025-11-11T07:00:00Z"
       },
-      "status": "updated",
-      "last_updated": "2025-11-11T03:00:36.183Z"
+      "zapier_record_id": "01K9RDPXJNKYCVGVN7PFJ1M24C",
+      "status": "current",
+      "last_updated": "2025-11-11T04:26:43.252Z"
     },
     {
-      "id": "",
-      "address": "",
+      "id": "1014",
+      "address": "1327 Steele St. #102 Denver, CO 80206",
       "coordinates": {
         "lat": 0,
         "lng": 0
       },
       "maintenance": {
-        "lockbox_pickup": "",
-        "banner_pickup": "",
-        "exterior_photos": "",
-        "eyes_on_property": "",
-        "earliest_pickup_date": ""
+        "lockbox_pickup": "Yes",
+        "banner_pickup": "No",
+        "exterior_photos": "No",
+        "eyes_on_property": "No",
+        "earliest_pickup_date": "2025-11-05T07:00:00Z"
       },
-      "status": "updated",
-      "last_updated": "2025-11-11T04:21:25.970Z"
+      "zapier_record_id": "01K9QB0MQZWPFREMPK81TDE19Y",
+      "status": "current",
+      "last_updated": "2025-11-11T04:26:43.252Z"
+    },
+    {
+      "id": "1086",
+      "address": "13325 Shoshone St Westminster, CO 80234",
+      "coordinates": {
+        "lat": 0,
+        "lng": 0
+      },
+      "maintenance": {
+        "lockbox_pickup": "Yes",
+        "banner_pickup": "No",
+        "exterior_photos": "No",
+        "eyes_on_property": "No",
+        "earliest_pickup_date": "2025-11-05T07:00:00Z"
+      },
+      "zapier_record_id": "01K98FKDB0QDB1KK432RP8XX93",
+      "status": "current",
+      "last_updated": "2025-11-11T04:26:43.252Z"
+    },
+    {
+      "id": "879",
+      "address": "1480 S. Clermont St. Denver, CO 80222",
+      "coordinates": {
+        "lat": 0,
+        "lng": 0
+      },
+      "maintenance": {
+        "lockbox_pickup": "Yes",
+        "banner_pickup": "Yes",
+        "exterior_photos": "No",
+        "eyes_on_property": "No",
+        "earliest_pickup_date": "2025-11-03T07:00:00Z"
+      },
+      "zapier_record_id": "01K98FKBKQVNHHNWSN602V76QR",
+      "status": "current",
+      "last_updated": "2025-11-11T04:26:43.252Z"
+    },
+    {
+      "id": "990",
+      "address": "3724 Tejon St. Denver, CO 80211",
+      "coordinates": {
+        "lat": 0,
+        "lng": 0
+      },
+      "maintenance": {
+        "lockbox_pickup": "No",
+        "banner_pickup": "Yes",
+        "exterior_photos": "No",
+        "eyes_on_property": "No",
+        "earliest_pickup_date": null
+      },
+      "zapier_record_id": "01K98FKBBGZ6J1A6X9QX4XBJQA",
+      "status": "current",
+      "last_updated": "2025-11-11T04:26:43.252Z"
+    },
+    {
+      "id": "698",
+      "address": "14359 E Grand Drive Unit #156 Aurora, CO 80015",
+      "coordinates": {
+        "lat": 0,
+        "lng": 0
+      },
+      "maintenance": {
+        "lockbox_pickup": "Yes",
+        "banner_pickup": "No",
+        "exterior_photos": "No",
+        "eyes_on_property": "No",
+        "earliest_pickup_date": "2025-11-17T07:00:00Z"
+      },
+      "zapier_record_id": "01K98FK9NP66M7B5S973216BDF",
+      "status": "current",
+      "last_updated": "2025-11-11T04:26:43.252Z"
+    },
+    {
+      "id": "104",
+      "address": "6550 W. 14th Ave. #11 Lakewood, CO 80214,",
+      "coordinates": {
+        "lat": 0,
+        "lng": 0
+      },
+      "maintenance": {
+        "lockbox_pickup": "Yes",
+        "banner_pickup": "No",
+        "exterior_photos": "No",
+        "eyes_on_property": "No",
+        "earliest_pickup_date": "2025-11-04T07:00:00Z"
+      },
+      "zapier_record_id": "01K98C78T438S1AJ6G93G0ARMV",
+      "status": "current",
+      "last_updated": "2025-11-11T04:26:43.252Z"
     }
   ],
-  "last_updated": "2025-11-11T04:21:25.974Z"
+  "last_updated": "2025-11-11T04:26:43.252Z",
+  "sync_info": {
+    "action": "full_table_sync",
+    "trigger_record_id": "01K98FKBBGZ6J1A6X9QX4XBJQA",
+    "total_properties": 9,
+    "sync_timestamp": "2025-11-11T04:26:43.252Z"
+  }
 }
