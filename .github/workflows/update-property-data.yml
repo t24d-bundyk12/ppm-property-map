@@ -19,93 +19,91 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v3
       
-      - name: Process Property Data
+      - name: Process All Property Data
         run: |
-          echo "=== RECEIVED DATA ==="
-          echo "Property ID: '${{ github.event.client_payload.prop_id }}'"
-          echo "Address: '${{ github.event.client_payload.address }}'"
-          echo "Record ID: '${{ github.event.client_payload.record_id }}'"
+          echo "=== RECEIVED COMPLETE DATASET ==="
+          echo "Action: '${{ github.event.client_payload.action }}'"
+          echo "Total Properties: '${{ github.event.client_payload.total_properties }}'"
+          echo "Trigger Record: '${{ github.event.client_payload.trigger_record_id }}'"
           
       - name: Setup Node.js
         uses: actions/setup-node@v3
         with:
           node-version: '18'
           
-      - name: Update Property JSON File
+      - name: Replace Complete Property Dataset
         run: |
-          cat > update_properties.js << 'EOF'
+          cat > replace_all_properties.js << 'EOF'
           const fs = require('fs');
           
-          // Get the updated property data from GitHub payload
-          const propId = process.env.PROP_ID;
-          const updatedProperty = {
-            id: propId,
-            address: process.env.ADDRESS,
-            coordinates: { lat: 0, lng: 0 },
-            maintenance: {
-              lockbox_pickup: process.env.LOCKBOX_STATUS,
-              banner_pickup: process.env.BANNER_STATUS,
-              exterior_photos: process.env.PHOTOS_STATUS,
-              eyes_on_property: process.env.EYES_ON_PROP,
-              earliest_pickup_date: process.env.PICKUP_DATE
-            },
-            status: "updated",
-            last_updated: new Date().toISOString()
+          // Get all property arrays from GitHub payload
+          const propIds = process.env.PROP_IDS ? JSON.parse(process.env.PROP_IDS) : [];
+          const addresses = process.env.ADDRESSES ? JSON.parse(process.env.ADDRESSES) : [];
+          const lockboxStatuses = process.env.LOCKBOX_STATUSES ? JSON.parse(process.env.LOCKBOX_STATUSES) : [];
+          const bannerStatuses = process.env.BANNER_STATUSES ? JSON.parse(process.env.BANNER_STATUSES) : [];
+          const photosStatuses = process.env.PHOTOS_STATUSES ? JSON.parse(process.env.PHOTOS_STATUSES) : [];
+          const eyesOnProp = process.env.EYES_ON_PROP ? JSON.parse(process.env.EYES_ON_PROP) : [];
+          const pickupDates = process.env.PICKUP_DATES ? JSON.parse(process.env.PICKUP_DATES) : [];
+          const recordIds = process.env.RECORD_IDS ? JSON.parse(process.env.RECORD_IDS) : [];
+          
+          console.log(`Processing ${propIds.length} properties from complete dataset`);
+          
+          // Build complete property array
+          const properties = [];
+          
+          for (let i = 0; i < propIds.length; i++) {
+            properties.push({
+              id: propIds[i],
+              address: addresses[i] || '',
+              coordinates: { lat: 0, lng: 0 },
+              maintenance: {
+                lockbox_pickup: lockboxStatuses[i] || 'Unknown',
+                banner_pickup: bannerStatuses[i] || 'Unknown', 
+                exterior_photos: photosStatuses[i] || 'Unknown',
+                eyes_on_property: eyesOnProp[i] || 'Unknown',
+                earliest_pickup_date: pickupDates[i] || null
+              },
+              zapier_record_id: recordIds[i] || '',
+              status: "current",
+              last_updated: new Date().toISOString()
+            });
+          }
+          
+          // Create complete new dataset
+          const completeData = {
+            properties: properties,
+            last_updated: new Date().toISOString(),
+            sync_info: {
+              action: process.env.ACTION || 'full_table_sync',
+              trigger_record_id: process.env.TRIGGER_RECORD_ID || '',
+              total_properties: properties.length,
+              sync_timestamp: new Date().toISOString()
+            }
           };
           
-          console.log(`Processing property with ID: "${propId}" (type: ${typeof propId})`);
+          // Write complete dataset (replaces entire file)
+          fs.writeFileSync('property-data.json', JSON.stringify(completeData, null, 2));
           
-          let data;
-          
-          // Read existing file or create new structure
-          try {
-            const fileContent = fs.readFileSync('property-data.json', 'utf8');
-            data = JSON.parse(fileContent);
-            console.log(`Existing file has ${data.properties.length} properties`);
-            console.log(`Existing property IDs: ${data.properties.map(p => `"${p.id}"`).join(', ')}`);
-          } catch (error) {
-            console.log('Creating new property data file');
-            data = { properties: [], last_updated: "" };
-          }
-          
-          // Find existing property with better matching
-          const existingIndex = data.properties.findIndex(p => {
-            console.log(`Comparing "${p.id}" (${typeof p.id}) with "${propId}" (${typeof propId})`);
-            return String(p.id) === String(propId);
-          });
-          
-          if (existingIndex !== -1) {
-            // Update existing property
-            data.properties[existingIndex] = updatedProperty;
-            console.log(`✅ UPDATED existing property at index ${existingIndex}: ${propId}`);
-          } else {
-            // Add new property
-            data.properties.push(updatedProperty);
-            console.log(`✅ ADDED new property: ${propId}`);
-          }
-          
-          // Update timestamp
-          data.last_updated = new Date().toISOString();
-          
-          // Write updated file
-          fs.writeFileSync('property-data.json', JSON.stringify(data, null, 2));
-          
-          console.log(`=== FINAL RESULT ===`);
-          console.log(`Total properties in file: ${data.properties.length}`);
-          console.log(`Property IDs now in file: ${data.properties.map(p => `"${p.id}"`).join(', ')}`);
+          console.log(`✅ COMPLETE DATASET REPLACED`);
+          console.log(`Total properties: ${properties.length}`);
+          console.log(`Property IDs: ${propIds.join(', ')}`);
+          console.log(`Sync completed at: ${completeData.last_updated}`);
           EOF
           
-          # Run the update script with environment variables
-          PROP_ID="${{ github.event.client_payload.prop_id }}" \
-          ADDRESS="${{ github.event.client_payload.address }}" \
-          LOCKBOX_STATUS="${{ github.event.client_payload.lockbox_status }}" \
-          BANNER_STATUS="${{ github.event.client_payload.banner_status }}" \
-          PHOTOS_STATUS="${{ github.event.client_payload.photos_status }}" \
-          EYES_ON_PROP="${{ github.event.client_payload.eyes_on_prop }}" \
-          PICKUP_DATE="${{ github.event.client_payload.pickup_date }}" \
-          node update_properties.js
+          # Run the replacement script with all property arrays
+          PROP_IDS='${{ toJson(github.event.client_payload.properties.prop_ids) }}' \
+          ADDRESSES='${{ toJson(github.event.client_payload.properties.addresses) }}' \
+          LOCKBOX_STATUSES='${{ toJson(github.event.client_payload.properties.lockbox_pickup) }}' \
+          BANNER_STATUSES='${{ toJson(github.event.client_payload.properties.banner_pickup) }}' \
+          PHOTOS_STATUSES='${{ toJson(github.event.client_payload.properties.photos_needed) }}' \
+          EYES_ON_PROP='${{ toJson(github.event.client_payload.properties.eyes_on_property) }}' \
+          PICKUP_DATES='${{ toJson(github.event.client_payload.properties.pickup_dates) }}' \
+          RECORD_IDS='${{ toJson(github.event.client_payload.properties.record_ids) }}' \
+          ACTION='${{ github.event.client_payload.action }}' \
+          TRIGGER_RECORD_ID='${{ github.event.client_payload.trigger_record_id }}' \
+          node replace_all_properties.js
           
-      - name: Commit Updated Data
+      - name: Commit Complete Dataset
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
@@ -113,6 +111,6 @@ jobs:
           if git diff --staged --quiet; then
             echo "No changes to commit"
           else
-            git commit -m "Update property data: Property ${{ github.event.client_payload.prop_id }}"
+            git commit -m "Complete property dataset sync: ${{ github.event.client_payload.total_properties }} properties updated"
             git push
           fi
