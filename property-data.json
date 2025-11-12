@@ -1,6 +1,24 @@
 {
   "properties": [
     {
+      "id": "1115",
+      "address": "10352 W 59th Ave Units 1 - 4 Arvada, CO 80004",
+      "coordinates": {
+        "lat": 0,
+        "lng": 0
+      },
+      "maintenance": {
+        "lockbox_pickup": "Yes",
+        "banner_pickup": "Yes",
+        "exterior_photos": "No",
+        "eyes_on_property": "No",
+        "earliest_pickup_date": "2025-12-03T07:00:00Z"
+      },
+      "zapier_record_id": "01K9X0TJ3H5HVQM0WQAG0Y2KNY",
+      "status": "current",
+      "last_updated": "2025-11-12T21:53:51.184Z"
+    },
+    {
       "id": "263",
       "address": "4450 Holland St Wheat Ridge, CO 80033",
       "coordinates": {
@@ -16,7 +34,7 @@
       },
       "zapier_record_id": "01K9W2E83P7FNVVM27X2SB2T0R",
       "status": "current",
-      "last_updated": "2025-11-12T21:24:40.844Z"
+      "last_updated": "2025-11-12T21:53:51.184Z"
     },
     {
       "id": "1014",
@@ -34,7 +52,7 @@
       },
       "zapier_record_id": "01K9QB0MQZWPFREMPK81TDE19Y",
       "status": "current",
-      "last_updated": "2025-11-12T21:24:40.844Z"
+      "last_updated": "2025-11-12T21:53:51.184Z"
     },
     {
       "id": "1086",
@@ -52,7 +70,7 @@
       },
       "zapier_record_id": "01K98FKDB0QDB1KK432RP8XX93",
       "status": "current",
-      "last_updated": "2025-11-12T21:24:40.844Z"
+      "last_updated": "2025-11-12T21:53:51.184Z"
     },
     {
       "id": "879",
@@ -70,7 +88,7 @@
       },
       "zapier_record_id": "01K98FKBKQVNHHNWSN602V76QR",
       "status": "current",
-      "last_updated": "2025-11-12T21:24:40.844Z"
+      "last_updated": "2025-11-12T21:53:51.184Z"
     },
     {
       "id": "698",
@@ -88,14 +106,14 @@
       },
       "zapier_record_id": "01K98FK9NP66M7B5S973216BDF",
       "status": "current",
-      "last_updated": "2025-11-12T21:24:40.844Z"
+      "last_updated": "2025-11-12T21:53:51.184Z"
     }
   ],
-  "last_updated": "2025-11-12T21:24:40.844Z",
+  "last_updated": "2025-11-12T21:53:51.184Z",
   "sync_info": {
     "action": "full_table_sync",
-    "trigger_record_id": "01K98FKBBGZ6J1A6X9QX4XBJQA",
-    "total_properties": 5,
-    "sync_timestamp": "2025-11-12T21:24:40.844Z"
+    "trigger_record_id": "01K9X0TJ3H5HVQM0WQAG0Y2KNY",
+    "total_properties": 6,
+    "sync_timestamp": "2025-11-12T21:53:51.184Z"
   }
 }
