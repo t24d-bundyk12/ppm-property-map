@@ -16,7 +16,7 @@
       },
       "zapier_record_id": "01K9RDPYBMQMH8QBN5NMTDSMN1",
       "status": "current",
-      "last_updated": "2025-11-12T17:43:32.980Z"
+      "last_updated": "2025-11-12T17:49:13.611Z"
     },
     {
       "id": "183",
@@ -34,7 +34,7 @@
       },
       "zapier_record_id": "01K9RDPY800WJDEN173HTK52K3",
       "status": "current",
-      "last_updated": "2025-11-12T17:43:32.980Z"
+      "last_updated": "2025-11-12T17:49:13.611Z"
     },
     {
       "id": "410",
@@ -52,7 +52,7 @@
       },
       "zapier_record_id": "01K9RDPXJNKYCVGVN7PFJ1M24C",
       "status": "current",
-      "last_updated": "2025-11-12T17:43:32.980Z"
+      "last_updated": "2025-11-12T17:49:13.611Z"
     },
     {
       "id": "1014",
@@ -70,7 +70,7 @@
       },
       "zapier_record_id": "01K9QB0MQZWPFREMPK81TDE19Y",
       "status": "current",
-      "last_updated": "2025-11-12T17:43:32.980Z"
+      "last_updated": "2025-11-12T17:49:13.611Z"
     },
     {
       "id": "1086",
@@ -88,7 +88,7 @@
       },
       "zapier_record_id": "01K98FKDB0QDB1KK432RP8XX93",
       "status": "current",
-      "last_updated": "2025-11-12T17:43:32.980Z"
+      "last_updated": "2025-11-12T17:49:13.611Z"
     },
     {
       "id": "879",
@@ -106,7 +106,7 @@
       },
       "zapier_record_id": "01K98FKBKQVNHHNWSN602V76QR",
       "status": "current",
-      "last_updated": "2025-11-12T17:43:32.980Z"
+      "last_updated": "2025-11-12T17:49:13.611Z"
     },
     {
       "id": "990",
@@ -124,7 +124,7 @@
       },
       "zapier_record_id": "01K98FKBBGZ6J1A6X9QX4XBJQA",
       "status": "current",
-      "last_updated": "2025-11-12T17:43:32.980Z"
+      "last_updated": "2025-11-12T17:49:13.611Z"
     },
     {
       "id": "698",
@@ -142,7 +142,7 @@
       },
       "zapier_record_id": "01K98FK9NP66M7B5S973216BDF",
       "status": "current",
-      "last_updated": "2025-11-12T17:43:32.980Z"
+      "last_updated": "2025-11-12T17:49:13.611Z"
     },
     {
       "id": "104",
@@ -160,14 +160,14 @@
       },
       "zapier_record_id": "01K98C78T438S1AJ6G93G0ARMV",
       "status": "current",
-      "last_updated": "2025-11-12T17:43:32.980Z"
+      "last_updated": "2025-11-12T17:49:13.611Z"
     }
   ],
-  "last_updated": "2025-11-12T17:43:32.980Z",
+  "last_updated": "2025-11-12T17:49:13.611Z",
   "sync_info": {
     "action": "full_table_sync",
     "trigger_record_id": "01K98FKBBGZ6J1A6X9QX4XBJQA",
     "total_properties": 9,
-    "sync_timestamp": "2025-11-12T17:43:32.980Z"
+    "sync_timestamp": "2025-11-12T17:49:13.611Z"
   }
 }
