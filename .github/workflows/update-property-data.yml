@@ -91,14 +91,14 @@ jobs:
           EOF
           
           # Run the replacement script with all property arrays
-          PROP_IDS='${{ toJson(github.event.client_payload.prop_ids) }}' \
-          ADDRESSES='${{ toJson(github.event.client_payload.addresses) }}' \
-          LOCKBOX_STATUSES='${{ toJson(github.event.client_payload.lockbox_pickup) }}' \
-          BANNER_STATUSES='${{ toJson(github.event.client_payload.banner_pickup) }}' \
-          PHOTOS_STATUSES='${{ toJson(github.event.client_payload.photos_needed) }}' \
-          EYES_ON_PROP='${{ toJson(github.event.client_payload.eyes_on_property) }}' \
-          PICKUP_DATES='${{ toJson(github.event.client_payload.pickup_dates) }}' \
-          RECORD_IDS='${{ toJson(github.event.client_payload.record_ids) }}' \
+          PROP_IDS='${{ toJson(github.event.client_payload.properties.prop_ids) }}' \
+          ADDRESSES='${{ toJson(github.event.client_payload.properties.addresses) }}' \
+          LOCKBOX_STATUSES='${{ toJson(github.event.client_payload.properties.lockbox_pickup) }}' \
+          BANNER_STATUSES='${{ toJson(github.event.client_payload.properties.banner_pickup) }}' \
+          PHOTOS_STATUSES='${{ toJson(github.event.client_payload.properties.photos_needed) }}' \
+          EYES_ON_PROP='${{ toJson(github.event.client_payload.properties.eyes_on_property) }}' \
+          PICKUP_DATES='${{ toJson(github.event.client_payload.properties.pickup_dates) }}' \
+          RECORD_IDS='${{ toJson(github.event.client_payload.properties.record_ids) }}' \
           ACTION='${{ github.event.client_payload.action }}' \
           TRIGGER_RECORD_ID='${{ github.event.client_payload.trigger_record_id }}' \
           node replace_all_properties.js
@@ -111,6 +111,6 @@ jobs:
           if git diff --staged --quiet; then
             echo "No changes to commit"
           else
-            git commit -m "Complete property dataset sync: ${{ github.event.client_payload.total_properties }} properties updated"
+            git commit -m "Complete property dataset sync: ${{ github.event.client_payload.count }} properties updated"
             git push
           fi
