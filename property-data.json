@@ -2,7 +2,7 @@
   "properties": [
     {
       "id": "263",
-      "address": "4450 Holland St Wheat Ridge",
+      "address": "4450 Holland St Wheat Ridge, CO 80033",
       "coordinates": {
         "lat": 0,
         "lng": 0
@@ -16,11 +16,11 @@
       },
       "zapier_record_id": "01K9W2E83P7FNVVM27X2SB2T0R",
       "status": "current",
-      "last_updated": "2025-11-12T21:19:47.578Z"
+      "last_updated": "2025-11-12T21:24:40.844Z"
     },
     {
       "id": "1014",
-      "address": "CO 80033",
+      "address": "1327 Steele St. #102 Denver, CO 80206",
       "coordinates": {
         "lat": 0,
         "lng": 0
@@ -34,11 +34,11 @@
       },
       "zapier_record_id": "01K9QB0MQZWPFREMPK81TDE19Y",
       "status": "current",
-      "last_updated": "2025-11-12T21:19:47.578Z"
+      "last_updated": "2025-11-12T21:24:40.844Z"
     },
     {
       "id": "1086",
-      "address": "1327 Steele St. #102 Denver",
+      "address": "13325 Shoshone St Westminster, CO 80234",
       "coordinates": {
         "lat": 0,
         "lng": 0
@@ -52,11 +52,11 @@
       },
       "zapier_record_id": "01K98FKDB0QDB1KK432RP8XX93",
       "status": "current",
-      "last_updated": "2025-11-12T21:19:47.578Z"
+      "last_updated": "2025-11-12T21:24:40.844Z"
     },
     {
       "id": "879",
-      "address": "CO 80206",
+      "address": "1480 S. Clermont St. Denver, CO 80222",
       "coordinates": {
         "lat": 0,
         "lng": 0
@@ -70,11 +70,11 @@
       },
       "zapier_record_id": "01K98FKBKQVNHHNWSN602V76QR",
       "status": "current",
-      "last_updated": "2025-11-12T21:19:47.578Z"
+      "last_updated": "2025-11-12T21:24:40.844Z"
     },
     {
       "id": "698",
-      "address": "13325 Shoshone St Westminster",
+      "address": "14359 E Grand Drive Unit #156 Aurora, CO 80015",
       "coordinates": {
         "lat": 0,
         "lng": 0
@@ -88,14 +88,14 @@
       },
       "zapier_record_id": "01K98FK9NP66M7B5S973216BDF",
       "status": "current",
-      "last_updated": "2025-11-12T21:19:47.579Z"
+      "last_updated": "2025-11-12T21:24:40.844Z"
     }
   ],
-  "last_updated": "2025-11-12T21:19:47.579Z",
+  "last_updated": "2025-11-12T21:24:40.844Z",
   "sync_info": {
     "action": "full_table_sync",
     "trigger_record_id": "01K98FKBBGZ6J1A6X9QX4XBJQA",
     "total_properties": 5,
-    "sync_timestamp": "2025-11-12T21:19:47.579Z"
+    "sync_timestamp": "2025-11-12T21:24:40.844Z"
   }
 }
