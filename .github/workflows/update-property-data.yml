@@ -60,9 +60,63 @@ jobs:
             }
           }
           
+          // Special function to parse addresses that contain "City, State" patterns
+          function parseAddresses(envVar) {
+            if (!envVar) return [];
+            
+            try {
+              // First try to parse as JSON (in case it's already an array)
+              const parsed = JSON.parse(envVar);
+              if (Array.isArray(parsed)) {
+                return parsed;
+              }
+              
+              // Convert to string for processing
+              let addressString = String(parsed);
+              
+              // Handle consecutive commas by replacing them with single commas
+              addressString = addressString.replace(/,{2,}/g, ',');
+              
+              // Split addresses using a pattern that avoids splitting on state abbreviations
+              // This regex looks for commas followed by a space and then a number or capital letter
+              // (indicating start of new address), but not ", [STATE] " patterns
+              const addresses = [];
+              let currentAddress = '';
+              const parts = addressString.split(',');
+              
+              for (let i = 0; i < parts.length; i++) {
+                currentAddress += parts[i];
+                
+                // Check if next part looks like a state abbreviation (2 capital letters)
+                const nextPart = parts[i + 1];
+                if (nextPart && /^\s*[A-Z]{2}\s/.test(nextPart)) {
+                  // This is likely "City, STATE", so add the comma back and continue
+                  currentAddress += ',';
+                } else if (nextPart && nextPart.trim() !== '') {
+                  // This is the end of an address, start a new one
+                  addresses.push(currentAddress.trim());
+                  currentAddress = '';
+                } else if (i === parts.length - 1) {
+                  // Last part
+                  addresses.push(currentAddress.trim());
+                }
+              }
+              
+              return addresses.filter(addr => addr !== '');
+              
+            } catch (error) {
+              // Fallback to simple parsing
+              return String(envVar)
+                .replace(/,{2,}/g, ',') // Handle consecutive commas
+                .split(',')
+                .map(item => item.trim())
+                .filter(item => item !== '');
+            }
+          }
+          
           // Parse all property arrays from GitHub payload
           const propIds = parseToArray(process.env.PROP_IDS);
-          const addresses = parseToArray(process.env.ADDRESSES);
+          const addresses = parseAddresses(process.env.ADDRESSES); // Special parsing for addresses
           const lockboxStatuses = parseToArray(process.env.LOCKBOX_STATUSES);
           const bannerStatuses = parseToArray(process.env.BANNER_STATUSES);
           const photosStatuses = parseToArray(process.env.PHOTOS_STATUSES);
@@ -71,7 +125,8 @@ jobs:
           const recordIds = parseToArray(process.env.RECORD_IDS);
           
           console.log(`Processing ${propIds.length} properties from complete dataset`);
-          console.log(`Raw PROP_IDS: ${process.env.PROP_IDS}`);
+          console.log(`Raw ADDRESSES: ${process.env.ADDRESSES}`);
+          console.log(`Parsed Addresses: ${JSON.stringify(addresses, null, 2)}`);
           console.log(`Parsed Property IDs: [${propIds.join(', ')}]`);
           
           // Build complete property array
@@ -132,6 +187,7 @@ jobs:
       - name: Commit Complete Dataset
         run: |
           git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
           git config --local user.name "GitHub Action"
           git add property-data.json
           if git diff --staged --quiet; then
