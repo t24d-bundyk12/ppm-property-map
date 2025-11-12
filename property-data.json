@@ -1,173 +1,29 @@
 {
   "properties": [
     {
-      "id": "1124",
-      "address": "8745 Yukon St Arvada, CO 80005,",
+      "id": "263,1014,1086,879,698",
+      "address": "Holland Street - 4450 Holland St Wheat Ridge, CO 80033,,1327 Steele St. #102 Denver, CO 80206,13325 Shoshone St Westminster, CO 80234,1480 S. Clermont St. Denver, CO 80222,14359 E Grand Drive Unit #156 Aurora, CO 80015",
       "coordinates": {
         "lat": 0,
         "lng": 0
       },
       "maintenance": {
-        "lockbox_pickup": "Yes",
-        "banner_pickup": "No",
-        "exterior_photos": "No",
-        "eyes_on_property": "No",
-        "earliest_pickup_date": "2025-11-11T07:00:00Z"
+        "lockbox_pickup": "Yes,Yes,Yes,Yes,Yes",
+        "banner_pickup": "No,No,No,Yes,No",
+        "exterior_photos": "No,No,No,No,No",
+        "eyes_on_property": "No,No,No,No,No",
+        "earliest_pickup_date": "2025-11-17T07:00:00Z,2025-11-05T07:00:00Z,2025-11-05T07:00:00Z,2025-11-03T07:00:00Z,2025-11-17T07:00:00Z"
       },
-      "zapier_record_id": "01K9RDPYBMQMH8QBN5NMTDSMN1",
+      "zapier_record_id": "01K9W2E83P7FNVVM27X2SB2T0R,01K9QB0MQZWPFREMPK81TDE19Y,01K98FKDB0QDB1KK432RP8XX93,01K98FKBKQVNHHNWSN602V76QR,01K98FK9NP66M7B5S973216BDF",
       "status": "current",
-      "last_updated": "2025-11-12T17:49:13.611Z"
-    },
-    {
-      "id": "183",
-      "address": "1450 N Clarkson St. Denver, CO 80218,",
-      "coordinates": {
-        "lat": 0,
-        "lng": 0
-      },
-      "maintenance": {
-        "lockbox_pickup": "Yes",
-        "banner_pickup": "No",
-        "exterior_photos": "No",
-        "eyes_on_property": "No",
-        "earliest_pickup_date": "2025-11-11T07:00:00Z"
-      },
-      "zapier_record_id": "01K9RDPY800WJDEN173HTK52K3",
-      "status": "current",
-      "last_updated": "2025-11-12T17:49:13.611Z"
-    },
-    {
-      "id": "410",
-      "address": "4441 E. Colorado Ave Denver, CO 80222,",
-      "coordinates": {
-        "lat": 0,
-        "lng": 0
-      },
-      "maintenance": {
-        "lockbox_pickup": "Yes",
-        "banner_pickup": "No",
-        "exterior_photos": "No",
-        "eyes_on_property": "No",
-        "earliest_pickup_date": "2025-11-11T07:00:00Z"
-      },
-      "zapier_record_id": "01K9RDPXJNKYCVGVN7PFJ1M24C",
-      "status": "current",
-      "last_updated": "2025-11-12T17:49:13.611Z"
-    },
-    {
-      "id": "1014",
-      "address": "1327 Steele St. #102 Denver, CO 80206",
-      "coordinates": {
-        "lat": 0,
-        "lng": 0
-      },
-      "maintenance": {
-        "lockbox_pickup": "Yes",
-        "banner_pickup": "No",
-        "exterior_photos": "No",
-        "eyes_on_property": "No",
-        "earliest_pickup_date": "2025-11-05T07:00:00Z"
-      },
-      "zapier_record_id": "01K9QB0MQZWPFREMPK81TDE19Y",
-      "status": "current",
-      "last_updated": "2025-11-12T17:49:13.611Z"
-    },
-    {
-      "id": "1086",
-      "address": "13325 Shoshone St Westminster, CO 80234",
-      "coordinates": {
-        "lat": 0,
-        "lng": 0
-      },
-      "maintenance": {
-        "lockbox_pickup": "Yes",
-        "banner_pickup": "No",
-        "exterior_photos": "No",
-        "eyes_on_property": "No",
-        "earliest_pickup_date": "2025-11-05T07:00:00Z"
-      },
-      "zapier_record_id": "01K98FKDB0QDB1KK432RP8XX93",
-      "status": "current",
-      "last_updated": "2025-11-12T17:49:13.611Z"
-    },
-    {
-      "id": "879",
-      "address": "1480 S. Clermont St. Denver, CO 80222",
-      "coordinates": {
-        "lat": 0,
-        "lng": 0
-      },
-      "maintenance": {
-        "lockbox_pickup": "Yes",
-        "banner_pickup": "Yes",
-        "exterior_photos": "No",
-        "eyes_on_property": "No",
-        "earliest_pickup_date": "2025-11-03T07:00:00Z"
-      },
-      "zapier_record_id": "01K98FKBKQVNHHNWSN602V76QR",
-      "status": "current",
-      "last_updated": "2025-11-12T17:49:13.611Z"
-    },
-    {
-      "id": "990",
-      "address": "3724 Tejon St. Denver, CO 80211",
-      "coordinates": {
-        "lat": 0,
-        "lng": 0
-      },
-      "maintenance": {
-        "lockbox_pickup": "No",
-        "banner_pickup": "Yes",
-        "exterior_photos": "No",
-        "eyes_on_property": "No",
-        "earliest_pickup_date": null
-      },
-      "zapier_record_id": "01K98FKBBGZ6J1A6X9QX4XBJQA",
-      "status": "current",
-      "last_updated": "2025-11-12T17:49:13.611Z"
-    },
-    {
-      "id": "698",
-      "address": "14359 E Grand Drive Unit #156 Aurora, CO 80015",
-      "coordinates": {
-        "lat": 0,
-        "lng": 0
-      },
-      "maintenance": {
-        "lockbox_pickup": "Yes",
-        "banner_pickup": "No",
-        "exterior_photos": "No",
-        "eyes_on_property": "No",
-        "earliest_pickup_date": "2025-11-17T07:00:00Z"
-      },
-      "zapier_record_id": "01K98FK9NP66M7B5S973216BDF",
-      "status": "current",
-      "last_updated": "2025-11-12T17:49:13.611Z"
-    },
-    {
-      "id": "104",
-      "address": "6550 W. 14th Ave. #11 Lakewood, CO 80214,",
-      "coordinates": {
-        "lat": 0,
-        "lng": 0
-      },
-      "maintenance": {
-        "lockbox_pickup": "Yes",
-        "banner_pickup": "No",
-        "exterior_photos": "No",
-        "eyes_on_property": "No",
-        "earliest_pickup_date": "2025-11-04T07:00:00Z"
-      },
-      "zapier_record_id": "01K98C78T438S1AJ6G93G0ARMV",
-      "status": "current",
-      "last_updated": "2025-11-12T17:49:13.611Z"
+      "last_updated": "2025-11-12T18:03:03.427Z"
     }
   ],
-  "last_updated": "2025-11-12T17:49:13.611Z",
+  "last_updated": "2025-11-12T18:03:03.427Z",
   "sync_info": {
     "action": "full_table_sync",
     "trigger_record_id": "01K98FKBBGZ6J1A6X9QX4XBJQA",
-    "total_properties": 9,
-    "sync_timestamp": "2025-11-12T17:49:13.611Z"
+    "total_properties": 1,
+    "sync_timestamp": "2025-11-12T18:03:03.427Z"
   }
 }
