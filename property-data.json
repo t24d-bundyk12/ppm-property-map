@@ -1,78 +1,6 @@
 {
   "properties": [
     {
-      "id": "339",
-      "address": "2500 Cherry Creek So. Dr. #315 Denver, CO 80209",
-      "coordinates": {
-        "lat": 0,
-        "lng": 0
-      },
-      "maintenance": {
-        "lockbox_pickup": "Yes",
-        "banner_pickup": "No",
-        "exterior_photos": "No",
-        "eyes_on_property": "No",
-        "earliest_pickup_date": "2026-02-02T07:00:00Z"
-      },
-      "zapier_record_id": "01K9X6YD8P04KMADR65NYR0VQ3",
-      "status": "current",
-      "last_updated": "2025-11-12T23:39:38.291Z"
-    },
-    {
-      "id": "339",
-      "address": "2500 Cherry Creek So. Dr. #315 Denver, CO 80209",
-      "coordinates": {
-        "lat": 0,
-        "lng": 0
-      },
-      "maintenance": {
-        "lockbox_pickup": "Yes",
-        "banner_pickup": "No",
-        "exterior_photos": "No",
-        "eyes_on_property": "No",
-        "earliest_pickup_date": "2026-02-02T07:00:00Z"
-      },
-      "zapier_record_id": "01K9X6YB5F1KHKVENA5YJABCKS",
-      "status": "current",
-      "last_updated": "2025-11-12T23:39:38.291Z"
-    },
-    {
-      "id": "1115",
-      "address": "10352 W 59th Ave Units 1 - 4 Arvada, CO 80004",
-      "coordinates": {
-        "lat": 0,
-        "lng": 0
-      },
-      "maintenance": {
-        "lockbox_pickup": "Yes",
-        "banner_pickup": "Yes",
-        "exterior_photos": "No",
-        "eyes_on_property": "No",
-        "earliest_pickup_date": "2025-12-03T07:00:00Z"
-      },
-      "zapier_record_id": "01K9X0TJ3H5HVQM0WQAG0Y2KNY",
-      "status": "current",
-      "last_updated": "2025-11-12T23:39:38.291Z"
-    },
-    {
-      "id": "263",
-      "address": "4450 Holland St Wheat Ridge, CO 80033",
-      "coordinates": {
-        "lat": 0,
-        "lng": 0
-      },
-      "maintenance": {
-        "lockbox_pickup": "Yes",
-        "banner_pickup": "No",
-        "exterior_photos": "No",
-        "eyes_on_property": "No",
-        "earliest_pickup_date": "2025-11-17T07:00:00Z"
-      },
-      "zapier_record_id": "01K9W2E83P7FNVVM27X2SB2T0R",
-      "status": "current",
-      "last_updated": "2025-11-12T23:39:38.291Z"
-    },
-    {
       "id": "1014",
       "address": "1327 Steele St. #102 Denver, CO 80206",
       "coordinates": {
@@ -86,45 +14,9 @@
         "eyes_on_property": "No",
         "earliest_pickup_date": "2025-11-05T07:00:00Z"
       },
-      "zapier_record_id": "01K9QB0MQZWPFREMPK81TDE19Y",
+      "zapier_record_id": "01KAHH6HN45PDGCMVY726GJM1G",
       "status": "current",
-      "last_updated": "2025-11-12T23:39:38.291Z"
-    },
-    {
-      "id": "1086",
-      "address": "13325 Shoshone St Westminster, CO 80234",
-      "coordinates": {
-        "lat": 0,
-        "lng": 0
-      },
-      "maintenance": {
-        "lockbox_pickup": "Yes",
-        "banner_pickup": "No",
-        "exterior_photos": "No",
-        "eyes_on_property": "No",
-        "earliest_pickup_date": "2025-11-05T07:00:00Z"
-      },
-      "zapier_record_id": "01K98FKDB0QDB1KK432RP8XX93",
-      "status": "current",
-      "last_updated": "2025-11-12T23:39:38.291Z"
-    },
-    {
-      "id": "879",
-      "address": "1480 S. Clermont St. Denver, CO 80222",
-      "coordinates": {
-        "lat": 0,
-        "lng": 0
-      },
-      "maintenance": {
-        "lockbox_pickup": "Yes",
-        "banner_pickup": "Yes",
-        "exterior_photos": "No",
-        "eyes_on_property": "No",
-        "earliest_pickup_date": "2025-11-03T07:00:00Z"
-      },
-      "zapier_record_id": "01K98FKBKQVNHHNWSN602V76QR",
-      "status": "current",
-      "last_updated": "2025-11-12T23:39:38.291Z"
+      "last_updated": "2025-11-20T21:02:48.032Z"
     },
     {
       "id": "698",
@@ -140,16 +32,70 @@
         "eyes_on_property": "No",
         "earliest_pickup_date": "2025-11-17T07:00:00Z"
       },
-      "zapier_record_id": "01K98FK9NP66M7B5S973216BDF",
+      "zapier_record_id": "01KAHH6HKKDG34A3DJT603JMFM",
       "status": "current",
-      "last_updated": "2025-11-12T23:39:38.291Z"
+      "last_updated": "2025-11-20T21:02:48.032Z"
+    },
+    {
+      "id": "1086",
+      "address": "13325 Shoshone St Westminster, CO 80234",
+      "coordinates": {
+        "lat": 0,
+        "lng": 0
+      },
+      "maintenance": {
+        "lockbox_pickup": "Yes",
+        "banner_pickup": "No",
+        "exterior_photos": "No",
+        "eyes_on_property": "No",
+        "earliest_pickup_date": "2025-11-05T07:00:00Z"
+      },
+      "zapier_record_id": "01KAHH6HGPEST5BTCH6WWKXB56",
+      "status": "current",
+      "last_updated": "2025-11-20T21:02:48.032Z"
+    },
+    {
+      "id": "879",
+      "address": "1480 S. Clermont St. Denver, CO 80222",
+      "coordinates": {
+        "lat": 0,
+        "lng": 0
+      },
+      "maintenance": {
+        "lockbox_pickup": "Yes",
+        "banner_pickup": "No",
+        "exterior_photos": "No",
+        "eyes_on_property": "No",
+        "earliest_pickup_date": "2025-12-15T07:00:00Z"
+      },
+      "zapier_record_id": "01KAHH6HDM1MG40JS6T324RP60",
+      "status": "current",
+      "last_updated": "2025-11-20T21:02:48.032Z"
+    },
+    {
+      "id": "263",
+      "address": "4450 Holland St Wheat Ridge, CO 80033",
+      "coordinates": {
+        "lat": 0,
+        "lng": 0
+      },
+      "maintenance": {
+        "lockbox_pickup": "Yes",
+        "banner_pickup": "No",
+        "exterior_photos": "No",
+        "eyes_on_property": "No",
+        "earliest_pickup_date": "2025-11-17T07:00:00Z"
+      },
+      "zapier_record_id": "01KAHH5JH705TXBT02CD7M56GJ",
+      "status": "current",
+      "last_updated": "2025-11-20T21:02:48.032Z"
     }
   ],
-  "last_updated": "2025-11-12T23:39:38.291Z",
+  "last_updated": "2025-11-20T21:02:48.032Z",
   "sync_info": {
     "action": "full_table_sync",
-    "trigger_record_id": "01K9X6YD8P04KMADR65NYR0VQ3",
-    "total_properties": 8,
-    "sync_timestamp": "2025-11-12T23:39:38.291Z"
+    "trigger_record_id": "01KAHFSVW4FHFPRTAZ10F1K1SZ",
+    "total_properties": 5,
+    "sync_timestamp": "2025-11-20T21:02:48.032Z"
   }
 }
