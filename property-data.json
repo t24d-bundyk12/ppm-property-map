@@ -1,6 +1,42 @@
 {
   "properties": [
     {
+      "id": "786",
+      "address": "2490 South Race Street Denver, CO 80210",
+      "coordinates": {
+        "lat": 0,
+        "lng": 0
+      },
+      "maintenance": {
+        "lockbox_pickup": "No",
+        "banner_pickup": "Yes",
+        "exterior_photos": "No",
+        "eyes_on_property": "No",
+        "earliest_pickup_date": "2025-11-05T07:00:00Z"
+      },
+      "zapier_record_id": "01KAHHTCNFXAT9G6JS15BAVFRJ",
+      "status": "current",
+      "last_updated": "2025-11-20T21:14:17.871Z"
+    },
+    {
+      "id": "1115",
+      "address": "10352 W 59th Ave Units 1 - 4 Arvada, CO 80004",
+      "coordinates": {
+        "lat": 0,
+        "lng": 0
+      },
+      "maintenance": {
+        "lockbox_pickup": "No",
+        "banner_pickup": "Yes",
+        "exterior_photos": "No",
+        "eyes_on_property": "No",
+        "earliest_pickup_date": "2025-11-17T07:00:00Z"
+      },
+      "zapier_record_id": "01KAHHTCJ4P5DXVJ6QR3F66RSA",
+      "status": "current",
+      "last_updated": "2025-11-20T21:14:17.871Z"
+    },
+    {
       "id": "1014",
       "address": "1327 Steele St. #102 Denver, CO 80206",
       "coordinates": {
@@ -16,7 +52,7 @@
       },
       "zapier_record_id": "01KAHH6HN45PDGCMVY726GJM1G",
       "status": "current",
-      "last_updated": "2025-11-20T21:03:08.761Z"
+      "last_updated": "2025-11-20T21:14:17.871Z"
     },
     {
       "id": "698",
@@ -30,11 +66,11 @@
         "banner_pickup": "No",
         "exterior_photos": "No",
         "eyes_on_property": "No",
-        "earliest_pickup_date": "2025-11-17T07:00:00Z"
+        "earliest_pickup_date": "2025-12-15T07:00:00Z"
       },
       "zapier_record_id": "01KAHH6HKKDG34A3DJT603JMFM",
       "status": "current",
-      "last_updated": "2025-11-20T21:03:08.761Z"
+      "last_updated": "2025-11-20T21:14:17.871Z"
     },
     {
       "id": "1086",
@@ -48,11 +84,11 @@
         "banner_pickup": "No",
         "exterior_photos": "No",
         "eyes_on_property": "No",
-        "earliest_pickup_date": "2025-11-05T07:00:00Z"
+        "earliest_pickup_date": "2025-11-17T07:00:00Z"
       },
       "zapier_record_id": "01KAHH6HGPEST5BTCH6WWKXB56",
       "status": "current",
-      "last_updated": "2025-11-20T21:03:08.761Z"
+      "last_updated": "2025-11-20T21:14:17.871Z"
     },
     {
       "id": "879",
@@ -66,11 +102,11 @@
         "banner_pickup": "No",
         "exterior_photos": "No",
         "eyes_on_property": "No",
-        "earliest_pickup_date": "2025-12-15T07:00:00Z"
+        "earliest_pickup_date": null
       },
       "zapier_record_id": "01KAHH6HDM1MG40JS6T324RP60",
       "status": "current",
-      "last_updated": "2025-11-20T21:03:08.761Z"
+      "last_updated": "2025-11-20T21:14:17.871Z"
     },
     {
       "id": "263",
@@ -84,18 +120,18 @@
         "banner_pickup": "No",
         "exterior_photos": "No",
         "eyes_on_property": "No",
-        "earliest_pickup_date": "2025-11-17T07:00:00Z"
+        "earliest_pickup_date": null
       },
       "zapier_record_id": "01KAHH5JH705TXBT02CD7M56GJ",
       "status": "current",
-      "last_updated": "2025-11-20T21:03:08.761Z"
+      "last_updated": "2025-11-20T21:14:17.871Z"
     }
   ],
-  "last_updated": "2025-11-20T21:03:08.761Z",
+  "last_updated": "2025-11-20T21:14:17.871Z",
   "sync_info": {
     "action": "full_table_sync",
-    "trigger_record_id": "01KAHH6HDM1MG40JS6T324RP60",
-    "total_properties": 5,
-    "sync_timestamp": "2025-11-20T21:03:08.761Z"
+    "trigger_record_id": "01KAHHTCNFXAT9G6JS15BAVFRJ",
+    "total_properties": 7,
+    "sync_timestamp": "2025-11-20T21:14:17.871Z"
   }
 }
