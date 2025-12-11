@@ -1,8 +1,8 @@
 {
   "properties": [
     {
-      "id": "1042",
-      "address": "5080 Tejon St. Denver, CO 80221",
+      "id": "1115",
+      "address": "10352 W 59th Ave Units 1 - 4 Arvada, CO 80004",
       "coordinates": {
         "lat": 0,
         "lng": 0
@@ -14,9 +14,27 @@
         "eyes_on_property": "No",
         "earliest_pickup_date": "2025-12-03T07:00:00Z"
       },
+      "zapier_record_id": "01KC6R1RMQE428B0YB4C70R7G8",
+      "status": "current",
+      "last_updated": "2025-12-11T13:02:45.524Z"
+    },
+    {
+      "id": "1042",
+      "address": "5080 Tejon St. Denver, CO 80221",
+      "coordinates": {
+        "lat": 0,
+        "lng": 0
+      },
+      "maintenance": {
+        "lockbox_pickup": "Yes",
+        "banner_pickup": "No",
+        "exterior_photos": "No",
+        "eyes_on_property": "No",
+        "earliest_pickup_date": "2025-11-17T07:00:00Z"
+      },
       "zapier_record_id": "01KBFJFRSMYEAGTF9MVYMHWRZW",
       "status": "current",
-      "last_updated": "2025-12-02T13:03:03.164Z"
+      "last_updated": "2025-12-11T13:02:45.524Z"
     },
     {
       "id": "698",
@@ -30,11 +48,11 @@
         "banner_pickup": "No",
         "exterior_photos": "No",
         "eyes_on_property": "No",
-        "earliest_pickup_date": "2025-11-17T07:00:00Z"
+        "earliest_pickup_date": "2025-11-05T07:00:00Z"
       },
       "zapier_record_id": "01KAHH6HKKDG34A3DJT603JMFM",
       "status": "current",
-      "last_updated": "2025-12-02T13:03:03.164Z"
+      "last_updated": "2025-12-11T13:02:45.524Z"
     },
     {
       "id": "1086",
@@ -48,11 +66,11 @@
         "banner_pickup": "No",
         "exterior_photos": "No",
         "eyes_on_property": "No",
-        "earliest_pickup_date": "2025-11-05T07:00:00Z"
+        "earliest_pickup_date": "2025-12-15T07:00:00Z"
       },
       "zapier_record_id": "01KAHH6HGPEST5BTCH6WWKXB56",
       "status": "current",
-      "last_updated": "2025-12-02T13:03:03.164Z"
+      "last_updated": "2025-12-11T13:02:45.524Z"
     },
     {
       "id": "879",
@@ -66,11 +84,11 @@
         "banner_pickup": "Yes",
         "exterior_photos": "No",
         "eyes_on_property": "No",
-        "earliest_pickup_date": "2025-12-15T07:00:00Z"
+        "earliest_pickup_date": "2025-11-17T07:00:00Z"
       },
       "zapier_record_id": "01KAHH6HDM1MG40JS6T324RP60",
       "status": "current",
-      "last_updated": "2025-12-02T13:03:03.164Z"
+      "last_updated": "2025-12-11T13:02:45.524Z"
     },
     {
       "id": "263",
@@ -84,18 +102,18 @@
         "banner_pickup": "No",
         "exterior_photos": "No",
         "eyes_on_property": "No",
-        "earliest_pickup_date": "2025-11-17T07:00:00Z"
+        "earliest_pickup_date": null
       },
       "zapier_record_id": "01KAHH5JH705TXBT02CD7M56GJ",
       "status": "current",
-      "last_updated": "2025-12-02T13:03:03.164Z"
+      "last_updated": "2025-12-11T13:02:45.524Z"
     }
   ],
-  "last_updated": "2025-12-02T13:03:03.164Z",
+  "last_updated": "2025-12-11T13:02:45.524Z",
   "sync_info": {
     "action": "full_table_sync",
-    "trigger_record_id": "01KBFJFRSMYEAGTF9MVYMHWRZW",
-    "total_properties": 5,
-    "sync_timestamp": "2025-12-02T13:03:03.164Z"
+    "trigger_record_id": "01KC6R1RMQE428B0YB4C70R7G8",
+    "total_properties": 6,
+    "sync_timestamp": "2025-12-11T13:02:45.524Z"
   }
 }
