@@ -16,7 +16,7 @@
       },
       "zapier_record_id": "01KD876R9A7FG12PVQZVWST06D",
       "status": "current",
-      "last_updated": "2025-12-24T13:02:24.635Z"
+      "last_updated": "2025-12-24T13:02:37.865Z"
     },
     {
       "id": "1118",
@@ -34,7 +34,7 @@
       },
       "zapier_record_id": "01KD876R64518Q77WA1NEM4A2M",
       "status": "current",
-      "last_updated": "2025-12-24T13:02:24.635Z"
+      "last_updated": "2025-12-24T13:02:37.865Z"
     },
     {
       "id": "861",
@@ -52,7 +52,7 @@
       },
       "zapier_record_id": "01KD876R2BWR1415KQB372QRRZ",
       "status": "current",
-      "last_updated": "2025-12-24T13:02:24.635Z"
+      "last_updated": "2025-12-24T13:02:37.865Z"
     },
     {
       "id": "1115",
@@ -70,7 +70,7 @@
       },
       "zapier_record_id": "01KC6R1RMQE428B0YB4C70R7G8",
       "status": "current",
-      "last_updated": "2025-12-24T13:02:24.635Z"
+      "last_updated": "2025-12-24T13:02:37.865Z"
     },
     {
       "id": "1086",
@@ -88,7 +88,7 @@
       },
       "zapier_record_id": "01KAHH6HGPEST5BTCH6WWKXB56",
       "status": "current",
-      "last_updated": "2025-12-24T13:02:24.635Z"
+      "last_updated": "2025-12-24T13:02:37.865Z"
     },
     {
       "id": "263",
@@ -106,14 +106,14 @@
       },
       "zapier_record_id": "01KAHH5JH705TXBT02CD7M56GJ",
       "status": "current",
-      "last_updated": "2025-12-24T13:02:24.635Z"
+      "last_updated": "2025-12-24T13:02:37.865Z"
     }
   ],
-  "last_updated": "2025-12-24T13:02:24.635Z",
+  "last_updated": "2025-12-24T13:02:37.865Z",
   "sync_info": {
     "action": "full_table_sync",
-    "trigger_record_id": "01KD876R9A7FG12PVQZVWST06D",
+    "trigger_record_id": "01KD876R2BWR1415KQB372QRRZ",
     "total_properties": 6,
-    "sync_timestamp": "2025-12-24T13:02:24.635Z"
+    "sync_timestamp": "2025-12-24T13:02:37.865Z"
   }
 }
