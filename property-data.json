@@ -1,8 +1,8 @@
 {
   "properties": [
     {
-      "id": "1115",
-      "address": "10352 W 59th Ave Units 1 - 4 Arvada, CO 80004",
+      "id": "1117",
+      "address": "2926 Eliot Circle [4 Units] [om] - 2926 Eliot Circle Units 1 - 4 Westminster, CO 80030",
       "coordinates": {
         "lat": 0,
         "lng": 0
@@ -12,15 +12,15 @@
         "banner_pickup": "No",
         "exterior_photos": "No",
         "eyes_on_property": "No",
-        "earliest_pickup_date": "2025-12-03T07:00:00Z"
+        "earliest_pickup_date": "2025-12-26T07:00:00Z"
       },
-      "zapier_record_id": "01KC6R1RMQE428B0YB4C70R7G8",
+      "zapier_record_id": "01KD876R9A7FG12PVQZVWST06D",
       "status": "current",
-      "last_updated": "2025-12-11T13:02:45.524Z"
+      "last_updated": "2025-12-24T13:02:24.635Z"
     },
     {
-      "id": "1042",
-      "address": "5080 Tejon St. Denver, CO 80221",
+      "id": "1118",
+      "address": "2932 Eliot Circle [4 Units] [om] - 2932 Eliot Circle Units 1 - 4 Westminster, CO 80030",
       "coordinates": {
         "lat": 0,
         "lng": 0
@@ -30,15 +30,15 @@
         "banner_pickup": "No",
         "exterior_photos": "No",
         "eyes_on_property": "No",
-        "earliest_pickup_date": "2025-11-17T07:00:00Z"
+        "earliest_pickup_date": "2025-12-25T07:00:00Z"
       },
-      "zapier_record_id": "01KBFJFRSMYEAGTF9MVYMHWRZW",
+      "zapier_record_id": "01KD876R64518Q77WA1NEM4A2M",
       "status": "current",
-      "last_updated": "2025-12-11T13:02:45.524Z"
+      "last_updated": "2025-12-24T13:02:24.635Z"
     },
     {
-      "id": "698",
-      "address": "14359 E Grand Drive Unit #156 Aurora, CO 80015",
+      "id": "861",
+      "address": "6540 Hwy 2 [10 UNITS] - 6540 Highway 2 Commerce City, CO 80022",
       "coordinates": {
         "lat": 0,
         "lng": 0
@@ -50,9 +50,27 @@
         "eyes_on_property": "No",
         "earliest_pickup_date": "2025-11-05T07:00:00Z"
       },
-      "zapier_record_id": "01KAHH6HKKDG34A3DJT603JMFM",
+      "zapier_record_id": "01KD876R2BWR1415KQB372QRRZ",
       "status": "current",
-      "last_updated": "2025-12-11T13:02:45.524Z"
+      "last_updated": "2025-12-24T13:02:24.635Z"
+    },
+    {
+      "id": "1115",
+      "address": "10352 W 59th Ave Units 1 - 4 Arvada, CO 80004",
+      "coordinates": {
+        "lat": 0,
+        "lng": 0
+      },
+      "maintenance": {
+        "lockbox_pickup": "Yes",
+        "banner_pickup": "No",
+        "exterior_photos": "No",
+        "eyes_on_property": "No",
+        "earliest_pickup_date": "2025-11-17T07:00:00Z"
+      },
+      "zapier_record_id": "01KC6R1RMQE428B0YB4C70R7G8",
+      "status": "current",
+      "last_updated": "2025-12-24T13:02:24.635Z"
     },
     {
       "id": "1086",
@@ -66,29 +84,11 @@
         "banner_pickup": "No",
         "exterior_photos": "No",
         "eyes_on_property": "No",
-        "earliest_pickup_date": "2025-12-15T07:00:00Z"
+        "earliest_pickup_date": null
       },
       "zapier_record_id": "01KAHH6HGPEST5BTCH6WWKXB56",
       "status": "current",
-      "last_updated": "2025-12-11T13:02:45.524Z"
-    },
-    {
-      "id": "879",
-      "address": "1480 S. Clermont St. Denver, CO 80222",
-      "coordinates": {
-        "lat": 0,
-        "lng": 0
-      },
-      "maintenance": {
-        "lockbox_pickup": "Yes",
-        "banner_pickup": "Yes",
-        "exterior_photos": "No",
-        "eyes_on_property": "No",
-        "earliest_pickup_date": "2025-11-17T07:00:00Z"
-      },
-      "zapier_record_id": "01KAHH6HDM1MG40JS6T324RP60",
-      "status": "current",
-      "last_updated": "2025-12-11T13:02:45.524Z"
+      "last_updated": "2025-12-24T13:02:24.635Z"
     },
     {
       "id": "263",
@@ -106,14 +106,14 @@
       },
       "zapier_record_id": "01KAHH5JH705TXBT02CD7M56GJ",
       "status": "current",
-      "last_updated": "2025-12-11T13:02:45.524Z"
+      "last_updated": "2025-12-24T13:02:24.635Z"
     }
   ],
-  "last_updated": "2025-12-11T13:02:45.524Z",
+  "last_updated": "2025-12-24T13:02:24.635Z",
   "sync_info": {
     "action": "full_table_sync",
-    "trigger_record_id": "01KC6R1RMQE428B0YB4C70R7G8",
+    "trigger_record_id": "01KD876R9A7FG12PVQZVWST06D",
     "total_properties": 6,
-    "sync_timestamp": "2025-12-11T13:02:45.524Z"
+    "sync_timestamp": "2025-12-24T13:02:24.635Z"
   }
 }
