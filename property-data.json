@@ -1,6 +1,150 @@
 {
   "properties": [
     {
+      "id": "836",
+      "address": "662 Meade St. Denver, CO 80204",
+      "coordinates": {
+        "lat": 0,
+        "lng": 0
+      },
+      "maintenance": {
+        "lockbox_pickup": "No",
+        "banner_pickup": "Yes",
+        "exterior_photos": "No",
+        "eyes_on_property": "No",
+        "earliest_pickup_date": "2025-12-30T07:00:00Z"
+      },
+      "zapier_record_id": "01KDR7RCKJK2XSW1W2FH6DRSKZ",
+      "status": "current",
+      "last_updated": "2025-12-30T18:19:53.689Z"
+    },
+    {
+      "id": "879",
+      "address": "1480 S. Clermont [6 UNITS] [SPK] - 1480 S. Clermont St. Denver, CO 80222",
+      "coordinates": {
+        "lat": 0,
+        "lng": 0
+      },
+      "maintenance": {
+        "lockbox_pickup": "No",
+        "banner_pickup": "Yes",
+        "exterior_photos": "No",
+        "eyes_on_property": "No",
+        "earliest_pickup_date": "2025-12-26T07:00:00Z"
+      },
+      "zapier_record_id": "01KDR7RAYRZGMANXE4KGM8JPWP",
+      "status": "current",
+      "last_updated": "2025-12-30T18:19:53.689Z"
+    },
+    {
+      "id": "1151",
+      "address": "5510 Clay St Denver, CO 80221",
+      "coordinates": {
+        "lat": 0,
+        "lng": 0
+      },
+      "maintenance": {
+        "lockbox_pickup": "No",
+        "banner_pickup": "Yes",
+        "exterior_photos": "No",
+        "eyes_on_property": "No",
+        "earliest_pickup_date": "2025-12-25T07:00:00Z"
+      },
+      "zapier_record_id": "01KDR7RAVF8AV2FKB9CKXGDGQK",
+      "status": "current",
+      "last_updated": "2025-12-30T18:19:53.689Z"
+    },
+    {
+      "id": "183",
+      "address": "1450 N Clarkson St. Denver, CO 80218",
+      "coordinates": {
+        "lat": 0,
+        "lng": 0
+      },
+      "maintenance": {
+        "lockbox_pickup": "No",
+        "banner_pickup": "Yes",
+        "exterior_photos": "No",
+        "eyes_on_property": "No",
+        "earliest_pickup_date": "2025-12-26T07:00:00Z"
+      },
+      "zapier_record_id": "01KDR7RAQ71YTN4MNNXB9NX37D",
+      "status": "current",
+      "last_updated": "2025-12-30T18:19:53.689Z"
+    },
+    {
+      "id": "182",
+      "address": "1444 N Clarkson St. Denver, CO 80218",
+      "coordinates": {
+        "lat": 0,
+        "lng": 0
+      },
+      "maintenance": {
+        "lockbox_pickup": "No",
+        "banner_pickup": "Yes",
+        "exterior_photos": "No",
+        "eyes_on_property": "No",
+        "earliest_pickup_date": "2025-11-05T07:00:00Z"
+      },
+      "zapier_record_id": "01KDR7RAKYXYTM3JHA5JW887HS",
+      "status": "current",
+      "last_updated": "2025-12-30T18:19:53.689Z"
+    },
+    {
+      "id": "268",
+      "address": "75 Harrison St Duplex [2 UNITS] - 75 Harrison St Denver, CO 80206",
+      "coordinates": {
+        "lat": 0,
+        "lng": 0
+      },
+      "maintenance": {
+        "lockbox_pickup": "Yes",
+        "banner_pickup": "Yes",
+        "exterior_photos": "No",
+        "eyes_on_property": "No",
+        "earliest_pickup_date": "2025-11-17T07:00:00Z"
+      },
+      "zapier_record_id": "01KDR7RAH7VE3WA45RT5P7795Z",
+      "status": "current",
+      "last_updated": "2025-12-30T18:19:53.689Z"
+    },
+    {
+      "id": "424",
+      "address": "Uptown Investment Group [12 UNITS] - 1695 Clinton Street Aurora, CO 80010",
+      "coordinates": {
+        "lat": 0,
+        "lng": 0
+      },
+      "maintenance": {
+        "lockbox_pickup": "No",
+        "banner_pickup": "Yes",
+        "exterior_photos": "No",
+        "eyes_on_property": "No",
+        "earliest_pickup_date": null
+      },
+      "zapier_record_id": "01KDR7RAFBEMDKNRABDXVY7MNB",
+      "status": "current",
+      "last_updated": "2025-12-30T18:19:53.689Z"
+    },
+    {
+      "id": "786",
+      "address": "2490 South Race Street Denver, CO 80210",
+      "coordinates": {
+        "lat": 0,
+        "lng": 0
+      },
+      "maintenance": {
+        "lockbox_pickup": "No",
+        "banner_pickup": "Yes",
+        "exterior_photos": "No",
+        "eyes_on_property": "No",
+        "earliest_pickup_date": null
+      },
+      "zapier_record_id": "01KDR7RADAG46XMD88HDSX93K3",
+      "status": "current",
+      "last_updated": "2025-12-30T18:19:53.689Z"
+    },
+    {
       "id": "1117",
       "address": "2926 Eliot Circle [4 Units] [om] - 2926 Eliot Circle Units 1 - 4 Westminster, CO 80030",
       "coordinates": {
@@ -12,11 +156,11 @@
         "banner_pickup": "No",
         "exterior_photos": "No",
         "eyes_on_property": "No",
-        "earliest_pickup_date": "2025-12-26T07:00:00Z"
+        "earliest_pickup_date": null
       },
       "zapier_record_id": "01KD876R9A7FG12PVQZVWST06D",
       "status": "current",
-      "last_updated": "2025-12-24T13:02:37.865Z"
+      "last_updated": "2025-12-30T18:19:53.689Z"
     },
     {
       "id": "1118",
@@ -30,11 +174,11 @@
         "banner_pickup": "No",
         "exterior_photos": "No",
         "eyes_on_property": "No",
-        "earliest_pickup_date": "2025-12-25T07:00:00Z"
+        "earliest_pickup_date": null
       },
       "zapier_record_id": "01KD876R64518Q77WA1NEM4A2M",
       "status": "current",
-      "last_updated": "2025-12-24T13:02:37.865Z"
+      "last_updated": "2025-12-30T18:19:53.689Z"
     },
     {
       "id": "861",
@@ -48,11 +192,11 @@
         "banner_pickup": "No",
         "exterior_photos": "No",
         "eyes_on_property": "No",
-        "earliest_pickup_date": "2025-11-05T07:00:00Z"
+        "earliest_pickup_date": null
       },
       "zapier_record_id": "01KD876R2BWR1415KQB372QRRZ",
       "status": "current",
-      "last_updated": "2025-12-24T13:02:37.865Z"
+      "last_updated": "2025-12-30T18:19:53.689Z"
     },
     {
       "id": "1115",
@@ -63,14 +207,14 @@
       },
       "maintenance": {
         "lockbox_pickup": "Yes",
-        "banner_pickup": "No",
+        "banner_pickup": "Yes",
         "exterior_photos": "No",
         "eyes_on_property": "No",
-        "earliest_pickup_date": "2025-11-17T07:00:00Z"
+        "earliest_pickup_date": null
       },
       "zapier_record_id": "01KC6R1RMQE428B0YB4C70R7G8",
       "status": "current",
-      "last_updated": "2025-12-24T13:02:37.865Z"
+      "last_updated": "2025-12-30T18:19:53.689Z"
     },
     {
       "id": "1086",
@@ -88,7 +232,7 @@
       },
       "zapier_record_id": "01KAHH6HGPEST5BTCH6WWKXB56",
       "status": "current",
-      "last_updated": "2025-12-24T13:02:37.865Z"
+      "last_updated": "2025-12-30T18:19:53.689Z"
     },
     {
       "id": "263",
@@ -106,14 +250,14 @@
       },
       "zapier_record_id": "01KAHH5JH705TXBT02CD7M56GJ",
       "status": "current",
-      "last_updated": "2025-12-24T13:02:37.865Z"
+      "last_updated": "2025-12-30T18:19:53.689Z"
     }
   ],
-  "last_updated": "2025-12-24T13:02:37.865Z",
+  "last_updated": "2025-12-30T18:19:53.689Z",
   "sync_info": {
     "action": "full_table_sync",
-    "trigger_record_id": "01KD876R2BWR1415KQB372QRRZ",
-    "total_properties": 6,
-    "sync_timestamp": "2025-12-24T13:02:37.865Z"
+    "trigger_record_id": "01KDR7RAKYXYTM3JHA5JW887HS",
+    "total_properties": 14,
+    "sync_timestamp": "2025-12-30T18:19:53.689Z"
   }
 }
