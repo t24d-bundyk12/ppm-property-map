@@ -1,8 +1,8 @@
 {
   "properties": [
     {
-      "id": "323",
-      "address": "106** - 4760 S. Wadsworth Blvd Unit K-106 Denver, CO 80123",
+      "id": "1142",
+      "address": "4075 Monmouth - 4075 W. Monmouth Ave. Denver, CO 80123",
       "coordinates": {
         "lat": 0,
         "lng": 0
@@ -10,35 +10,53 @@
       "maintenance": {
         "lockbox_pickup": "Yes",
         "banner_pickup": "No",
+        "exterior_photos": "No",
+        "eyes_on_property": "No",
+        "earliest_pickup_date": "2026-01-21T07:00:00Z"
+      },
+      "zapier_record_id": "01KEXBSBJ0ACEM163ZBXZ327Y1",
+      "status": "current",
+      "last_updated": "2026-01-14T04:22:10.327Z"
+    },
+    {
+      "id": "424",
+      "address": "Uptown Investment Group [12 UNITS] - 1695 Clinton Street Aurora, CO 80010",
+      "coordinates": {
+        "lat": 0,
+        "lng": 0
+      },
+      "maintenance": {
+        "lockbox_pickup": "No",
+        "banner_pickup": "Yes",
+        "exterior_photos": "No",
+        "eyes_on_property": "No",
+        "earliest_pickup_date": "2026-01-21T07:00:00Z"
+      },
+      "zapier_record_id": "01KEXBSBEH7SFY0W2W3YFWMM7Z",
+      "status": "current",
+      "last_updated": "2026-01-14T04:22:10.327Z"
+    },
+    {
+      "id": "268",
+      "address": "75 Harrison St Duplex [2 UNITS] - 75 Harrison St Denver, CO 80206",
+      "coordinates": {
+        "lat": 0,
+        "lng": 0
+      },
+      "maintenance": {
+        "lockbox_pickup": "No",
+        "banner_pickup": "Yes",
         "exterior_photos": "No",
         "eyes_on_property": "No",
         "earliest_pickup_date": "2025-12-25T07:00:00Z"
       },
-      "zapier_record_id": "01KEEV7BAER1CEG2D177NVQ2GV",
+      "zapier_record_id": "01KEXBSBAN46KRC78X84XDJ04Q",
       "status": "current",
-      "last_updated": "2026-01-08T13:03:29.517Z"
+      "last_updated": "2026-01-14T04:22:10.327Z"
     },
     {
-      "id": "1151",
-      "address": "5510 Clay St Denver, CO 80221",
-      "coordinates": {
-        "lat": 0,
-        "lng": 0
-      },
-      "maintenance": {
-        "lockbox_pickup": "Yes",
-        "banner_pickup": "No",
-        "exterior_photos": "No",
-        "eyes_on_property": "No",
-        "earliest_pickup_date": "2026-01-02T07:00:00Z"
-      },
-      "zapier_record_id": "01KEC8TAZYBKA1S3X2QE1QYQJ7",
-      "status": "current",
-      "last_updated": "2026-01-08T13:03:29.517Z"
-    },
-    {
-      "id": "970",
-      "address": "1233 Akron St. Aurora, CO 80010",
+      "id": "260",
+      "address": "2815 Ames St Wheat Ridge, CO 80214",
       "coordinates": {
         "lat": 0,
         "lng": 0
@@ -50,9 +68,153 @@
         "eyes_on_property": "No",
         "earliest_pickup_date": "2026-01-03T07:00:00Z"
       },
-      "zapier_record_id": "01KDWTD5X7XX32GWFZYEPX478X",
+      "zapier_record_id": "01KEXBSB6KEDTCGEEYF46KEX0Z",
       "status": "current",
-      "last_updated": "2026-01-08T13:03:29.517Z"
+      "last_updated": "2026-01-14T04:22:10.327Z"
+    },
+    {
+      "id": "182",
+      "address": "1444 N Clarkson St. Denver, CO 80218",
+      "coordinates": {
+        "lat": 0,
+        "lng": 0
+      },
+      "maintenance": {
+        "lockbox_pickup": "No",
+        "banner_pickup": "Yes",
+        "exterior_photos": "No",
+        "eyes_on_property": "No",
+        "earliest_pickup_date": "2026-01-03T07:00:00Z"
+      },
+      "zapier_record_id": "01KEXBSAV1GNQX2S9WKWNZF3AD",
+      "status": "current",
+      "last_updated": "2026-01-14T04:22:10.327Z"
+    },
+    {
+      "id": "182",
+      "address": "1444 N Clarkson St. Denver, CO 80218",
+      "coordinates": {
+        "lat": 0,
+        "lng": 0
+      },
+      "maintenance": {
+        "lockbox_pickup": "No",
+        "banner_pickup": "Yes",
+        "exterior_photos": "No",
+        "eyes_on_property": "No",
+        "earliest_pickup_date": "2026-01-03T07:00:00Z"
+      },
+      "zapier_record_id": "01KEXBS97QGCG5V5KG2689XJK3",
+      "status": "current",
+      "last_updated": "2026-01-14T04:22:10.327Z"
+    },
+    {
+      "id": "260",
+      "address": "2815 Ames St Wheat Ridge, CO 80214",
+      "coordinates": {
+        "lat": 0,
+        "lng": 0
+      },
+      "maintenance": {
+        "lockbox_pickup": "Yes",
+        "banner_pickup": "No",
+        "exterior_photos": "No",
+        "eyes_on_property": "No",
+        "earliest_pickup_date": "2025-12-25T07:00:00Z"
+      },
+      "zapier_record_id": "01KEXBS94E9PY3TKZPTB7TJSEW",
+      "status": "current",
+      "last_updated": "2026-01-14T04:22:10.327Z"
+    },
+    {
+      "id": "424",
+      "address": "Uptown Investment Group [12 UNITS] - 1695 Clinton Street Aurora, CO 80010",
+      "coordinates": {
+        "lat": 0,
+        "lng": 0
+      },
+      "maintenance": {
+        "lockbox_pickup": "No",
+        "banner_pickup": "Yes",
+        "exterior_photos": "No",
+        "eyes_on_property": "No",
+        "earliest_pickup_date": "2025-12-26T07:00:00Z"
+      },
+      "zapier_record_id": "01KEXBS90EG8KYS7P5ZWC1FPJB",
+      "status": "current",
+      "last_updated": "2026-01-14T04:22:10.327Z"
+    },
+    {
+      "id": "1142",
+      "address": "4075 Monmouth - 4075 W. Monmouth Ave. Denver, CO 80123",
+      "coordinates": {
+        "lat": 0,
+        "lng": 0
+      },
+      "maintenance": {
+        "lockbox_pickup": "Yes",
+        "banner_pickup": "No",
+        "exterior_photos": "No",
+        "eyes_on_property": "No",
+        "earliest_pickup_date": "2025-11-17T07:00:00Z"
+      },
+      "zapier_record_id": "01KEXBS8XD5RQ1R1E5PJBVTXNS",
+      "status": "current",
+      "last_updated": "2026-01-14T04:22:10.327Z"
+    },
+    {
+      "id": "268",
+      "address": "75 Harrison St Duplex [2 UNITS] - 75 Harrison St Denver, CO 80206",
+      "coordinates": {
+        "lat": 0,
+        "lng": 0
+      },
+      "maintenance": {
+        "lockbox_pickup": "No",
+        "banner_pickup": "Yes",
+        "exterior_photos": "No",
+        "eyes_on_property": "No",
+        "earliest_pickup_date": null
+      },
+      "zapier_record_id": "01KEXBS8T3H27ZEVWRNW2VWE1G",
+      "status": "current",
+      "last_updated": "2026-01-14T04:22:10.327Z"
+    },
+    {
+      "id": "323",
+      "address": "106** - 4760 S. Wadsworth Blvd Unit K-106 Denver, CO 80123",
+      "coordinates": {
+        "lat": 0,
+        "lng": 0
+      },
+      "maintenance": {
+        "lockbox_pickup": "Yes",
+        "banner_pickup": "No",
+        "exterior_photos": "No",
+        "eyes_on_property": "No",
+        "earliest_pickup_date": null
+      },
+      "zapier_record_id": "01KEEV7BAER1CEG2D177NVQ2GV",
+      "status": "current",
+      "last_updated": "2026-01-14T04:22:10.327Z"
+    },
+    {
+      "id": "1151",
+      "address": "5510 Clay St Denver, CO 80221",
+      "coordinates": {
+        "lat": 0,
+        "lng": 0
+      },
+      "maintenance": {
+        "lockbox_pickup": "Yes",
+        "banner_pickup": "Yes",
+        "exterior_photos": "No",
+        "eyes_on_property": "No",
+        "earliest_pickup_date": null
+      },
+      "zapier_record_id": "01KEC8TAZYBKA1S3X2QE1QYQJ7",
+      "status": "current",
+      "last_updated": "2026-01-14T04:22:10.327Z"
     },
     {
       "id": "1143",
@@ -66,11 +228,11 @@
         "banner_pickup": "No",
         "exterior_photos": "No",
         "eyes_on_property": "No",
-        "earliest_pickup_date": "2026-01-03T07:00:00Z"
+        "earliest_pickup_date": null
       },
       "zapier_record_id": "01KDWTD5S9JZGDTJ1VVNX1J24P",
       "status": "current",
-      "last_updated": "2026-01-08T13:03:29.517Z"
+      "last_updated": "2026-01-14T04:22:10.327Z"
     },
     {
       "id": "1141",
@@ -84,11 +246,11 @@
         "banner_pickup": "No",
         "exterior_photos": "No",
         "eyes_on_property": "No",
-        "earliest_pickup_date": "2026-01-03T07:00:00Z"
+        "earliest_pickup_date": null
       },
       "zapier_record_id": "01KDWTD5P08CJEG1HTHB41SY20",
       "status": "current",
-      "last_updated": "2026-01-08T13:03:29.517Z"
+      "last_updated": "2026-01-14T04:22:10.327Z"
     },
     {
       "id": "183",
@@ -99,32 +261,14 @@
       },
       "maintenance": {
         "lockbox_pickup": "Yes",
-        "banner_pickup": "No",
+        "banner_pickup": "Yes",
         "exterior_photos": "No",
         "eyes_on_property": "No",
-        "earliest_pickup_date": "2026-01-03T07:00:00Z"
+        "earliest_pickup_date": null
       },
       "zapier_record_id": "01KDWTD5J53Z6PMPVCY0B0CS2F",
       "status": "current",
-      "last_updated": "2026-01-08T13:03:29.517Z"
-    },
-    {
-      "id": "1008",
-      "address": "6306 Ingalls Court Arvada, CO 80003",
-      "coordinates": {
-        "lat": 0,
-        "lng": 0
-      },
-      "maintenance": {
-        "lockbox_pickup": "Yes",
-        "banner_pickup": "No",
-        "exterior_photos": "No",
-        "eyes_on_property": "No",
-        "earliest_pickup_date": "2025-12-30T07:00:00Z"
-      },
-      "zapier_record_id": "01KDWTD5FTEWGJBWSPXFYHE4VZ",
-      "status": "current",
-      "last_updated": "2026-01-08T13:03:29.517Z"
+      "last_updated": "2026-01-14T04:22:10.327Z"
     },
     {
       "id": "203",
@@ -138,65 +282,11 @@
         "banner_pickup": "No",
         "exterior_photos": "No",
         "eyes_on_property": "No",
-        "earliest_pickup_date": "2025-12-26T07:00:00Z"
+        "earliest_pickup_date": null
       },
       "zapier_record_id": "01KDWTD5DZHPKREMB92PJZSM8X",
       "status": "current",
-      "last_updated": "2026-01-08T13:03:29.517Z"
-    },
-    {
-      "id": "268",
-      "address": "75 Harrison St Duplex [2 UNITS] - 75 Harrison St Denver, CO 80206",
-      "coordinates": {
-        "lat": 0,
-        "lng": 0
-      },
-      "maintenance": {
-        "lockbox_pickup": "Yes",
-        "banner_pickup": "Yes",
-        "exterior_photos": "No",
-        "eyes_on_property": "No",
-        "earliest_pickup_date": "2025-12-25T07:00:00Z"
-      },
-      "zapier_record_id": "01KDR7RAH7VE3WA45RT5P7795Z",
-      "status": "current",
-      "last_updated": "2026-01-08T13:03:29.517Z"
-    },
-    {
-      "id": "1117",
-      "address": "2926 Eliot Circle [4 Units] [om] - 2926 Eliot Circle Units 1 - 4 Westminster, CO 80030",
-      "coordinates": {
-        "lat": 0,
-        "lng": 0
-      },
-      "maintenance": {
-        "lockbox_pickup": "Yes",
-        "banner_pickup": "No",
-        "exterior_photos": "No",
-        "eyes_on_property": "No",
-        "earliest_pickup_date": "2025-12-26T07:00:00Z"
-      },
-      "zapier_record_id": "01KD876R9A7FG12PVQZVWST06D",
-      "status": "current",
-      "last_updated": "2026-01-08T13:03:29.517Z"
-    },
-    {
-      "id": "1118",
-      "address": "2932 Eliot Circle [4 Units] [om] - 2932 Eliot Circle Units 1 - 4 Westminster, CO 80030",
-      "coordinates": {
-        "lat": 0,
-        "lng": 0
-      },
-      "maintenance": {
-        "lockbox_pickup": "Yes",
-        "banner_pickup": "No",
-        "exterior_photos": "No",
-        "eyes_on_property": "No",
-        "earliest_pickup_date": "2025-11-17T07:00:00Z"
-      },
-      "zapier_record_id": "01KD876R64518Q77WA1NEM4A2M",
-      "status": "current",
-      "last_updated": "2026-01-08T13:03:29.517Z"
+      "last_updated": "2026-01-14T04:22:10.327Z"
     },
     {
       "id": "861",
@@ -214,7 +304,7 @@
       },
       "zapier_record_id": "01KD876R2BWR1415KQB372QRRZ",
       "status": "current",
-      "last_updated": "2026-01-08T13:03:29.517Z"
+      "last_updated": "2026-01-14T04:22:10.327Z"
     },
     {
       "id": "1115",
@@ -232,7 +322,7 @@
       },
       "zapier_record_id": "01KC6R1RMQE428B0YB4C70R7G8",
       "status": "current",
-      "last_updated": "2026-01-08T13:03:29.517Z"
+      "last_updated": "2026-01-14T04:22:10.327Z"
     },
     {
       "id": "263",
@@ -250,14 +340,14 @@
       },
       "zapier_record_id": "01KAHH5JH705TXBT02CD7M56GJ",
       "status": "current",
-      "last_updated": "2026-01-08T13:03:29.517Z"
+      "last_updated": "2026-01-14T04:22:10.327Z"
     }
   ],
-  "last_updated": "2026-01-08T13:03:29.517Z",
+  "last_updated": "2026-01-14T04:22:10.327Z",
   "sync_info": {
     "action": "full_table_sync",
-    "trigger_record_id": "01KEEV7BAER1CEG2D177NVQ2GV",
-    "total_properties": 14,
-    "sync_timestamp": "2026-01-08T13:03:29.517Z"
+    "trigger_record_id": "01KDWTD5J53Z6PMPVCY0B0CS2F",
+    "total_properties": 19,
+    "sync_timestamp": "2026-01-14T04:22:10.327Z"
   }
 }
