@@ -1,22 +1,40 @@
 {
   "properties": [
     {
-      "id": "1142",
-      "address": "4075 Monmouth - 4075 W. Monmouth Ave. Denver, CO 80123",
+      "id": "182",
+      "address": "1444 N Clarkson St. Denver, CO 80218",
       "coordinates": {
         "lat": 0,
         "lng": 0
       },
       "maintenance": {
-        "lockbox_pickup": "Yes",
-        "banner_pickup": "No",
+        "lockbox_pickup": "No",
+        "banner_pickup": "Yes",
         "exterior_photos": "No",
         "eyes_on_property": "No",
         "earliest_pickup_date": "2026-01-21T07:00:00Z"
       },
-      "zapier_record_id": "01KEXBSBJ0ACEM163ZBXZ327Y1",
+      "zapier_record_id": "01KFGXKF495JBYHK2AF5ATNW09",
       "status": "current",
-      "last_updated": "2026-01-14T04:22:10.327Z"
+      "last_updated": "2026-01-21T18:39:07.136Z"
+    },
+    {
+      "id": "1151",
+      "address": "5510 Clay St Denver, CO 80221",
+      "coordinates": {
+        "lat": 0,
+        "lng": 0
+      },
+      "maintenance": {
+        "lockbox_pickup": "No",
+        "banner_pickup": "Yes",
+        "exterior_photos": "No",
+        "eyes_on_property": "No",
+        "earliest_pickup_date": "2026-01-21T07:00:00Z"
+      },
+      "zapier_record_id": "01KFGXKF0A5MN3PTDSWJYMT90N",
+      "status": "current",
+      "last_updated": "2026-01-21T18:39:07.136Z"
     },
     {
       "id": "424",
@@ -30,11 +48,11 @@
         "banner_pickup": "Yes",
         "exterior_photos": "No",
         "eyes_on_property": "No",
-        "earliest_pickup_date": "2026-01-21T07:00:00Z"
+        "earliest_pickup_date": "2025-12-25T07:00:00Z"
       },
-      "zapier_record_id": "01KEXBSBEH7SFY0W2W3YFWMM7Z",
+      "zapier_record_id": "01KFGXKEWXBP98JP5BDMTQ8X2S",
       "status": "current",
-      "last_updated": "2026-01-14T04:22:10.327Z"
+      "last_updated": "2026-01-21T18:39:07.136Z"
     },
     {
       "id": "268",
@@ -48,11 +66,29 @@
         "banner_pickup": "Yes",
         "exterior_photos": "No",
         "eyes_on_property": "No",
-        "earliest_pickup_date": "2025-12-25T07:00:00Z"
+        "earliest_pickup_date": "2026-01-03T07:00:00Z"
       },
-      "zapier_record_id": "01KEXBSBAN46KRC78X84XDJ04Q",
+      "zapier_record_id": "01KFGXKESH580JJCBYHKQ0EWPG",
       "status": "current",
-      "last_updated": "2026-01-14T04:22:10.327Z"
+      "last_updated": "2026-01-21T18:39:07.136Z"
+    },
+    {
+      "id": "1142",
+      "address": "4075 Monmouth - 4075 W. Monmouth Ave. Denver, CO 80123",
+      "coordinates": {
+        "lat": 0,
+        "lng": 0
+      },
+      "maintenance": {
+        "lockbox_pickup": "Yes",
+        "banner_pickup": "No",
+        "exterior_photos": "No",
+        "eyes_on_property": "No",
+        "earliest_pickup_date": "2026-01-03T07:00:00Z"
+      },
+      "zapier_record_id": "01KEXBSBJ0ACEM163ZBXZ327Y1",
+      "status": "current",
+      "last_updated": "2026-01-21T18:39:07.136Z"
     },
     {
       "id": "260",
@@ -70,43 +106,7 @@
       },
       "zapier_record_id": "01KEXBSB6KEDTCGEEYF46KEX0Z",
       "status": "current",
-      "last_updated": "2026-01-14T04:22:10.327Z"
-    },
-    {
-      "id": "182",
-      "address": "1444 N Clarkson St. Denver, CO 80218",
-      "coordinates": {
-        "lat": 0,
-        "lng": 0
-      },
-      "maintenance": {
-        "lockbox_pickup": "No",
-        "banner_pickup": "Yes",
-        "exterior_photos": "No",
-        "eyes_on_property": "No",
-        "earliest_pickup_date": "2026-01-03T07:00:00Z"
-      },
-      "zapier_record_id": "01KEXBSAV1GNQX2S9WKWNZF3AD",
-      "status": "current",
-      "last_updated": "2026-01-14T04:22:10.327Z"
-    },
-    {
-      "id": "182",
-      "address": "1444 N Clarkson St. Denver, CO 80218",
-      "coordinates": {
-        "lat": 0,
-        "lng": 0
-      },
-      "maintenance": {
-        "lockbox_pickup": "No",
-        "banner_pickup": "Yes",
-        "exterior_photos": "No",
-        "eyes_on_property": "No",
-        "earliest_pickup_date": "2026-01-03T07:00:00Z"
-      },
-      "zapier_record_id": "01KEXBS97QGCG5V5KG2689XJK3",
-      "status": "current",
-      "last_updated": "2026-01-14T04:22:10.327Z"
+      "last_updated": "2026-01-21T18:39:07.136Z"
     },
     {
       "id": "260",
@@ -124,25 +124,7 @@
       },
       "zapier_record_id": "01KEXBS94E9PY3TKZPTB7TJSEW",
       "status": "current",
-      "last_updated": "2026-01-14T04:22:10.327Z"
-    },
-    {
-      "id": "424",
-      "address": "Uptown Investment Group [12 UNITS] - 1695 Clinton Street Aurora, CO 80010",
-      "coordinates": {
-        "lat": 0,
-        "lng": 0
-      },
-      "maintenance": {
-        "lockbox_pickup": "No",
-        "banner_pickup": "Yes",
-        "exterior_photos": "No",
-        "eyes_on_property": "No",
-        "earliest_pickup_date": "2025-12-26T07:00:00Z"
-      },
-      "zapier_record_id": "01KEXBS90EG8KYS7P5ZWC1FPJB",
-      "status": "current",
-      "last_updated": "2026-01-14T04:22:10.327Z"
+      "last_updated": "2026-01-21T18:39:07.136Z"
     },
     {
       "id": "1142",
@@ -156,29 +138,11 @@
         "banner_pickup": "No",
         "exterior_photos": "No",
         "eyes_on_property": "No",
-        "earliest_pickup_date": "2025-11-17T07:00:00Z"
+        "earliest_pickup_date": "2025-12-26T07:00:00Z"
       },
       "zapier_record_id": "01KEXBS8XD5RQ1R1E5PJBVTXNS",
       "status": "current",
-      "last_updated": "2026-01-14T04:22:10.327Z"
-    },
-    {
-      "id": "268",
-      "address": "75 Harrison St Duplex [2 UNITS] - 75 Harrison St Denver, CO 80206",
-      "coordinates": {
-        "lat": 0,
-        "lng": 0
-      },
-      "maintenance": {
-        "lockbox_pickup": "No",
-        "banner_pickup": "Yes",
-        "exterior_photos": "No",
-        "eyes_on_property": "No",
-        "earliest_pickup_date": null
-      },
-      "zapier_record_id": "01KEXBS8T3H27ZEVWRNW2VWE1G",
-      "status": "current",
-      "last_updated": "2026-01-14T04:22:10.327Z"
+      "last_updated": "2026-01-21T18:39:07.136Z"
     },
     {
       "id": "323",
@@ -192,29 +156,11 @@
         "banner_pickup": "No",
         "exterior_photos": "No",
         "eyes_on_property": "No",
-        "earliest_pickup_date": null
+        "earliest_pickup_date": "2025-11-17T07:00:00Z"
       },
       "zapier_record_id": "01KEEV7BAER1CEG2D177NVQ2GV",
       "status": "current",
-      "last_updated": "2026-01-14T04:22:10.327Z"
-    },
-    {
-      "id": "1151",
-      "address": "5510 Clay St Denver, CO 80221",
-      "coordinates": {
-        "lat": 0,
-        "lng": 0
-      },
-      "maintenance": {
-        "lockbox_pickup": "Yes",
-        "banner_pickup": "Yes",
-        "exterior_photos": "No",
-        "eyes_on_property": "No",
-        "earliest_pickup_date": null
-      },
-      "zapier_record_id": "01KEC8TAZYBKA1S3X2QE1QYQJ7",
-      "status": "current",
-      "last_updated": "2026-01-14T04:22:10.327Z"
+      "last_updated": "2026-01-21T18:39:07.136Z"
     },
     {
       "id": "1143",
@@ -232,7 +178,7 @@
       },
       "zapier_record_id": "01KDWTD5S9JZGDTJ1VVNX1J24P",
       "status": "current",
-      "last_updated": "2026-01-14T04:22:10.327Z"
+      "last_updated": "2026-01-21T18:39:07.136Z"
     },
     {
       "id": "1141",
@@ -250,7 +196,7 @@
       },
       "zapier_record_id": "01KDWTD5P08CJEG1HTHB41SY20",
       "status": "current",
-      "last_updated": "2026-01-14T04:22:10.327Z"
+      "last_updated": "2026-01-21T18:39:07.136Z"
     },
     {
       "id": "183",
@@ -268,7 +214,7 @@
       },
       "zapier_record_id": "01KDWTD5J53Z6PMPVCY0B0CS2F",
       "status": "current",
-      "last_updated": "2026-01-14T04:22:10.327Z"
+      "last_updated": "2026-01-21T18:39:07.136Z"
     },
     {
       "id": "203",
@@ -286,7 +232,7 @@
       },
       "zapier_record_id": "01KDWTD5DZHPKREMB92PJZSM8X",
       "status": "current",
-      "last_updated": "2026-01-14T04:22:10.327Z"
+      "last_updated": "2026-01-21T18:39:07.136Z"
     },
     {
       "id": "861",
@@ -304,7 +250,7 @@
       },
       "zapier_record_id": "01KD876R2BWR1415KQB372QRRZ",
       "status": "current",
-      "last_updated": "2026-01-14T04:22:10.327Z"
+      "last_updated": "2026-01-21T18:39:07.136Z"
     },
     {
       "id": "1115",
@@ -322,7 +268,7 @@
       },
       "zapier_record_id": "01KC6R1RMQE428B0YB4C70R7G8",
       "status": "current",
-      "last_updated": "2026-01-14T04:22:10.327Z"
+      "last_updated": "2026-01-21T18:39:07.136Z"
     },
     {
       "id": "263",
@@ -340,14 +286,14 @@
       },
       "zapier_record_id": "01KAHH5JH705TXBT02CD7M56GJ",
       "status": "current",
-      "last_updated": "2026-01-14T04:22:10.327Z"
+      "last_updated": "2026-01-21T18:39:07.136Z"
     }
   ],
-  "last_updated": "2026-01-14T04:22:10.327Z",
+  "last_updated": "2026-01-21T18:39:07.136Z",
   "sync_info": {
     "action": "full_table_sync",
-    "trigger_record_id": "01KDWTD5J53Z6PMPVCY0B0CS2F",
-    "total_properties": 19,
-    "sync_timestamp": "2026-01-14T04:22:10.327Z"
+    "trigger_record_id": "01KFGXKEWXBP98JP5BDMTQ8X2S",
+    "total_properties": 16,
+    "sync_timestamp": "2026-01-21T18:39:07.136Z"
   }
 }
