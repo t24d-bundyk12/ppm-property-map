@@ -1,76 +1,22 @@
 {
   "properties": [
     {
-      "id": "1151",
-      "address": "5510 Clay St Denver, CO 80221",
+      "id": "184",
+      "address": "Cherry Manor** [17 UNITS] - 1475 N Cherry St Denver, CO 80220",
       "coordinates": {
         "lat": 0,
         "lng": 0
       },
       "maintenance": {
-        "lockbox_pickup": "No",
-        "banner_pickup": "Yes",
+        "lockbox_pickup": "Yes",
+        "banner_pickup": "No",
         "exterior_photos": "No",
         "eyes_on_property": "No",
-        "earliest_pickup_date": "2026-01-21T07:00:00Z"
+        "earliest_pickup_date": "2026-02-02T07:00:00Z"
       },
-      "zapier_record_id": "01KFYV7FRJVB9DDHMCY2G5VZ4G",
+      "zapier_record_id": "01KG2B1GHX95YQ7MXVN8HCZ80T",
       "status": "current",
-      "last_updated": "2026-01-27T04:26:57.033Z"
-    },
-    {
-      "id": "1151",
-      "address": "5510 Clay St Denver, CO 80221",
-      "coordinates": {
-        "lat": 0,
-        "lng": 0
-      },
-      "maintenance": {
-        "lockbox_pickup": "No",
-        "banner_pickup": "Yes",
-        "exterior_photos": "No",
-        "eyes_on_property": "No",
-        "earliest_pickup_date": "2026-01-21T07:00:00Z"
-      },
-      "zapier_record_id": "01KFYV7DC9MC490ESFZ1JSE2KX",
-      "status": "current",
-      "last_updated": "2026-01-27T04:26:57.033Z"
-    },
-    {
-      "id": "268",
-      "address": "75 Harrison St Duplex [2 UNITS] - 75 Harrison St Denver, CO 80206",
-      "coordinates": {
-        "lat": 0,
-        "lng": 0
-      },
-      "maintenance": {
-        "lockbox_pickup": "No",
-        "banner_pickup": "Yes",
-        "exterior_photos": "No",
-        "eyes_on_property": "No",
-        "earliest_pickup_date": "2025-12-25T07:00:00Z"
-      },
-      "zapier_record_id": "01KFYV7D8W1BWKV65JV8E7ZPJB",
-      "status": "current",
-      "last_updated": "2026-01-27T04:26:57.033Z"
-    },
-    {
-      "id": "424",
-      "address": "Uptown Investment Group [12 UNITS] - 1695 Clinton Street Aurora, CO 80010",
-      "coordinates": {
-        "lat": 0,
-        "lng": 0
-      },
-      "maintenance": {
-        "lockbox_pickup": "No",
-        "banner_pickup": "Yes",
-        "exterior_photos": "No",
-        "eyes_on_property": "No",
-        "earliest_pickup_date": "2026-01-03T07:00:00Z"
-      },
-      "zapier_record_id": "01KFYV7CRMAG1V7T37PRJZ82HJ",
-      "status": "current",
-      "last_updated": "2026-01-27T04:26:57.033Z"
+      "last_updated": "2026-01-28T13:01:14.683Z"
     },
     {
       "id": "182",
@@ -80,69 +26,15 @@
         "lng": 0
       },
       "maintenance": {
-        "lockbox_pickup": "No",
-        "banner_pickup": "Yes",
+        "lockbox_pickup": "Yes",
+        "banner_pickup": "No",
         "exterior_photos": "No",
         "eyes_on_property": "No",
-        "earliest_pickup_date": "2026-01-03T07:00:00Z"
+        "earliest_pickup_date": "2026-02-02T07:00:00Z"
       },
-      "zapier_record_id": "01KFYV7CKXF08N237QRD4TNSZ2",
+      "zapier_record_id": "01KG2B1GFDEW0AG1BFBV85Z7CD",
       "status": "current",
-      "last_updated": "2026-01-27T04:26:57.033Z"
-    },
-    {
-      "id": "268",
-      "address": "75 Harrison St Duplex [2 UNITS] - 75 Harrison St Denver, CO 80206",
-      "coordinates": {
-        "lat": 0,
-        "lng": 0
-      },
-      "maintenance": {
-        "lockbox_pickup": "No",
-        "banner_pickup": "Yes",
-        "exterior_photos": "No",
-        "eyes_on_property": "No",
-        "earliest_pickup_date": "2026-01-03T07:00:00Z"
-      },
-      "zapier_record_id": "01KFYV7CFZ0RR280G51TZ37EPE",
-      "status": "current",
-      "last_updated": "2026-01-27T04:26:57.033Z"
-    },
-    {
-      "id": "424",
-      "address": "Uptown Investment Group [12 UNITS] - 1695 Clinton Street Aurora, CO 80010",
-      "coordinates": {
-        "lat": 0,
-        "lng": 0
-      },
-      "maintenance": {
-        "lockbox_pickup": "No",
-        "banner_pickup": "Yes",
-        "exterior_photos": "No",
-        "eyes_on_property": "No",
-        "earliest_pickup_date": "2025-12-25T07:00:00Z"
-      },
-      "zapier_record_id": "01KFYV7CDSJR6Y1MEQ2DGH22S2",
-      "status": "current",
-      "last_updated": "2026-01-27T04:26:57.033Z"
-    },
-    {
-      "id": "182",
-      "address": "1444 N Clarkson St. Denver, CO 80218",
-      "coordinates": {
-        "lat": 0,
-        "lng": 0
-      },
-      "maintenance": {
-        "lockbox_pickup": "No",
-        "banner_pickup": "Yes",
-        "exterior_photos": "No",
-        "eyes_on_property": "No",
-        "earliest_pickup_date": "2025-12-26T07:00:00Z"
-      },
-      "zapier_record_id": "01KFYV7CBVNX68RRCJ2XWTMMFZ",
-      "status": "current",
-      "last_updated": "2026-01-27T04:26:57.033Z"
+      "last_updated": "2026-01-28T13:01:14.683Z"
     },
     {
       "id": "260",
@@ -156,11 +48,11 @@
         "banner_pickup": "No",
         "exterior_photos": "No",
         "eyes_on_property": "No",
-        "earliest_pickup_date": "2025-11-17T07:00:00Z"
+        "earliest_pickup_date": "2026-01-21T07:00:00Z"
       },
       "zapier_record_id": "01KEXBSB6KEDTCGEEYF46KEX0Z",
       "status": "current",
-      "last_updated": "2026-01-27T04:26:57.033Z"
+      "last_updated": "2026-01-28T13:01:14.683Z"
     },
     {
       "id": "260",
@@ -174,11 +66,11 @@
         "banner_pickup": "No",
         "exterior_photos": "No",
         "eyes_on_property": "No",
-        "earliest_pickup_date": null
+        "earliest_pickup_date": "2026-01-21T07:00:00Z"
       },
       "zapier_record_id": "01KEXBS94E9PY3TKZPTB7TJSEW",
       "status": "current",
-      "last_updated": "2026-01-27T04:26:57.033Z"
+      "last_updated": "2026-01-28T13:01:14.683Z"
     },
     {
       "id": "323",
@@ -192,11 +84,11 @@
         "banner_pickup": "No",
         "exterior_photos": "No",
         "eyes_on_property": "No",
-        "earliest_pickup_date": null
+        "earliest_pickup_date": "2025-12-25T07:00:00Z"
       },
       "zapier_record_id": "01KEEV7BAER1CEG2D177NVQ2GV",
       "status": "current",
-      "last_updated": "2026-01-27T04:26:57.033Z"
+      "last_updated": "2026-01-28T13:01:14.683Z"
     },
     {
       "id": "1143",
@@ -210,11 +102,11 @@
         "banner_pickup": "No",
         "exterior_photos": "No",
         "eyes_on_property": "No",
-        "earliest_pickup_date": null
+        "earliest_pickup_date": "2026-01-03T07:00:00Z"
       },
       "zapier_record_id": "01KDWTD5S9JZGDTJ1VVNX1J24P",
       "status": "current",
-      "last_updated": "2026-01-27T04:26:57.033Z"
+      "last_updated": "2026-01-28T13:01:14.683Z"
     },
     {
       "id": "1141",
@@ -228,11 +120,11 @@
         "banner_pickup": "No",
         "exterior_photos": "No",
         "eyes_on_property": "No",
-        "earliest_pickup_date": null
+        "earliest_pickup_date": "2026-01-03T07:00:00Z"
       },
       "zapier_record_id": "01KDWTD5P08CJEG1HTHB41SY20",
       "status": "current",
-      "last_updated": "2026-01-27T04:26:57.033Z"
+      "last_updated": "2026-01-28T13:01:14.683Z"
     },
     {
       "id": "183",
@@ -246,11 +138,11 @@
         "banner_pickup": "Yes",
         "exterior_photos": "No",
         "eyes_on_property": "No",
-        "earliest_pickup_date": null
+        "earliest_pickup_date": "2026-01-03T07:00:00Z"
       },
       "zapier_record_id": "01KDWTD5J53Z6PMPVCY0B0CS2F",
       "status": "current",
-      "last_updated": "2026-01-27T04:26:57.033Z"
+      "last_updated": "2026-01-28T13:01:14.683Z"
     },
     {
       "id": "203",
@@ -264,11 +156,11 @@
         "banner_pickup": "No",
         "exterior_photos": "No",
         "eyes_on_property": "No",
-        "earliest_pickup_date": null
+        "earliest_pickup_date": "2025-12-25T07:00:00Z"
       },
       "zapier_record_id": "01KDWTD5DZHPKREMB92PJZSM8X",
       "status": "current",
-      "last_updated": "2026-01-27T04:26:57.033Z"
+      "last_updated": "2026-01-28T13:01:14.683Z"
     },
     {
       "id": "861",
@@ -282,11 +174,11 @@
         "banner_pickup": "No",
         "exterior_photos": "No",
         "eyes_on_property": "No",
-        "earliest_pickup_date": null
+        "earliest_pickup_date": "2025-12-26T07:00:00Z"
       },
       "zapier_record_id": "01KD876R2BWR1415KQB372QRRZ",
       "status": "current",
-      "last_updated": "2026-01-27T04:26:57.033Z"
+      "last_updated": "2026-01-28T13:01:14.683Z"
     },
     {
       "id": "1115",
@@ -300,11 +192,11 @@
         "banner_pickup": "Yes",
         "exterior_photos": "No",
         "eyes_on_property": "No",
-        "earliest_pickup_date": null
+        "earliest_pickup_date": "2025-11-17T07:00:00Z"
       },
       "zapier_record_id": "01KC6R1RMQE428B0YB4C70R7G8",
       "status": "current",
-      "last_updated": "2026-01-27T04:26:57.033Z"
+      "last_updated": "2026-01-28T13:01:14.683Z"
     },
     {
       "id": "263",
@@ -322,14 +214,14 @@
       },
       "zapier_record_id": "01KAHH5JH705TXBT02CD7M56GJ",
       "status": "current",
-      "last_updated": "2026-01-27T04:26:57.033Z"
+      "last_updated": "2026-01-28T13:01:14.683Z"
     }
   ],
-  "last_updated": "2026-01-27T04:26:57.033Z",
+  "last_updated": "2026-01-28T13:01:14.683Z",
   "sync_info": {
     "action": "full_table_sync",
-    "trigger_record_id": "01KFYV7CDSJR6Y1MEQ2DGH22S2",
-    "total_properties": 18,
-    "sync_timestamp": "2026-01-27T04:26:57.033Z"
+    "trigger_record_id": "01KG2B1GFDEW0AG1BFBV85Z7CD",
+    "total_properties": 12,
+    "sync_timestamp": "2026-01-28T13:01:14.683Z"
   }
 }
