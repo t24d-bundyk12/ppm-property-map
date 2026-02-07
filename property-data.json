@@ -1,22 +1,76 @@
 {
   "properties": [
     {
-      "id": "841",
-      "address": "2005 S. Gilpin St Denver, CO 80210",
+      "id": "821",
+      "address": "1980 E 47th Ave Denver, CO 80216",
       "coordinates": {
         "lat": 0,
         "lng": 0
       },
       "maintenance": {
-        "lockbox_pickup": "No",
-        "banner_pickup": "Yes",
+        "lockbox_pickup": "Yes",
+        "banner_pickup": "No",
         "exterior_photos": "No",
         "eyes_on_property": "No",
         "earliest_pickup_date": "2026-01-03T07:00:00Z"
       },
-      "zapier_record_id": "01KGGB5P6VDH1WQR0MEZWQY8C2",
+      "zapier_record_id": "01KGW31QK173JNY3V1Z5SV2E24",
       "status": "current",
-      "last_updated": "2026-02-02T23:32:41.842Z"
+      "last_updated": "2026-02-07T13:01:37.155Z"
+    },
+    {
+      "id": "106",
+      "address": "7455 E. Quincy #107 Denver, CO 80237",
+      "coordinates": {
+        "lat": 0,
+        "lng": 0
+      },
+      "maintenance": {
+        "lockbox_pickup": "Yes",
+        "banner_pickup": "No",
+        "exterior_photos": "No",
+        "eyes_on_property": "No",
+        "earliest_pickup_date": "2026-02-06T07:00:00Z"
+      },
+      "zapier_record_id": "01KGW31Q1AXXWPQFQ1FS5XE06A",
+      "status": "current",
+      "last_updated": "2026-02-07T13:01:37.155Z"
+    },
+    {
+      "id": "1138",
+      "address": "11111 Alcott St #B Westminster, CO 80234",
+      "coordinates": {
+        "lat": 0,
+        "lng": 0
+      },
+      "maintenance": {
+        "lockbox_pickup": "Yes",
+        "banner_pickup": "No",
+        "exterior_photos": "No",
+        "eyes_on_property": "No",
+        "earliest_pickup_date": "2026-02-09T07:00:00Z"
+      },
+      "zapier_record_id": "01KGW31PY2Q96C922WWSQBXVRA",
+      "status": "current",
+      "last_updated": "2026-02-07T13:01:37.155Z"
+    },
+    {
+      "id": "177",
+      "address": "1045 Balsam St.* [11 UNITS] [om] - 1045 Balsam St. Lakewood, CO 80214",
+      "coordinates": {
+        "lat": 0,
+        "lng": 0
+      },
+      "maintenance": {
+        "lockbox_pickup": "Yes",
+        "banner_pickup": "No",
+        "exterior_photos": "No",
+        "eyes_on_property": "No",
+        "earliest_pickup_date": "2026-01-03T07:00:00Z"
+      },
+      "zapier_record_id": "01KGW31PSPM57J6ESY26QZDW67",
+      "status": "current",
+      "last_updated": "2026-02-07T13:01:37.155Z"
     },
     {
       "id": "1026",
@@ -34,79 +88,7 @@
       },
       "zapier_record_id": "01KGGB5NXP5K9X378E010ST98J",
       "status": "current",
-      "last_updated": "2026-02-02T23:32:41.842Z"
-    },
-    {
-      "id": "1151",
-      "address": "5510 Clay St Denver, CO 80221",
-      "coordinates": {
-        "lat": 0,
-        "lng": 0
-      },
-      "maintenance": {
-        "lockbox_pickup": "No",
-        "banner_pickup": "Yes",
-        "exterior_photos": "No",
-        "eyes_on_property": "No",
-        "earliest_pickup_date": "2026-02-02T07:00:00Z"
-      },
-      "zapier_record_id": "01KGGB5NSQZSQE3VS3D0V1D08X",
-      "status": "current",
-      "last_updated": "2026-02-02T23:32:41.842Z"
-    },
-    {
-      "id": "268",
-      "address": "75 Harrison St Duplex [2 UNITS] - 75 Harrison St Denver, CO 80206",
-      "coordinates": {
-        "lat": 0,
-        "lng": 0
-      },
-      "maintenance": {
-        "lockbox_pickup": "No",
-        "banner_pickup": "Yes",
-        "exterior_photos": "No",
-        "eyes_on_property": "No",
-        "earliest_pickup_date": "2025-12-25T07:00:00Z"
-      },
-      "zapier_record_id": "01KGGB5NPCJH20HBWCH4ZAYA3F",
-      "status": "current",
-      "last_updated": "2026-02-02T23:32:41.842Z"
-    },
-    {
-      "id": "424",
-      "address": "Uptown Investment Group [12 UNITS] - 1695 Clinton Street Aurora, CO 80010",
-      "coordinates": {
-        "lat": 0,
-        "lng": 0
-      },
-      "maintenance": {
-        "lockbox_pickup": "No",
-        "banner_pickup": "Yes",
-        "exterior_photos": "No",
-        "eyes_on_property": "No",
-        "earliest_pickup_date": "2026-01-03T07:00:00Z"
-      },
-      "zapier_record_id": "01KGGB5NK9312Q0D2GBJ3B2AN9",
-      "status": "current",
-      "last_updated": "2026-02-02T23:32:41.842Z"
-    },
-    {
-      "id": "183",
-      "address": "1450 N Clarkson St. Denver, CO 80218",
-      "coordinates": {
-        "lat": 0,
-        "lng": 0
-      },
-      "maintenance": {
-        "lockbox_pickup": "No",
-        "banner_pickup": "Yes",
-        "exterior_photos": "No",
-        "eyes_on_property": "No",
-        "earliest_pickup_date": "2026-01-03T07:00:00Z"
-      },
-      "zapier_record_id": "01KGGB5NFTHCDQ6EDC053MZNMA",
-      "status": "current",
-      "last_updated": "2026-02-02T23:32:41.842Z"
+      "last_updated": "2026-02-07T13:01:37.155Z"
     },
     {
       "id": "184",
@@ -124,25 +106,7 @@
       },
       "zapier_record_id": "01KG2B1GHX95YQ7MXVN8HCZ80T",
       "status": "current",
-      "last_updated": "2026-02-02T23:32:41.842Z"
-    },
-    {
-      "id": "182",
-      "address": "1444 N Clarkson St. Denver, CO 80218",
-      "coordinates": {
-        "lat": 0,
-        "lng": 0
-      },
-      "maintenance": {
-        "lockbox_pickup": "Yes",
-        "banner_pickup": "No",
-        "exterior_photos": "No",
-        "eyes_on_property": "No",
-        "earliest_pickup_date": "2026-01-03T07:00:00Z"
-      },
-      "zapier_record_id": "01KG2B1GFDEW0AG1BFBV85Z7CD",
-      "status": "current",
-      "last_updated": "2026-02-02T23:32:41.842Z"
+      "last_updated": "2026-02-07T13:01:37.155Z"
     },
     {
       "id": "323",
@@ -156,11 +120,11 @@
         "banner_pickup": "No",
         "exterior_photos": "No",
         "eyes_on_property": "No",
-        "earliest_pickup_date": "2025-11-17T07:00:00Z"
+        "earliest_pickup_date": "2026-01-03T07:00:00Z"
       },
       "zapier_record_id": "01KEEV7BAER1CEG2D177NVQ2GV",
       "status": "current",
-      "last_updated": "2026-02-02T23:32:41.842Z"
+      "last_updated": "2026-02-07T13:01:37.155Z"
     },
     {
       "id": "1143",
@@ -174,11 +138,11 @@
         "banner_pickup": "No",
         "exterior_photos": "No",
         "eyes_on_property": "No",
-        "earliest_pickup_date": null
+        "earliest_pickup_date": "2026-01-03T07:00:00Z"
       },
       "zapier_record_id": "01KDWTD5S9JZGDTJ1VVNX1J24P",
       "status": "current",
-      "last_updated": "2026-02-02T23:32:41.842Z"
+      "last_updated": "2026-02-07T13:01:37.155Z"
     },
     {
       "id": "1141",
@@ -192,11 +156,11 @@
         "banner_pickup": "No",
         "exterior_photos": "No",
         "eyes_on_property": "No",
-        "earliest_pickup_date": null
+        "earliest_pickup_date": "2025-12-25T07:00:00Z"
       },
       "zapier_record_id": "01KDWTD5P08CJEG1HTHB41SY20",
       "status": "current",
-      "last_updated": "2026-02-02T23:32:41.842Z"
+      "last_updated": "2026-02-07T13:01:37.155Z"
     },
     {
       "id": "203",
@@ -210,11 +174,11 @@
         "banner_pickup": "No",
         "exterior_photos": "No",
         "eyes_on_property": "No",
-        "earliest_pickup_date": null
+        "earliest_pickup_date": "2025-11-17T07:00:00Z"
       },
       "zapier_record_id": "01KDWTD5DZHPKREMB92PJZSM8X",
       "status": "current",
-      "last_updated": "2026-02-02T23:32:41.842Z"
+      "last_updated": "2026-02-07T13:01:37.155Z"
     },
     {
       "id": "861",
@@ -232,25 +196,7 @@
       },
       "zapier_record_id": "01KD876R2BWR1415KQB372QRRZ",
       "status": "current",
-      "last_updated": "2026-02-02T23:32:41.842Z"
-    },
-    {
-      "id": "1115",
-      "address": "10352 W 59th Ave Units 1 - 4 Arvada, CO 80004",
-      "coordinates": {
-        "lat": 0,
-        "lng": 0
-      },
-      "maintenance": {
-        "lockbox_pickup": "Yes",
-        "banner_pickup": "No",
-        "exterior_photos": "No",
-        "eyes_on_property": "No",
-        "earliest_pickup_date": null
-      },
-      "zapier_record_id": "01KC6R1RMQE428B0YB4C70R7G8",
-      "status": "current",
-      "last_updated": "2026-02-02T23:32:41.842Z"
+      "last_updated": "2026-02-07T13:01:37.155Z"
     },
     {
       "id": "263",
@@ -268,14 +214,14 @@
       },
       "zapier_record_id": "01KAHH5JH705TXBT02CD7M56GJ",
       "status": "current",
-      "last_updated": "2026-02-02T23:32:41.842Z"
+      "last_updated": "2026-02-07T13:01:37.155Z"
     }
   ],
-  "last_updated": "2026-02-02T23:32:41.842Z",
+  "last_updated": "2026-02-07T13:01:37.155Z",
   "sync_info": {
     "action": "full_table_sync",
-    "trigger_record_id": "01KGGB5NSQZSQE3VS3D0V1D08X",
-    "total_properties": 15,
-    "sync_timestamp": "2026-02-02T23:32:41.842Z"
+    "trigger_record_id": "01KGW31Q1AXXWPQFQ1FS5XE06A",
+    "total_properties": 12,
+    "sync_timestamp": "2026-02-07T13:01:37.155Z"
   }
 }
