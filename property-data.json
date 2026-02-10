@@ -1,6 +1,78 @@
 {
   "properties": [
     {
+      "id": "268",
+      "address": "75 Harrison St Duplex [2 UNITS] - 75 Harrison St Denver, CO 80206",
+      "coordinates": {
+        "lat": 0,
+        "lng": 0
+      },
+      "maintenance": {
+        "lockbox_pickup": "No",
+        "banner_pickup": "Yes",
+        "exterior_photos": "No",
+        "eyes_on_property": "No",
+        "earliest_pickup_date": "2026-01-03T07:00:00Z"
+      },
+      "zapier_record_id": "01KH2M9P1REZGGKEJHP7WXFBGW",
+      "status": "current",
+      "last_updated": "2026-02-10T01:58:32.134Z"
+    },
+    {
+      "id": "841",
+      "address": "2005 S. Gilpin St Denver, CO 80210",
+      "coordinates": {
+        "lat": 0,
+        "lng": 0
+      },
+      "maintenance": {
+        "lockbox_pickup": "No",
+        "banner_pickup": "Yes",
+        "exterior_photos": "No",
+        "eyes_on_property": "No",
+        "earliest_pickup_date": "2026-02-09T07:00:00Z"
+      },
+      "zapier_record_id": "01KH2M9NXVCJJR8W4CD9PJ8HGK",
+      "status": "current",
+      "last_updated": "2026-02-10T01:58:32.134Z"
+    },
+    {
+      "id": "424",
+      "address": "Uptown Investment Group [12 UNITS] - 1695 Clinton Street Aurora, CO 80010",
+      "coordinates": {
+        "lat": 0,
+        "lng": 0
+      },
+      "maintenance": {
+        "lockbox_pickup": "No",
+        "banner_pickup": "Yes",
+        "exterior_photos": "No",
+        "eyes_on_property": "No",
+        "earliest_pickup_date": "2026-02-02T07:00:00Z"
+      },
+      "zapier_record_id": "01KH2M9NT1526Y72VJD9J6RFF9",
+      "status": "current",
+      "last_updated": "2026-02-10T01:58:32.134Z"
+    },
+    {
+      "id": "183",
+      "address": "1450 N Clarkson St. Denver, CO 80218",
+      "coordinates": {
+        "lat": 0,
+        "lng": 0
+      },
+      "maintenance": {
+        "lockbox_pickup": "No",
+        "banner_pickup": "Yes",
+        "exterior_photos": "No",
+        "eyes_on_property": "No",
+        "earliest_pickup_date": "2025-12-25T07:00:00Z"
+      },
+      "zapier_record_id": "01KH2M9NQQKWMM0TQEQ44J1JDN",
+      "status": "current",
+      "last_updated": "2026-02-10T01:58:32.134Z"
+    },
+    {
       "id": "821",
       "address": "1980 E 47th Ave Denver, CO 80216",
       "coordinates": {
@@ -16,25 +88,7 @@
       },
       "zapier_record_id": "01KGW31QK173JNY3V1Z5SV2E24",
       "status": "current",
-      "last_updated": "2026-02-07T13:01:37.155Z"
-    },
-    {
-      "id": "106",
-      "address": "7455 E. Quincy #107 Denver, CO 80237",
-      "coordinates": {
-        "lat": 0,
-        "lng": 0
-      },
-      "maintenance": {
-        "lockbox_pickup": "Yes",
-        "banner_pickup": "No",
-        "exterior_photos": "No",
-        "eyes_on_property": "No",
-        "earliest_pickup_date": "2026-02-06T07:00:00Z"
-      },
-      "zapier_record_id": "01KGW31Q1AXXWPQFQ1FS5XE06A",
-      "status": "current",
-      "last_updated": "2026-02-07T13:01:37.155Z"
+      "last_updated": "2026-02-10T01:58:32.134Z"
     },
     {
       "id": "1138",
@@ -48,11 +102,11 @@
         "banner_pickup": "No",
         "exterior_photos": "No",
         "eyes_on_property": "No",
-        "earliest_pickup_date": "2026-02-09T07:00:00Z"
+        "earliest_pickup_date": "2026-01-03T07:00:00Z"
       },
       "zapier_record_id": "01KGW31PY2Q96C922WWSQBXVRA",
       "status": "current",
-      "last_updated": "2026-02-07T13:01:37.155Z"
+      "last_updated": "2026-02-10T01:58:32.134Z"
     },
     {
       "id": "177",
@@ -66,29 +120,11 @@
         "banner_pickup": "No",
         "exterior_photos": "No",
         "eyes_on_property": "No",
-        "earliest_pickup_date": "2026-01-03T07:00:00Z"
+        "earliest_pickup_date": "2025-12-25T07:00:00Z"
       },
       "zapier_record_id": "01KGW31PSPM57J6ESY26QZDW67",
       "status": "current",
-      "last_updated": "2026-02-07T13:01:37.155Z"
-    },
-    {
-      "id": "1026",
-      "address": "2929 W. 119th Ave #102 Westminster, CO 80234",
-      "coordinates": {
-        "lat": 0,
-        "lng": 0
-      },
-      "maintenance": {
-        "lockbox_pickup": "Yes",
-        "banner_pickup": "No",
-        "exterior_photos": "No",
-        "eyes_on_property": "No",
-        "earliest_pickup_date": "2026-02-02T07:00:00Z"
-      },
-      "zapier_record_id": "01KGGB5NXP5K9X378E010ST98J",
-      "status": "current",
-      "last_updated": "2026-02-07T13:01:37.155Z"
+      "last_updated": "2026-02-10T01:58:32.134Z"
     },
     {
       "id": "184",
@@ -102,11 +138,11 @@
         "banner_pickup": "Yes",
         "exterior_photos": "No",
         "eyes_on_property": "No",
-        "earliest_pickup_date": "2025-12-25T07:00:00Z"
+        "earliest_pickup_date": "2025-11-17T07:00:00Z"
       },
       "zapier_record_id": "01KG2B1GHX95YQ7MXVN8HCZ80T",
       "status": "current",
-      "last_updated": "2026-02-07T13:01:37.155Z"
+      "last_updated": "2026-02-10T01:58:32.134Z"
     },
     {
       "id": "323",
@@ -120,29 +156,11 @@
         "banner_pickup": "No",
         "exterior_photos": "No",
         "eyes_on_property": "No",
-        "earliest_pickup_date": "2026-01-03T07:00:00Z"
+        "earliest_pickup_date": null
       },
       "zapier_record_id": "01KEEV7BAER1CEG2D177NVQ2GV",
       "status": "current",
-      "last_updated": "2026-02-07T13:01:37.155Z"
-    },
-    {
-      "id": "1143",
-      "address": "2415 Java Drive Castle Rock, CO 80109",
-      "coordinates": {
-        "lat": 0,
-        "lng": 0
-      },
-      "maintenance": {
-        "lockbox_pickup": "Yes",
-        "banner_pickup": "No",
-        "exterior_photos": "No",
-        "eyes_on_property": "No",
-        "earliest_pickup_date": "2026-01-03T07:00:00Z"
-      },
-      "zapier_record_id": "01KDWTD5S9JZGDTJ1VVNX1J24P",
-      "status": "current",
-      "last_updated": "2026-02-07T13:01:37.155Z"
+      "last_updated": "2026-02-10T01:58:32.134Z"
     },
     {
       "id": "1141",
@@ -156,11 +174,11 @@
         "banner_pickup": "No",
         "exterior_photos": "No",
         "eyes_on_property": "No",
-        "earliest_pickup_date": "2025-12-25T07:00:00Z"
+        "earliest_pickup_date": null
       },
       "zapier_record_id": "01KDWTD5P08CJEG1HTHB41SY20",
       "status": "current",
-      "last_updated": "2026-02-07T13:01:37.155Z"
+      "last_updated": "2026-02-10T01:58:32.134Z"
     },
     {
       "id": "203",
@@ -174,11 +192,11 @@
         "banner_pickup": "No",
         "exterior_photos": "No",
         "eyes_on_property": "No",
-        "earliest_pickup_date": "2025-11-17T07:00:00Z"
+        "earliest_pickup_date": null
       },
       "zapier_record_id": "01KDWTD5DZHPKREMB92PJZSM8X",
       "status": "current",
-      "last_updated": "2026-02-07T13:01:37.155Z"
+      "last_updated": "2026-02-10T01:58:32.134Z"
     },
     {
       "id": "861",
@@ -196,7 +214,7 @@
       },
       "zapier_record_id": "01KD876R2BWR1415KQB372QRRZ",
       "status": "current",
-      "last_updated": "2026-02-07T13:01:37.155Z"
+      "last_updated": "2026-02-10T01:58:32.134Z"
     },
     {
       "id": "263",
@@ -214,14 +232,14 @@
       },
       "zapier_record_id": "01KAHH5JH705TXBT02CD7M56GJ",
       "status": "current",
-      "last_updated": "2026-02-07T13:01:37.155Z"
+      "last_updated": "2026-02-10T01:58:32.134Z"
     }
   ],
-  "last_updated": "2026-02-07T13:01:37.155Z",
+  "last_updated": "2026-02-10T01:58:32.134Z",
   "sync_info": {
     "action": "full_table_sync",
-    "trigger_record_id": "01KGW31Q1AXXWPQFQ1FS5XE06A",
-    "total_properties": 12,
-    "sync_timestamp": "2026-02-07T13:01:37.155Z"
+    "trigger_record_id": "01KH2M9NXVCJJR8W4CD9PJ8HGK",
+    "total_properties": 13,
+    "sync_timestamp": "2026-02-10T01:58:32.134Z"
   }
 }
