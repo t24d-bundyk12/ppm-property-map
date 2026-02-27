@@ -16,7 +16,7 @@
       },
       "zapier_record_id": "01KJFK2QF4ZVGRT8MZ2K1M09JN",
       "status": "current",
-      "last_updated": "2026-02-27T13:03:02.348Z"
+      "last_updated": "2026-02-27T13:03:15.078Z"
     },
     {
       "id": "940",
@@ -34,7 +34,7 @@
       },
       "zapier_record_id": "01KJFK2JZVZKWJXWX096DQNBA7",
       "status": "current",
-      "last_updated": "2026-02-27T13:03:02.348Z"
+      "last_updated": "2026-02-27T13:03:15.078Z"
     },
     {
       "id": "821",
@@ -52,7 +52,7 @@
       },
       "zapier_record_id": "01KGW31QK173JNY3V1Z5SV2E24",
       "status": "current",
-      "last_updated": "2026-02-27T13:03:02.348Z"
+      "last_updated": "2026-02-27T13:03:15.078Z"
     },
     {
       "id": "1138",
@@ -70,7 +70,7 @@
       },
       "zapier_record_id": "01KGW31PY2Q96C922WWSQBXVRA",
       "status": "current",
-      "last_updated": "2026-02-27T13:03:02.348Z"
+      "last_updated": "2026-02-27T13:03:15.078Z"
     },
     {
       "id": "177",
@@ -88,7 +88,7 @@
       },
       "zapier_record_id": "01KGW31PSPM57J6ESY26QZDW67",
       "status": "current",
-      "last_updated": "2026-02-27T13:03:02.348Z"
+      "last_updated": "2026-02-27T13:03:15.078Z"
     },
     {
       "id": "323",
@@ -106,7 +106,7 @@
       },
       "zapier_record_id": "01KEEV7BAER1CEG2D177NVQ2GV",
       "status": "current",
-      "last_updated": "2026-02-27T13:03:02.348Z"
+      "last_updated": "2026-02-27T13:03:15.078Z"
     },
     {
       "id": "1141",
@@ -124,7 +124,7 @@
       },
       "zapier_record_id": "01KDWTD5P08CJEG1HTHB41SY20",
       "status": "current",
-      "last_updated": "2026-02-27T13:03:02.348Z"
+      "last_updated": "2026-02-27T13:03:15.078Z"
     },
     {
       "id": "861",
@@ -142,7 +142,7 @@
       },
       "zapier_record_id": "01KD876R2BWR1415KQB372QRRZ",
       "status": "current",
-      "last_updated": "2026-02-27T13:03:02.348Z"
+      "last_updated": "2026-02-27T13:03:15.078Z"
     },
     {
       "id": "263",
@@ -160,14 +160,14 @@
       },
       "zapier_record_id": "01KAHH5JH705TXBT02CD7M56GJ",
       "status": "current",
-      "last_updated": "2026-02-27T13:03:02.348Z"
+      "last_updated": "2026-02-27T13:03:15.078Z"
     }
   ],
-  "last_updated": "2026-02-27T13:03:02.348Z",
+  "last_updated": "2026-02-27T13:03:15.078Z",
   "sync_info": {
     "action": "full_table_sync",
-    "trigger_record_id": "01KJFK2JZVZKWJXWX096DQNBA7",
+    "trigger_record_id": "01KJFK2QF4ZVGRT8MZ2K1M09JN",
     "total_properties": 9,
-    "sync_timestamp": "2026-02-27T13:03:02.348Z"
+    "sync_timestamp": "2026-02-27T13:03:15.078Z"
   }
 }
