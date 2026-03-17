@@ -1,94 +1,58 @@
 {
   "properties": [
     {
-      "id": "1170",
-      "address": "538 S Alkire St. Lakewood, CO 80228",
+      "id": "424",
+      "address": "Uptown Investment Group [12 UNITS] - 1695 Clinton Street Aurora, CO 80010",
       "coordinates": {
         "lat": 0,
         "lng": 0
       },
       "maintenance": {
-        "lockbox_pickup": "Yes",
-        "banner_pickup": "No",
+        "lockbox_pickup": "No",
+        "banner_pickup": "Yes",
         "exterior_photos": "No",
         "eyes_on_property": "No",
-        "earliest_pickup_date": "2026-03-15T06:00:00Z"
+        "earliest_pickup_date": "2026-03-03T07:00:00Z"
       },
-      "zapier_record_id": "01KJFK2QF4ZVGRT8MZ2K1M09JN",
+      "zapier_record_id": "01KKYX14YM8C1A39ECN4XS67Z6",
       "status": "current",
-      "last_updated": "2026-02-27T13:03:15.078Z"
+      "last_updated": "2026-03-17T22:01:28.065Z"
     },
     {
-      "id": "940",
-      "address": "87 W. 41st Ave BLDG [2 Units] - 2485 W. 41st Ave. Denver, CO 80211",
+      "id": "183",
+      "address": "1450 N Clarkson St. Denver, CO 80218",
       "coordinates": {
         "lat": 0,
         "lng": 0
       },
       "maintenance": {
-        "lockbox_pickup": "Yes",
-        "banner_pickup": "No",
-        "exterior_photos": "No",
-        "eyes_on_property": "No",
-        "earliest_pickup_date": "2026-01-03T07:00:00Z"
-      },
-      "zapier_record_id": "01KJFK2JZVZKWJXWX096DQNBA7",
-      "status": "current",
-      "last_updated": "2026-02-27T13:03:15.078Z"
-    },
-    {
-      "id": "821",
-      "address": "1980 E 47th Ave Denver, CO 80216",
-      "coordinates": {
-        "lat": 0,
-        "lng": 0
-      },
-      "maintenance": {
-        "lockbox_pickup": "Yes",
-        "banner_pickup": "No",
-        "exterior_photos": "No",
-        "eyes_on_property": "No",
-        "earliest_pickup_date": "2026-02-09T07:00:00Z"
-      },
-      "zapier_record_id": "01KGW31QK173JNY3V1Z5SV2E24",
-      "status": "current",
-      "last_updated": "2026-02-27T13:03:15.078Z"
-    },
-    {
-      "id": "1138",
-      "address": "11111 Alcott St #B Westminster, CO 80234",
-      "coordinates": {
-        "lat": 0,
-        "lng": 0
-      },
-      "maintenance": {
-        "lockbox_pickup": "Yes",
-        "banner_pickup": "No",
+        "lockbox_pickup": "No",
+        "banner_pickup": "Yes",
         "exterior_photos": "No",
         "eyes_on_property": "No",
         "earliest_pickup_date": "2025-12-25T07:00:00Z"
       },
-      "zapier_record_id": "01KGW31PY2Q96C922WWSQBXVRA",
+      "zapier_record_id": "01KKYX13R8T0V4XJP2QTKAS11F",
       "status": "current",
-      "last_updated": "2026-02-27T13:03:15.078Z"
+      "last_updated": "2026-03-17T22:01:28.065Z"
     },
     {
-      "id": "177",
-      "address": "1045 Balsam St.* [11 UNITS] [om] - 1045 Balsam St. Lakewood, CO 80214",
+      "id": "880",
+      "address": "3444 S. Marion* [20 UNITS] [SPK] - 3444 S. Marion St. Englewood, CO 80113",
       "coordinates": {
         "lat": 0,
         "lng": 0
       },
       "maintenance": {
-        "lockbox_pickup": "Yes",
-        "banner_pickup": "No",
+        "lockbox_pickup": "No",
+        "banner_pickup": "Yes",
         "exterior_photos": "No",
         "eyes_on_property": "No",
-        "earliest_pickup_date": "2026-01-03T07:00:00Z"
+        "earliest_pickup_date": null
       },
-      "zapier_record_id": "01KGW31PSPM57J6ESY26QZDW67",
+      "zapier_record_id": "01KKYX13K9HYG69Y14G7WQWGDZ",
       "status": "current",
-      "last_updated": "2026-02-27T13:03:15.078Z"
+      "last_updated": "2026-03-17T22:01:28.065Z"
     },
     {
       "id": "323",
@@ -100,31 +64,13 @@
       "maintenance": {
         "lockbox_pickup": "Yes",
         "banner_pickup": "No",
-        "exterior_photos": "No",
+        "exterior_photos": "Yes",
         "eyes_on_property": "No",
-        "earliest_pickup_date": "2025-12-25T07:00:00Z"
+        "earliest_pickup_date": null
       },
       "zapier_record_id": "01KEEV7BAER1CEG2D177NVQ2GV",
       "status": "current",
-      "last_updated": "2026-02-27T13:03:15.078Z"
-    },
-    {
-      "id": "1141",
-      "address": "9823 Saybrook Street Highlands Ranch, CO 80126",
-      "coordinates": {
-        "lat": 0,
-        "lng": 0
-      },
-      "maintenance": {
-        "lockbox_pickup": "Yes",
-        "banner_pickup": "No",
-        "exterior_photos": "No",
-        "eyes_on_property": "No",
-        "earliest_pickup_date": "2025-11-17T07:00:00Z"
-      },
-      "zapier_record_id": "01KDWTD5P08CJEG1HTHB41SY20",
-      "status": "current",
-      "last_updated": "2026-02-27T13:03:15.078Z"
+      "last_updated": "2026-03-17T22:01:28.065Z"
     },
     {
       "id": "861",
@@ -142,32 +88,14 @@
       },
       "zapier_record_id": "01KD876R2BWR1415KQB372QRRZ",
       "status": "current",
-      "last_updated": "2026-02-27T13:03:15.078Z"
-    },
-    {
-      "id": "263",
-      "address": "4450 Holland St Wheat Ridge, CO 80033",
-      "coordinates": {
-        "lat": 0,
-        "lng": 0
-      },
-      "maintenance": {
-        "lockbox_pickup": "Yes",
-        "banner_pickup": "No",
-        "exterior_photos": "No",
-        "eyes_on_property": "No",
-        "earliest_pickup_date": null
-      },
-      "zapier_record_id": "01KAHH5JH705TXBT02CD7M56GJ",
-      "status": "current",
-      "last_updated": "2026-02-27T13:03:15.078Z"
+      "last_updated": "2026-03-17T22:01:28.065Z"
     }
   ],
-  "last_updated": "2026-02-27T13:03:15.078Z",
+  "last_updated": "2026-03-17T22:01:28.065Z",
   "sync_info": {
     "action": "full_table_sync",
-    "trigger_record_id": "01KJFK2QF4ZVGRT8MZ2K1M09JN",
-    "total_properties": 9,
-    "sync_timestamp": "2026-02-27T13:03:15.078Z"
+    "trigger_record_id": "01KKYX14YM8C1A39ECN4XS67Z6",
+    "total_properties": 5,
+    "sync_timestamp": "2026-03-17T22:01:28.065Z"
   }
 }
