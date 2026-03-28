@@ -1,62 +1,8 @@
 {
   "properties": [
     {
-      "id": "424",
-      "address": "Uptown Investment Group [12 UNITS] - 1695 Clinton Street Aurora, CO 80010",
-      "coordinates": {
-        "lat": 0,
-        "lng": 0
-      },
-      "maintenance": {
-        "lockbox_pickup": "No",
-        "banner_pickup": "Yes",
-        "exterior_photos": "No",
-        "eyes_on_property": "No",
-        "earliest_pickup_date": "2026-03-03T07:00:00Z"
-      },
-      "zapier_record_id": "01KKYX14YM8C1A39ECN4XS67Z6",
-      "status": "current",
-      "last_updated": "2026-03-17T22:01:28.065Z"
-    },
-    {
-      "id": "183",
-      "address": "1450 N Clarkson St. Denver, CO 80218",
-      "coordinates": {
-        "lat": 0,
-        "lng": 0
-      },
-      "maintenance": {
-        "lockbox_pickup": "No",
-        "banner_pickup": "Yes",
-        "exterior_photos": "No",
-        "eyes_on_property": "No",
-        "earliest_pickup_date": "2025-12-25T07:00:00Z"
-      },
-      "zapier_record_id": "01KKYX13R8T0V4XJP2QTKAS11F",
-      "status": "current",
-      "last_updated": "2026-03-17T22:01:28.065Z"
-    },
-    {
-      "id": "880",
-      "address": "3444 S. Marion* [20 UNITS] [SPK] - 3444 S. Marion St. Englewood, CO 80113",
-      "coordinates": {
-        "lat": 0,
-        "lng": 0
-      },
-      "maintenance": {
-        "lockbox_pickup": "No",
-        "banner_pickup": "Yes",
-        "exterior_photos": "No",
-        "eyes_on_property": "No",
-        "earliest_pickup_date": null
-      },
-      "zapier_record_id": "01KKYX13K9HYG69Y14G7WQWGDZ",
-      "status": "current",
-      "last_updated": "2026-03-17T22:01:28.065Z"
-    },
-    {
-      "id": "323",
-      "address": "106** - 4760 S. Wadsworth Blvd Unit K-106 Denver, CO 80123",
+      "id": "321",
+      "address": "5995 W. Hampden Ave Unit B24 Denver, CO 80227",
       "coordinates": {
         "lat": 0,
         "lng": 0
@@ -64,13 +10,13 @@
       "maintenance": {
         "lockbox_pickup": "Yes",
         "banner_pickup": "No",
-        "exterior_photos": "Yes",
+        "exterior_photos": "No",
         "eyes_on_property": "No",
-        "earliest_pickup_date": null
+        "earliest_pickup_date": "2026-03-30T06:00:00Z"
       },
-      "zapier_record_id": "01KEEV7BAER1CEG2D177NVQ2GV",
+      "zapier_record_id": "01KMT520TT5SJF5HEZH1R9MC72",
       "status": "current",
-      "last_updated": "2026-03-17T22:01:28.065Z"
+      "last_updated": "2026-03-28T12:01:23.903Z"
     },
     {
       "id": "861",
@@ -84,18 +30,18 @@
         "banner_pickup": "No",
         "exterior_photos": "No",
         "eyes_on_property": "No",
-        "earliest_pickup_date": null
+        "earliest_pickup_date": "2025-12-25T07:00:00Z"
       },
       "zapier_record_id": "01KD876R2BWR1415KQB372QRRZ",
       "status": "current",
-      "last_updated": "2026-03-17T22:01:28.065Z"
+      "last_updated": "2026-03-28T12:01:23.903Z"
     }
   ],
-  "last_updated": "2026-03-17T22:01:28.065Z",
+  "last_updated": "2026-03-28T12:01:23.903Z",
   "sync_info": {
     "action": "full_table_sync",
-    "trigger_record_id": "01KKYX14YM8C1A39ECN4XS67Z6",
-    "total_properties": 5,
-    "sync_timestamp": "2026-03-17T22:01:28.065Z"
+    "trigger_record_id": "01KMT520TT5SJF5HEZH1R9MC72",
+    "total_properties": 2,
+    "sync_timestamp": "2026-03-28T12:01:23.903Z"
   }
 }
