@@ -1,6 +1,60 @@
 {
   "properties": [
     {
+      "id": "181",
+      "address": "Mitre Investments [8 UNITS] - 1406-12 E. 14th Ave. Denver, CO 80218",
+      "coordinates": {
+        "lat": 0,
+        "lng": 0
+      },
+      "maintenance": {
+        "lockbox_pickup": "Yes",
+        "banner_pickup": "No",
+        "exterior_photos": "No",
+        "eyes_on_property": "No",
+        "earliest_pickup_date": "2026-04-03T06:00:00Z"
+      },
+      "zapier_record_id": "01KN1WBAKENQ1EC0A1NZ234VRD",
+      "status": "current",
+      "last_updated": "2026-03-31T12:02:56.699Z"
+    },
+    {
+      "id": "424",
+      "address": "Uptown Investment Group [12 UNITS] - 1695 Clinton Street Aurora, CO 80010",
+      "coordinates": {
+        "lat": 0,
+        "lng": 0
+      },
+      "maintenance": {
+        "lockbox_pickup": "Yes",
+        "banner_pickup": "No",
+        "exterior_photos": "No",
+        "eyes_on_property": "No",
+        "earliest_pickup_date": "2026-03-30T06:00:00Z"
+      },
+      "zapier_record_id": "01KN1WAYCRT6THTSA2PPT3F3JR",
+      "status": "current",
+      "last_updated": "2026-03-31T12:02:56.699Z"
+    },
+    {
+      "id": "183",
+      "address": "1450 N Clarkson St. Denver, CO 80218",
+      "coordinates": {
+        "lat": 0,
+        "lng": 0
+      },
+      "maintenance": {
+        "lockbox_pickup": "Yes",
+        "banner_pickup": "No",
+        "exterior_photos": "No",
+        "eyes_on_property": "No",
+        "earliest_pickup_date": "2026-04-03T06:00:00Z"
+      },
+      "zapier_record_id": "01KN1WAY8VK3K1V6R4JFG2QDJF",
+      "status": "current",
+      "last_updated": "2026-03-31T12:02:56.699Z"
+    },
+    {
       "id": "321",
       "address": "5995 W. Hampden Ave Unit B24 Denver, CO 80227",
       "coordinates": {
@@ -16,7 +70,7 @@
       },
       "zapier_record_id": "01KMT520TT5SJF5HEZH1R9MC72",
       "status": "current",
-      "last_updated": "2026-03-28T12:01:23.903Z"
+      "last_updated": "2026-03-31T12:02:56.699Z"
     },
     {
       "id": "861",
@@ -34,14 +88,14 @@
       },
       "zapier_record_id": "01KD876R2BWR1415KQB372QRRZ",
       "status": "current",
-      "last_updated": "2026-03-28T12:01:23.903Z"
+      "last_updated": "2026-03-31T12:02:56.699Z"
     }
   ],
-  "last_updated": "2026-03-28T12:01:23.903Z",
+  "last_updated": "2026-03-31T12:02:56.699Z",
   "sync_info": {
     "action": "full_table_sync",
-    "trigger_record_id": "01KMT520TT5SJF5HEZH1R9MC72",
-    "total_properties": 2,
-    "sync_timestamp": "2026-03-28T12:01:23.903Z"
+    "trigger_record_id": "01KN1WBAKENQ1EC0A1NZ234VRD",
+    "total_properties": 5,
+    "sync_timestamp": "2026-03-31T12:02:56.699Z"
   }
 }
