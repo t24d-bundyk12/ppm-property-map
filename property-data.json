@@ -1,6 +1,96 @@
 {
   "properties": [
     {
+      "id": "366",
+      "address": "Jay St/W 40th [4 UNITS] - 4000 Jay St Wheat Ridge, CO 80033",
+      "coordinates": {
+        "lat": 0,
+        "lng": 0
+      },
+      "maintenance": {
+        "lockbox_pickup": "Yes",
+        "banner_pickup": "No",
+        "exterior_photos": "No",
+        "eyes_on_property": "No",
+        "earliest_pickup_date": "2026-04-19T06:00:00Z"
+      },
+      "zapier_record_id": "01KP8GAS0W7924RHGGC0AKHBCY",
+      "status": "current",
+      "last_updated": "2026-04-15T12:03:25.111Z"
+    },
+    {
+      "id": "437",
+      "address": "1145 S Clarkson St Denver, CO 80210",
+      "coordinates": {
+        "lat": 0,
+        "lng": 0
+      },
+      "maintenance": {
+        "lockbox_pickup": "Yes",
+        "banner_pickup": "No",
+        "exterior_photos": "No",
+        "eyes_on_property": "No",
+        "earliest_pickup_date": "2026-04-26T06:00:00Z"
+      },
+      "zapier_record_id": "01KP8GAN43S3P83VG0BD83C9PF",
+      "status": "current",
+      "last_updated": "2026-04-15T12:03:25.111Z"
+    },
+    {
+      "id": "308",
+      "address": "779 Forest St Denver, CO 80220",
+      "coordinates": {
+        "lat": 0,
+        "lng": 0
+      },
+      "maintenance": {
+        "lockbox_pickup": "Yes",
+        "banner_pickup": "No",
+        "exterior_photos": "No",
+        "eyes_on_property": "No",
+        "earliest_pickup_date": "2026-04-24T06:00:00Z"
+      },
+      "zapier_record_id": "01KP8GAKW3H99BV6E33R70TDCZ",
+      "status": "current",
+      "last_updated": "2026-04-15T12:03:25.111Z"
+    },
+    {
+      "id": "1007",
+      "address": "5353 Quitman St. Denver, CO 80031",
+      "coordinates": {
+        "lat": 0,
+        "lng": 0
+      },
+      "maintenance": {
+        "lockbox_pickup": "Yes",
+        "banner_pickup": "No",
+        "exterior_photos": "No",
+        "eyes_on_property": "No",
+        "earliest_pickup_date": "2026-04-26T06:00:00Z"
+      },
+      "zapier_record_id": "01KP8GAKKF4J3RKXGCZM5H604R",
+      "status": "current",
+      "last_updated": "2026-04-15T12:03:25.111Z"
+    },
+    {
+      "id": "263",
+      "address": "4450 Holland St Wheat Ridge, CO 80033",
+      "coordinates": {
+        "lat": 0,
+        "lng": 0
+      },
+      "maintenance": {
+        "lockbox_pickup": "Yes",
+        "banner_pickup": "No",
+        "exterior_photos": "No",
+        "eyes_on_property": "No",
+        "earliest_pickup_date": "2026-05-03T06:00:00Z"
+      },
+      "zapier_record_id": "01KP8GAH6R9QK3VAJGR26JM12N",
+      "status": "current",
+      "last_updated": "2026-04-15T12:03:25.111Z"
+    },
+    {
       "id": "856",
       "address": "1326 Clayton St. [5 UNITS] - 1324-1326 Clayton St. Denver, CO 80206",
       "coordinates": {
@@ -16,7 +106,7 @@
       },
       "zapier_record_id": "01KP5XZYK22QAP9QZP73MH1AD0",
       "status": "current",
-      "last_updated": "2026-04-14T12:04:21.795Z"
+      "last_updated": "2026-04-15T12:03:25.111Z"
     },
     {
       "id": "95",
@@ -34,7 +124,7 @@
       },
       "zapier_record_id": "01KNVMC35MC6DJP769YPNS94M8",
       "status": "current",
-      "last_updated": "2026-04-14T12:04:21.795Z"
+      "last_updated": "2026-04-15T12:03:25.111Z"
     },
     {
       "id": "181",
@@ -52,7 +142,7 @@
       },
       "zapier_record_id": "01KN1WBAKENQ1EC0A1NZ234VRD",
       "status": "current",
-      "last_updated": "2026-04-14T12:04:21.795Z"
+      "last_updated": "2026-04-15T12:03:25.111Z"
     },
     {
       "id": "183",
@@ -70,7 +160,7 @@
       },
       "zapier_record_id": "01KN1WAY8VK3K1V6R4JFG2QDJF",
       "status": "current",
-      "last_updated": "2026-04-14T12:04:21.795Z"
+      "last_updated": "2026-04-15T12:03:25.111Z"
     },
     {
       "id": "321",
@@ -88,7 +178,7 @@
       },
       "zapier_record_id": "01KMT520TT5SJF5HEZH1R9MC72",
       "status": "current",
-      "last_updated": "2026-04-14T12:04:21.795Z"
+      "last_updated": "2026-04-15T12:03:25.111Z"
     },
     {
       "id": "861",
@@ -106,14 +196,14 @@
       },
       "zapier_record_id": "01KD876R2BWR1415KQB372QRRZ",
       "status": "current",
-      "last_updated": "2026-04-14T12:04:21.795Z"
+      "last_updated": "2026-04-15T12:03:25.111Z"
     }
   ],
-  "last_updated": "2026-04-14T12:04:21.795Z",
+  "last_updated": "2026-04-15T12:03:25.111Z",
   "sync_info": {
     "action": "full_table_sync",
-    "trigger_record_id": "01KP5XZYK22QAP9QZP73MH1AD0",
-    "total_properties": 6,
-    "sync_timestamp": "2026-04-14T12:04:21.795Z"
+    "trigger_record_id": "01KP8GAKKF4J3RKXGCZM5H604R",
+    "total_properties": 11,
+    "sync_timestamp": "2026-04-15T12:03:25.111Z"
   }
 }
