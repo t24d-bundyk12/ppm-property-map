@@ -1,6 +1,42 @@
 {
   "properties": [
     {
+      "id": "866",
+      "address": "1606 Eudora St. Denver, CO 80220",
+      "coordinates": {
+        "lat": 0,
+        "lng": 0
+      },
+      "maintenance": {
+        "lockbox_pickup": "Yes",
+        "banner_pickup": "No",
+        "exterior_photos": "No",
+        "eyes_on_property": "No",
+        "earliest_pickup_date": "2026-05-05T06:00:00Z"
+      },
+      "zapier_record_id": "01KQHPK0HZXBGBZ3YCN4SHN0RZ",
+      "status": "current",
+      "last_updated": "2026-05-01T12:01:48.787Z"
+    },
+    {
+      "id": "184",
+      "address": "Cherry Manor** [17 UNITS] - 1475 N Cherry St Denver, CO 80220",
+      "coordinates": {
+        "lat": 0,
+        "lng": 0
+      },
+      "maintenance": {
+        "lockbox_pickup": "Yes",
+        "banner_pickup": "No",
+        "exterior_photos": "No",
+        "eyes_on_property": "No",
+        "earliest_pickup_date": "2026-05-12T06:00:00Z"
+      },
+      "zapier_record_id": "01KQHPJZBP3PMED1JGPHRYF3QS",
+      "status": "current",
+      "last_updated": "2026-05-01T12:01:48.787Z"
+    },
+    {
       "id": "1197",
       "address": "12141 Bannock St. #E Westminster, CO 80234",
       "coordinates": {
@@ -16,7 +52,7 @@
       },
       "zapier_record_id": "01KQ4TM61M4MGF7T0Z20W25469",
       "status": "current",
-      "last_updated": "2026-04-26T12:01:55.994Z"
+      "last_updated": "2026-05-01T12:01:48.787Z"
     },
     {
       "id": "875",
@@ -34,7 +70,7 @@
       },
       "zapier_record_id": "01KPB2QQFCTBAGKEEJR1YA0F7S",
       "status": "current",
-      "last_updated": "2026-04-26T12:01:55.994Z"
+      "last_updated": "2026-05-01T12:01:48.787Z"
     },
     {
       "id": "366",
@@ -52,7 +88,7 @@
       },
       "zapier_record_id": "01KP8GAS0W7924RHGGC0AKHBCY",
       "status": "current",
-      "last_updated": "2026-04-26T12:01:55.994Z"
+      "last_updated": "2026-05-01T12:01:48.787Z"
     },
     {
       "id": "437",
@@ -70,7 +106,7 @@
       },
       "zapier_record_id": "01KP8GAN43S3P83VG0BD83C9PF",
       "status": "current",
-      "last_updated": "2026-04-26T12:01:55.994Z"
+      "last_updated": "2026-05-01T12:01:48.787Z"
     },
     {
       "id": "308",
@@ -88,7 +124,7 @@
       },
       "zapier_record_id": "01KP8GAKW3H99BV6E33R70TDCZ",
       "status": "current",
-      "last_updated": "2026-04-26T12:01:55.994Z"
+      "last_updated": "2026-05-01T12:01:48.787Z"
     },
     {
       "id": "1007",
@@ -106,7 +142,7 @@
       },
       "zapier_record_id": "01KP8GAKKF4J3RKXGCZM5H604R",
       "status": "current",
-      "last_updated": "2026-04-26T12:01:55.994Z"
+      "last_updated": "2026-05-01T12:01:48.787Z"
     },
     {
       "id": "263",
@@ -124,7 +160,7 @@
       },
       "zapier_record_id": "01KP8GAH6R9QK3VAJGR26JM12N",
       "status": "current",
-      "last_updated": "2026-04-26T12:01:55.994Z"
+      "last_updated": "2026-05-01T12:01:48.787Z"
     },
     {
       "id": "856",
@@ -142,7 +178,7 @@
       },
       "zapier_record_id": "01KP5XZYK22QAP9QZP73MH1AD0",
       "status": "current",
-      "last_updated": "2026-04-26T12:01:55.994Z"
+      "last_updated": "2026-05-01T12:01:48.787Z"
     },
     {
       "id": "95",
@@ -160,7 +196,7 @@
       },
       "zapier_record_id": "01KNVMC35MC6DJP769YPNS94M8",
       "status": "current",
-      "last_updated": "2026-04-26T12:01:55.994Z"
+      "last_updated": "2026-05-01T12:01:48.787Z"
     },
     {
       "id": "181",
@@ -178,7 +214,7 @@
       },
       "zapier_record_id": "01KN1WBAKENQ1EC0A1NZ234VRD",
       "status": "current",
-      "last_updated": "2026-04-26T12:01:55.994Z"
+      "last_updated": "2026-05-01T12:01:48.787Z"
     },
     {
       "id": "183",
@@ -196,7 +232,7 @@
       },
       "zapier_record_id": "01KN1WAY8VK3K1V6R4JFG2QDJF",
       "status": "current",
-      "last_updated": "2026-04-26T12:01:55.994Z"
+      "last_updated": "2026-05-01T12:01:48.787Z"
     },
     {
       "id": "321",
@@ -214,14 +250,14 @@
       },
       "zapier_record_id": "01KMT520TT5SJF5HEZH1R9MC72",
       "status": "current",
-      "last_updated": "2026-04-26T12:01:55.994Z"
+      "last_updated": "2026-05-01T12:01:48.787Z"
     }
   ],
-  "last_updated": "2026-04-26T12:01:55.994Z",
+  "last_updated": "2026-05-01T12:01:48.787Z",
   "sync_info": {
     "action": "full_table_sync",
-    "trigger_record_id": "01KQ4TM61M4MGF7T0Z20W25469",
-    "total_properties": 12,
-    "sync_timestamp": "2026-04-26T12:01:55.994Z"
+    "trigger_record_id": "01KQHPK0HZXBGBZ3YCN4SHN0RZ",
+    "total_properties": 14,
+    "sync_timestamp": "2026-05-01T12:01:48.787Z"
   }
 }
