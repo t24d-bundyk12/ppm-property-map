@@ -1,40 +1,40 @@
 {
   "properties": [
     {
-      "id": "880",
-      "address": "3444 S. Marion* [20 UNITS] [SPK] - 3444 S. Marion St. Englewood, CO 80113",
+      "id": "1206",
+      "address": "3171 Green Haven Circle Highlands Ranch, CO 80126",
       "coordinates": {
         "lat": 0,
         "lng": 0
       },
       "maintenance": {
         "lockbox_pickup": "No",
-        "banner_pickup": "Yes",
-        "exterior_photos": "No",
+        "banner_pickup": "No",
+        "exterior_photos": "Yes",
         "eyes_on_property": "No",
         "earliest_pickup_date": "2026-05-12T06:00:00Z"
       },
-      "zapier_record_id": "01KQWHA9Q2YSS7GETSPG37E41B",
+      "zapier_record_id": "01KVFW5TY4G614D122TH024KG7",
       "status": "current",
-      "last_updated": "2026-05-05T17:01:18.233Z"
+      "last_updated": "2026-06-19T12:04:10.362Z"
     },
     {
-      "id": "942",
-      "address": "E 75th BLDG [4 Units] - 6951 E. 75th Ave Commerce City, CO 80022",
+      "id": "765",
+      "address": "9174 Kornbrust Drive - 1 Lone Tree, CO 80124",
       "coordinates": {
         "lat": 0,
         "lng": 0
       },
       "maintenance": {
-        "lockbox_pickup": "No",
-        "banner_pickup": "Yes",
+        "lockbox_pickup": "Yes",
+        "banner_pickup": "No",
         "exterior_photos": "No",
         "eyes_on_property": "No",
         "earliest_pickup_date": "2026-05-12T06:00:00Z"
       },
-      "zapier_record_id": "01KQWHA8KTMGYNAZYXPJD6FM8G",
+      "zapier_record_id": "01KRTWYNZXR3YE4EKTJS8MAYYW",
       "status": "current",
-      "last_updated": "2026-05-05T17:01:18.233Z"
+      "last_updated": "2026-06-19T12:04:10.362Z"
     },
     {
       "id": "407",
@@ -52,7 +52,7 @@
       },
       "zapier_record_id": "01KQWHA8J4Z30Z49B4B6W1K0S7",
       "status": "current",
-      "last_updated": "2026-05-05T17:01:18.233Z"
+      "last_updated": "2026-06-19T12:04:10.362Z"
     },
     {
       "id": "407",
@@ -70,43 +70,25 @@
       },
       "zapier_record_id": "01KQWHA8G7SY6W7ZN1STEWN31N",
       "status": "current",
-      "last_updated": "2026-05-05T17:01:18.233Z"
+      "last_updated": "2026-06-19T12:04:10.362Z"
     },
     {
-      "id": "942",
-      "address": "E 75th BLDG [4 Units] - 6951 E. 75th Ave Commerce City, CO 80022",
+      "id": "177",
+      "address": "1045 Balsam St.* [11 UNITS] **[om]** - 1045 Balsam St. Lakewood, CO 80214",
       "coordinates": {
         "lat": 0,
         "lng": 0
       },
       "maintenance": {
-        "lockbox_pickup": "No",
+        "lockbox_pickup": "Yes",
         "banner_pickup": "Yes",
         "exterior_photos": "No",
         "eyes_on_property": "No",
         "earliest_pickup_date": "2026-03-30T06:00:00Z"
       },
-      "zapier_record_id": "01KQWHA8D9Y0Y6GR39SSJ5HG5E",
+      "zapier_record_id": "01KQWHA85M2TQTC2YJ66GYQK6D",
       "status": "current",
-      "last_updated": "2026-05-05T17:01:18.233Z"
-    },
-    {
-      "id": "1178",
-      "address": "903 S Simms St. Lakewood, CO 80228",
-      "coordinates": {
-        "lat": 0,
-        "lng": 0
-      },
-      "maintenance": {
-        "lockbox_pickup": "No",
-        "banner_pickup": "Yes",
-        "exterior_photos": "No",
-        "eyes_on_property": "No",
-        "earliest_pickup_date": "2026-04-15T06:00:00Z"
-      },
-      "zapier_record_id": "01KQWHA8975340S961FHRQ1H3N",
-      "status": "current",
-      "last_updated": "2026-05-05T17:01:18.233Z"
+      "last_updated": "2026-06-19T12:04:10.362Z"
     },
     {
       "id": "177",
@@ -122,63 +104,9 @@
         "eyes_on_property": "No",
         "earliest_pickup_date": "2026-04-19T06:00:00Z"
       },
-      "zapier_record_id": "01KQWHA85M2TQTC2YJ66GYQK6D",
-      "status": "current",
-      "last_updated": "2026-05-05T17:01:18.233Z"
-    },
-    {
-      "id": "880",
-      "address": "3444 S. Marion* [20 UNITS] [SPK] - 3444 S. Marion St. Englewood, CO 80113",
-      "coordinates": {
-        "lat": 0,
-        "lng": 0
-      },
-      "maintenance": {
-        "lockbox_pickup": "No",
-        "banner_pickup": "Yes",
-        "exterior_photos": "No",
-        "eyes_on_property": "No",
-        "earliest_pickup_date": "2026-04-26T06:00:00Z"
-      },
-      "zapier_record_id": "01KQWHA82TZX63QA0EKVGZY0Z5",
-      "status": "current",
-      "last_updated": "2026-05-05T17:01:18.233Z"
-    },
-    {
-      "id": "177",
-      "address": "1045 Balsam St.* [11 UNITS] **[om]** - 1045 Balsam St. Lakewood, CO 80214",
-      "coordinates": {
-        "lat": 0,
-        "lng": 0
-      },
-      "maintenance": {
-        "lockbox_pickup": "Yes",
-        "banner_pickup": "Yes",
-        "exterior_photos": "No",
-        "eyes_on_property": "No",
-        "earliest_pickup_date": "2026-05-03T06:00:00Z"
-      },
       "zapier_record_id": "01KQWHA81ESDBB7M3Y281GFBM6",
       "status": "current",
-      "last_updated": "2026-05-05T17:01:18.233Z"
-    },
-    {
-      "id": "1178",
-      "address": "903 S Simms St. Lakewood, CO 80228",
-      "coordinates": {
-        "lat": 0,
-        "lng": 0
-      },
-      "maintenance": {
-        "lockbox_pickup": "No",
-        "banner_pickup": "Yes",
-        "exterior_photos": "No",
-        "eyes_on_property": "No",
-        "earliest_pickup_date": "2026-04-09T06:00:00Z"
-      },
-      "zapier_record_id": "01KQWHA7Z9EKYZX0FXGKHD0H3F",
-      "status": "current",
-      "last_updated": "2026-05-05T17:01:18.233Z"
+      "last_updated": "2026-06-19T12:04:10.362Z"
     },
     {
       "id": "760",
@@ -192,11 +120,11 @@
         "banner_pickup": "No",
         "exterior_photos": "No",
         "eyes_on_property": "No",
-        "earliest_pickup_date": "2026-03-30T06:00:00Z"
+        "earliest_pickup_date": "2026-05-03T06:00:00Z"
       },
       "zapier_record_id": "01KQM8ZFQK1S9CX3RBKEPA40NV",
       "status": "current",
-      "last_updated": "2026-05-05T17:01:18.233Z"
+      "last_updated": "2026-06-19T12:04:10.362Z"
     },
     {
       "id": "866",
@@ -210,11 +138,11 @@
         "banner_pickup": "No",
         "exterior_photos": "No",
         "eyes_on_property": "No",
-        "earliest_pickup_date": null
+        "earliest_pickup_date": "2026-03-30T06:00:00Z"
       },
       "zapier_record_id": "01KQHPK0HZXBGBZ3YCN4SHN0RZ",
       "status": "current",
-      "last_updated": "2026-05-05T17:01:18.233Z"
+      "last_updated": "2026-06-19T12:04:10.362Z"
     },
     {
       "id": "184",
@@ -232,7 +160,7 @@
       },
       "zapier_record_id": "01KQHPJZBP3PMED1JGPHRYF3QS",
       "status": "current",
-      "last_updated": "2026-05-05T17:01:18.233Z"
+      "last_updated": "2026-06-19T12:04:10.362Z"
     },
     {
       "id": "1197",
@@ -250,25 +178,7 @@
       },
       "zapier_record_id": "01KQ4TM61M4MGF7T0Z20W25469",
       "status": "current",
-      "last_updated": "2026-05-05T17:01:18.233Z"
-    },
-    {
-      "id": "875",
-      "address": "4031 W 32nd Ave Units A - B Denver, CO 80212",
-      "coordinates": {
-        "lat": 0,
-        "lng": 0
-      },
-      "maintenance": {
-        "lockbox_pickup": "Yes",
-        "banner_pickup": "No",
-        "exterior_photos": "No",
-        "eyes_on_property": "No",
-        "earliest_pickup_date": null
-      },
-      "zapier_record_id": "01KPB2QQFCTBAGKEEJR1YA0F7S",
-      "status": "current",
-      "last_updated": "2026-05-05T17:01:18.233Z"
+      "last_updated": "2026-06-19T12:04:10.362Z"
     },
     {
       "id": "366",
@@ -286,25 +196,7 @@
       },
       "zapier_record_id": "01KP8GAS0W7924RHGGC0AKHBCY",
       "status": "current",
-      "last_updated": "2026-05-05T17:01:18.233Z"
-    },
-    {
-      "id": "437",
-      "address": "1145 S Clarkson St Denver, CO 80210",
-      "coordinates": {
-        "lat": 0,
-        "lng": 0
-      },
-      "maintenance": {
-        "lockbox_pickup": "Yes",
-        "banner_pickup": "No",
-        "exterior_photos": "No",
-        "eyes_on_property": "No",
-        "earliest_pickup_date": null
-      },
-      "zapier_record_id": "01KP8GAN43S3P83VG0BD83C9PF",
-      "status": "current",
-      "last_updated": "2026-05-05T17:01:18.233Z"
+      "last_updated": "2026-06-19T12:04:10.362Z"
     },
     {
       "id": "263",
@@ -322,25 +214,7 @@
       },
       "zapier_record_id": "01KP8GAH6R9QK3VAJGR26JM12N",
       "status": "current",
-      "last_updated": "2026-05-05T17:01:18.233Z"
-    },
-    {
-      "id": "95",
-      "address": "4613 Eureka Ct. Denver, CO 80239",
-      "coordinates": {
-        "lat": 0,
-        "lng": 0
-      },
-      "maintenance": {
-        "lockbox_pickup": "Yes",
-        "banner_pickup": "No",
-        "exterior_photos": "No",
-        "eyes_on_property": "No",
-        "earliest_pickup_date": null
-      },
-      "zapier_record_id": "01KNVMC35MC6DJP769YPNS94M8",
-      "status": "current",
-      "last_updated": "2026-05-05T17:01:18.233Z"
+      "last_updated": "2026-06-19T12:04:10.362Z"
     },
     {
       "id": "321",
@@ -358,14 +232,14 @@
       },
       "zapier_record_id": "01KMT520TT5SJF5HEZH1R9MC72",
       "status": "current",
-      "last_updated": "2026-05-05T17:01:18.233Z"
+      "last_updated": "2026-06-19T12:04:10.362Z"
     }
   ],
-  "last_updated": "2026-05-05T17:01:18.233Z",
+  "last_updated": "2026-06-19T12:04:10.362Z",
   "sync_info": {
     "action": "full_table_sync",
-    "trigger_record_id": "01KQWHA9Q2YSS7GETSPG37E41B",
-    "total_properties": 20,
-    "sync_timestamp": "2026-05-05T17:01:18.233Z"
+    "trigger_record_id": "01KVFW5TY4G614D122TH024KG7",
+    "total_properties": 13,
+    "sync_timestamp": "2026-06-19T12:04:10.362Z"
   }
 }
