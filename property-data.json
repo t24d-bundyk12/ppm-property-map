@@ -1,6 +1,24 @@
 {
   "properties": [
     {
+      "id": "1210",
+      "address": "536 Quentin St. Aurora, CO 80011",
+      "coordinates": {
+        "lat": 0,
+        "lng": 0
+      },
+      "maintenance": {
+        "lockbox_pickup": "No",
+        "banner_pickup": "No",
+        "exterior_photos": "Yes",
+        "eyes_on_property": "No",
+        "earliest_pickup_date": "2026-05-12T06:00:00Z"
+      },
+      "zapier_record_id": "01KWES1FJ6665XSWFJPZS9BFV2",
+      "status": "current",
+      "last_updated": "2026-07-01T12:05:15.965Z"
+    },
+    {
       "id": "1206",
       "address": "3171 Green Haven Circle Highlands Ranch, CO 80126",
       "coordinates": {
@@ -16,7 +34,7 @@
       },
       "zapier_record_id": "01KVFW5TY4G614D122TH024KG7",
       "status": "current",
-      "last_updated": "2026-06-19T12:04:10.362Z"
+      "last_updated": "2026-07-01T12:05:15.965Z"
     },
     {
       "id": "765",
@@ -30,11 +48,11 @@
         "banner_pickup": "No",
         "exterior_photos": "No",
         "eyes_on_property": "No",
-        "earliest_pickup_date": "2026-05-12T06:00:00Z"
+        "earliest_pickup_date": "2026-05-05T06:00:00Z"
       },
       "zapier_record_id": "01KRTWYNZXR3YE4EKTJS8MAYYW",
       "status": "current",
-      "last_updated": "2026-06-19T12:04:10.362Z"
+      "last_updated": "2026-07-01T12:05:15.965Z"
     },
     {
       "id": "407",
@@ -52,7 +70,7 @@
       },
       "zapier_record_id": "01KQWHA8J4Z30Z49B4B6W1K0S7",
       "status": "current",
-      "last_updated": "2026-06-19T12:04:10.362Z"
+      "last_updated": "2026-07-01T12:05:15.965Z"
     },
     {
       "id": "407",
@@ -66,29 +84,11 @@
         "banner_pickup": "No",
         "exterior_photos": "No",
         "eyes_on_property": "No",
-        "earliest_pickup_date": "2026-05-05T06:00:00Z"
+        "earliest_pickup_date": "2026-03-30T06:00:00Z"
       },
       "zapier_record_id": "01KQWHA8G7SY6W7ZN1STEWN31N",
       "status": "current",
-      "last_updated": "2026-06-19T12:04:10.362Z"
-    },
-    {
-      "id": "177",
-      "address": "1045 Balsam St.* [11 UNITS] **[om]** - 1045 Balsam St. Lakewood, CO 80214",
-      "coordinates": {
-        "lat": 0,
-        "lng": 0
-      },
-      "maintenance": {
-        "lockbox_pickup": "Yes",
-        "banner_pickup": "Yes",
-        "exterior_photos": "No",
-        "eyes_on_property": "No",
-        "earliest_pickup_date": "2026-03-30T06:00:00Z"
-      },
-      "zapier_record_id": "01KQWHA85M2TQTC2YJ66GYQK6D",
-      "status": "current",
-      "last_updated": "2026-06-19T12:04:10.362Z"
+      "last_updated": "2026-07-01T12:05:15.965Z"
     },
     {
       "id": "177",
@@ -104,9 +104,27 @@
         "eyes_on_property": "No",
         "earliest_pickup_date": "2026-04-19T06:00:00Z"
       },
+      "zapier_record_id": "01KQWHA85M2TQTC2YJ66GYQK6D",
+      "status": "current",
+      "last_updated": "2026-07-01T12:05:15.965Z"
+    },
+    {
+      "id": "177",
+      "address": "1045 Balsam St.* [11 UNITS] **[om]** - 1045 Balsam St. Lakewood, CO 80214",
+      "coordinates": {
+        "lat": 0,
+        "lng": 0
+      },
+      "maintenance": {
+        "lockbox_pickup": "Yes",
+        "banner_pickup": "Yes",
+        "exterior_photos": "No",
+        "eyes_on_property": "No",
+        "earliest_pickup_date": "2026-05-03T06:00:00Z"
+      },
       "zapier_record_id": "01KQWHA81ESDBB7M3Y281GFBM6",
       "status": "current",
-      "last_updated": "2026-06-19T12:04:10.362Z"
+      "last_updated": "2026-07-01T12:05:15.965Z"
     },
     {
       "id": "760",
@@ -120,11 +138,11 @@
         "banner_pickup": "No",
         "exterior_photos": "No",
         "eyes_on_property": "No",
-        "earliest_pickup_date": "2026-05-03T06:00:00Z"
+        "earliest_pickup_date": "2026-03-30T06:00:00Z"
       },
       "zapier_record_id": "01KQM8ZFQK1S9CX3RBKEPA40NV",
       "status": "current",
-      "last_updated": "2026-06-19T12:04:10.362Z"
+      "last_updated": "2026-07-01T12:05:15.965Z"
     },
     {
       "id": "866",
@@ -138,11 +156,11 @@
         "banner_pickup": "No",
         "exterior_photos": "No",
         "eyes_on_property": "No",
-        "earliest_pickup_date": "2026-03-30T06:00:00Z"
+        "earliest_pickup_date": null
       },
       "zapier_record_id": "01KQHPK0HZXBGBZ3YCN4SHN0RZ",
       "status": "current",
-      "last_updated": "2026-06-19T12:04:10.362Z"
+      "last_updated": "2026-07-01T12:05:15.965Z"
     },
     {
       "id": "184",
@@ -160,7 +178,7 @@
       },
       "zapier_record_id": "01KQHPJZBP3PMED1JGPHRYF3QS",
       "status": "current",
-      "last_updated": "2026-06-19T12:04:10.362Z"
+      "last_updated": "2026-07-01T12:05:15.965Z"
     },
     {
       "id": "1197",
@@ -178,7 +196,7 @@
       },
       "zapier_record_id": "01KQ4TM61M4MGF7T0Z20W25469",
       "status": "current",
-      "last_updated": "2026-06-19T12:04:10.362Z"
+      "last_updated": "2026-07-01T12:05:15.965Z"
     },
     {
       "id": "366",
@@ -196,7 +214,7 @@
       },
       "zapier_record_id": "01KP8GAS0W7924RHGGC0AKHBCY",
       "status": "current",
-      "last_updated": "2026-06-19T12:04:10.362Z"
+      "last_updated": "2026-07-01T12:05:15.965Z"
     },
     {
       "id": "263",
@@ -214,7 +232,7 @@
       },
       "zapier_record_id": "01KP8GAH6R9QK3VAJGR26JM12N",
       "status": "current",
-      "last_updated": "2026-06-19T12:04:10.362Z"
+      "last_updated": "2026-07-01T12:05:15.965Z"
     },
     {
       "id": "321",
@@ -232,14 +250,14 @@
       },
       "zapier_record_id": "01KMT520TT5SJF5HEZH1R9MC72",
       "status": "current",
-      "last_updated": "2026-06-19T12:04:10.362Z"
+      "last_updated": "2026-07-01T12:05:15.965Z"
     }
   ],
-  "last_updated": "2026-06-19T12:04:10.362Z",
+  "last_updated": "2026-07-01T12:05:15.965Z",
   "sync_info": {
     "action": "full_table_sync",
-    "trigger_record_id": "01KVFW5TY4G614D122TH024KG7",
-    "total_properties": 13,
-    "sync_timestamp": "2026-06-19T12:04:10.362Z"
+    "trigger_record_id": "01KWES1FJ6665XSWFJPZS9BFV2",
+    "total_properties": 14,
+    "sync_timestamp": "2026-07-01T12:05:15.965Z"
   }
 }
